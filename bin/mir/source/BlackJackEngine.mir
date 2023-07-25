@@ -1,0 +1,25 @@
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackJackEngine.mc"; @line = 2; ]
+class BlackjackEngine{
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackJackEngine.mc"; @line = 2; ]
+    <init> {
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackJackEngine.mc"; @line = 2; ]
+    static
+    <init> {
+    }
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackJackEngine.mc"; @line = 4; @position = 16; ]
+    private
+    var decks_number;
+    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackJackEngine.mc"; @line = 7; ]
+    public
+    function initialize(nDecks) as Void {
+_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackJackEngine_mc_7_39_start:
+[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackJackEngine.mc" 8 6 ]
+        %tmp.2 = lgetv %nDecks;
+        putv self :decks_number %tmp.2;
+_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackJackEngine_mc_7_39_stop:
+    }
+}
+[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackJackEngine.mc"; @line = 2; ]
+<init> {
+}

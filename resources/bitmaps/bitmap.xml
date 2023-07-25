@@ -1,0 +1,69 @@
+<resources>
+    <bitmap id="spades2" filename="../drawables/cards/2_of_spades.png" />
+    <bitmap id="clubs3" filename="../drawables/cards/3_of_clubs.png" />
+    <bitmap id="diamonds3" filename="../drawables/cards/3_of_diamonds.png" />
+    <bitmap id="hearts3" filename="../drawables/cards/3_of_hearts.png" />
+    <bitmap id="heart" filename="../drawables/suits/heart.png" />
+    <bitmap id="spade" filename="../drawables/suits/spade.png" />
+    <bitmap id="diamond" filename="../drawables/suits/diamond.png" />
+    <bitmap id="club" filename="../drawables/suits/club.png" />
+
+
+    <!-- <bitmap id="playCard" filename="../drawables/cards/3_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/4_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/4_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/4_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/4_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/5_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/5_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/5_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/5_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/6_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/6_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/6_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/6_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/7_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/7_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/7_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/7_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/8_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/8_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/8_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/8_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/9_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/9_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/9_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/9_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/ace_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/ace_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/ace_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/ace_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/ace_of_spades2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/black_joker.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_clubs2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_diamonds2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_hearts2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/jack_of_spades2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_clubs2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_diamonds2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_hearts2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/king_of_spades2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_clubs.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_clubs2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_diamonds.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_diamonds2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_hearts.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_hearts2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_spades.png" />
+    <bitmap id="playCard" filename="../drawables/cards/queen_of_spades2.png" />
+    <bitmap id="playCard" filename="../drawables/cards/red_joker.png" /> -->
+
+</resources>

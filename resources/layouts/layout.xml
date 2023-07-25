@@ -1,0 +1,14 @@
+<layout id="MainLayout">
+    <!--label x="center" y="5" text="@Strings.prompt" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" /!-->
+    <!--bitmap id="id_monkey" x="center" y="30" filename="../drawables/monkey.png" /!-->
+    <!--bitmap id="id_monkey" x="center" y="30" filename="../drawables/cards/2_of_clubs.png" /!-->
+    
+    <!-- <label id="dealer_hand" x="center" y="30" text="Dealer Hand:" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+    <label id="dealer_points" x="center" y="45" text="Dealer Points:" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+    <label id="player_hand" x="center" y="70" text="Player Hand:" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+    <label id="player_points" x="center" y="85" text="Player Points:" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
+    <label id="game_status" x="center" y="120" text="Active" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" /> -->
+
+
+
+</layout>
