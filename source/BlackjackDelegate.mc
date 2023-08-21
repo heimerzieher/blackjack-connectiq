@@ -91,7 +91,12 @@ class BlackjackDelegate extends WatchUi.BehaviorDelegate {
                 }
 
             }
+            
+        }
 
+        if( getApp().engine.getBet() < 0)
+        {
+            getApp().engine.setBet(0);   
         }
 
         WatchUi.requestUpdate();

@@ -6,10 +6,6 @@ using Toybox.Graphics as Gfx;
 
 module Rez {
     module Drawables {
-        (:initialized) var spades2 as Symbol;
-        (:initialized) var clubs3 as Symbol;
-        (:initialized) var diamonds3 as Symbol;
-        (:initialized) var hearts3 as Symbol;
         (:initialized) var heart as Symbol;
         (:initialized) var spade as Symbol;
         (:initialized) var diamond as Symbol;
