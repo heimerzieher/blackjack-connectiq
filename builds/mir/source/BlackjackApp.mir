@@ -1,39 +1,39 @@
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 1; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 1; ]
 import Toybox.Application;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 2; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 2; ]
 import Toybox.Lang;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 3; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 3; ]
 import Toybox.WatchUi;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 4; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 4; ]
 import Toybox.Graphics;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 5; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 5; ]
 using Toybox.System;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 8; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 8; ]
 class BlackjackApp extends Application.AppBase{
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 10; @position = 15; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 10; @position = 15; ]
     public
     var engine;
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 12; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 12; ]
     function initialize() as Void {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_12_26_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 13 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_12_26_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 13 8 ]
         %tmp.2 = getv ? :AppBase;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_12_26_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_12_26_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 17; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 17; ]
     function onStart(state as Dictionary or Null) as Void {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_17_51_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 20 8 ]
-        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_17_51_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_17_51_stop" ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 20 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_stop" ]
         %money.1 = local;
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Storage;
@@ -41,8 +41,8 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_
         %tmp.4 = "money";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         lputv %money.1 %tmp.5;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 21 8 ]
-        [ "_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_17_51_start" "_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_17_51_stop" ]
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 21 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_stop" ]
         %bet.2 = local;
         %tmp.6 = getm $.Toybox.Application;
         %tmp.7 = getv %tmp.6 :Storage;
@@ -50,47 +50,47 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_
         %tmp.9 = "bet";
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         lputv %bet.2 %tmp.10;
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 24 8 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_24_8_if_stmt:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 24 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_stmt:
         %tmp.12 = lgetv %money.1;
         %tmp.13 = null;
         %tmp.14 = eq %tmp.12 %tmp.13;
-        bf %tmp.14 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_24_8_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_24_8_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_25_8_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 26 12 ]
+        bf %tmp.14 @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_25_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 26 12 ]
         %tmp.15 = 100;
         lputv %money.1 %tmp.15;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_25_8_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_24_8_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_24_8_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 29 8 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_29_8_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_25_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 29 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_stmt:
         %tmp.17 = lgetv %bet.2;
         %tmp.18 = null;
         %tmp.19 = eq %tmp.17 %tmp.18;
-        bf %tmp.19 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_29_8_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_29_8_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_30_8_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 31 12 ]
+        bf %tmp.19 @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_30_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 31 12 ]
         %tmp.20 = 10;
         lputv %bet.2 %tmp.20;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_30_8_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_29_8_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_29_8_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 35 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_30_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 35 8 ]
         %tmp.24 = getv ? :BlackjackEngine;
         %tmp.25 = 2;
         %tmp.27 = lgetv %money.1;
         %tmp.29 = lgetv %bet.2;
         %tmp.21 = newc %tmp.24 (%tmp.25, %tmp.27, %tmp.29);
         putv self :engine %tmp.21;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_17_51_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 40; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 40; ]
     function onStop(state as Dictionary or Null) as Void {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_41_4_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 43 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_41_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 43 8 ]
         %tmp.1 = getm $.Toybox.Application;
         %tmp.2 = getv %tmp.1 :Storage;
         %tmp.3 = getv function %tmp.2 :setValue;
@@ -99,7 +99,7 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_
         %tmp.7 = getv function %tmp.6 :getMoney;
         %tmp.8 = invoke %tmp.6 %tmp.7();
         invoke %tmp.2 %tmp.3(%tmp.4, %tmp.8);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 44 8 ]
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 44 8 ]
         %tmp.9 = getm $.Toybox.Application;
         %tmp.10 = getv %tmp.9 :Storage;
         %tmp.11 = getv function %tmp.10 :setValue;
@@ -108,12 +108,12 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_
         %tmp.15 = getv function %tmp.14 :getBet;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         invoke %tmp.10 %tmp.11(%tmp.12, %tmp.16);
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_41_4_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_41_4_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 48; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 48; ]
     function getInitialView() as Array<Views or InputDelegates> or Null {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_48_65_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 49 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_48_65_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 49 8 ]
         %tmp.1 = newa Array<Views or InputDelegates> 2;
         %tmp.5 = getv ? :BlackjackView;
         %tmp.2 = newc %tmp.5 ();
@@ -124,20 +124,20 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_
         %tmp.12 = dup %tmp.7;
         %tmp.13 = aputv %tmp.12 1 %tmp.8;
         ret %tmp.13;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_48_65_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_48_65_stop:
     }
 }
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 54; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 54; ]
 function getApp() as BlackjackApp {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_54_34_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc" 55 4 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_54_34_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 55 4 ]
     %tmp.1 = getm $.Toybox.Application;
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 BlackjackApp;
     ret %tmp.4;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackApp_mc_54_34_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_54_34_stop:
 }
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackApp.mc"; @line = 1; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 1; ]
 <init> {
 }

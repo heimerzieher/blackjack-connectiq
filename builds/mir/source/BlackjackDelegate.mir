@@ -1,35 +1,35 @@
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 1; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 2; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 2; ]
 import Toybox.System;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 3; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 3; ]
 import Toybox.WatchUi;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 5; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 5; ]
 using Toybox.System;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 6; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 6; ]
 using Toybox.WatchUi;
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 8; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 8; ]
 class BlackjackDelegate extends WatchUi.BehaviorDelegate{
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 8; ]
     <init> {
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 8; ]
     static
     <init> {
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 10; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 10; ]
     function initialize() as Void {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_10_26_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 11 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_10_26_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 11 8 ]
         %tmp.2 = getv ? :BehaviorDelegate;
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_10_26_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_10_26_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 14; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 14; ]
     function onMenu() as Boolean {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_14_33_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 15 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_14_33_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 15 8 ]
         %tmp.1 = getm $.Toybox.WatchUi;
         %tmp.2 = getv function %tmp.1 :pushView;
         %tmp.6 = getv ? :Rez;
@@ -41,15 +41,15 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.13 = getm $.Toybox.WatchUi;
         %tmp.14 = getv %tmp.13 :SLIDE_UP;
         invoke %tmp.1 %tmp.2(%tmp.3, %tmp.9, %tmp.14);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 16 8 ]
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 16 8 ]
         %tmp.15 = true;
         ret %tmp.15;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_14_33_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_14_33_stop:
     }
-    [ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 20; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 20; ]
     function onKey(keyEvent) {
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_20_29_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 22 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_20_29_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 22 8 ]
         %tmp.1 = getm $.Toybox.System;
         %tmp.2 = getv function %tmp.1 :println;
         %tmp.3 = "Key:";
@@ -58,8 +58,8 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.6 = invoke %tmp.4 %tmp.5();
         %tmp.7 = add %tmp.3 %tmp.6;
         invoke %tmp.1 %tmp.2(%tmp.7);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 24 8 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_24_8_if_stmt:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 24 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_24_8_if_stmt:
         %tmp.8 = self;
         %tmp.9 = getv function %tmp.8 :getApp;
         %tmp.10 = invoke %tmp.8 %tmp.9();
@@ -67,26 +67,26 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.12 = getv %tmp.11 :status;
         %tmp.14 = getv ? :STATUS_ACTIVE_ROUND;
         %tmp.15 = eq %tmp.12 %tmp.14;
-        bf %tmp.15 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_24_8_if_false;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_24_8_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_25_12_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 27 12 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_27_12_if_stmt:
+        bf %tmp.15 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_24_8_if_false;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_24_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_25_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 27 12 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_27_12_if_stmt:
         %tmp.16 = lgetv %keyEvent;
         %tmp.17 = getv function %tmp.16 :getKey;
         %tmp.18 = invoke %tmp.16 %tmp.17();
         %tmp.20 = getv ? :KEY_UP;
         %tmp.21 = eq %tmp.18 %tmp.20;
-        bf %tmp.21 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_27_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_27_12_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_28_12_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 29 16 ]
+        bf %tmp.21 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_27_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_27_12_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_28_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 29 16 ]
         %tmp.22 = getm $.Toybox.System;
         %tmp.23 = getv function %tmp.22 :println;
         %tmp.24 = "HIT";
         invoke %tmp.22 %tmp.23(%tmp.24);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 31 16 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_31_16_if_stmt:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 31 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_31_16_if_stmt:
         %tmp.25 = self;
         %tmp.26 = getv function %tmp.25 :getApp;
         %tmp.27 = invoke %tmp.25 %tmp.26();
@@ -94,21 +94,21 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.29 = getv %tmp.28 :status;
         %tmp.31 = getv ? :STATUS_ACTIVE_ROUND;
         %tmp.32 = eq %tmp.29 %tmp.31;
-        bf %tmp.32 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_31_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_31_16_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_32_16_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 33 20 ]
+        bf %tmp.32 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_31_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_31_16_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_32_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 33 20 ]
         %tmp.33 = self;
         %tmp.34 = getv function %tmp.33 :getApp;
         %tmp.35 = invoke %tmp.33 %tmp.34();
         %tmp.36 = getv %tmp.35 :engine;
         %tmp.37 = getv function %tmp.36 :hit;
         invoke %tmp.36 %tmp.37();
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_32_16_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_31_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_31_16_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 36 16 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_36_16_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_32_16_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_31_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_31_16_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 36 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_36_16_if_stmt:
         %tmp.38 = self;
         %tmp.39 = getv function %tmp.38 :getApp;
         %tmp.40 = invoke %tmp.38 %tmp.39();
@@ -116,37 +116,37 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.42 = getv %tmp.41 :status;
         %tmp.44 = getv ? :STATUS_LOST;
         %tmp.45 = eq %tmp.42 %tmp.44;
-        bf %tmp.45 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_36_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_36_16_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_37_16_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 38 20 ]
+        bf %tmp.45 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_36_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_36_16_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_37_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 38 20 ]
         %tmp.46 = getm $.Toybox.System;
         %tmp.47 = getv function %tmp.46 :println;
         %tmp.48 = "LOST";
         invoke %tmp.46 %tmp.47(%tmp.48);
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_37_16_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_36_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_36_16_if_end:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_28_12_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_27_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_27_12_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 44 12 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_44_12_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_37_16_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_36_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_36_16_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_28_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_27_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_27_12_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 44 12 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_44_12_if_stmt:
         %tmp.49 = lgetv %keyEvent;
         %tmp.50 = getv function %tmp.49 :getKey;
         %tmp.51 = invoke %tmp.49 %tmp.50();
         %tmp.53 = getv ? :KEY_DOWN;
         %tmp.54 = eq %tmp.51 %tmp.53;
-        bf %tmp.54 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_44_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_44_12_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_45_12_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 46 16 ]
+        bf %tmp.54 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_44_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_44_12_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_45_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 46 16 ]
         %tmp.55 = getm $.Toybox.System;
         %tmp.56 = getv function %tmp.55 :println;
         %tmp.57 = "STAND";
         invoke %tmp.55 %tmp.56(%tmp.57);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 48 16 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_48_16_if_stmt:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 48 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_48_16_if_stmt:
         %tmp.58 = self;
         %tmp.59 = getv function %tmp.58 :getApp;
         %tmp.60 = invoke %tmp.58 %tmp.59();
@@ -154,21 +154,21 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.62 = getv %tmp.61 :status;
         %tmp.64 = getv ? :STATUS_ACTIVE_ROUND;
         %tmp.65 = eq %tmp.62 %tmp.64;
-        bf %tmp.65 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_48_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_48_16_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_49_16_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 50 20 ]
+        bf %tmp.65 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_48_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_48_16_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_49_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 50 20 ]
         %tmp.66 = self;
         %tmp.67 = getv function %tmp.66 :getApp;
         %tmp.68 = invoke %tmp.66 %tmp.67();
         %tmp.69 = getv %tmp.68 :engine;
         %tmp.70 = getv function %tmp.69 :stand;
         invoke %tmp.69 %tmp.70();
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_49_16_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_48_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_48_16_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 53 16 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_53_16_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_49_16_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_48_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_48_16_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 53 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_53_16_if_stmt:
         %tmp.71 = self;
         %tmp.72 = getv function %tmp.71 :getApp;
         %tmp.73 = invoke %tmp.71 %tmp.72();
@@ -176,19 +176,19 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.75 = getv %tmp.74 :status;
         %tmp.77 = getv ? :STATUS_WON;
         %tmp.78 = eq %tmp.75 %tmp.77;
-        bf %tmp.78 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_53_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_53_16_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_54_16_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 55 20 ]
+        bf %tmp.78 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_53_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_53_16_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_54_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 55 20 ]
         %tmp.79 = getm $.Toybox.System;
         %tmp.80 = getv function %tmp.79 :println;
         %tmp.81 = "WON";
         invoke %tmp.79 %tmp.80(%tmp.81);
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_54_16_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_53_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_53_16_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 59 16 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_59_16_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_54_16_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_53_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_53_16_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 59 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_59_16_if_stmt:
         %tmp.82 = self;
         %tmp.83 = getv function %tmp.82 :getApp;
         %tmp.84 = invoke %tmp.82 %tmp.83();
@@ -196,35 +196,35 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.86 = getv %tmp.85 :status;
         %tmp.88 = getv ? :STATUS_LOST;
         %tmp.89 = eq %tmp.86 %tmp.88;
-        bf %tmp.89 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_59_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_59_16_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_60_16_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 61 20 ]
+        bf %tmp.89 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_59_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_59_16_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_60_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 61 20 ]
         %tmp.90 = getm $.Toybox.System;
         %tmp.91 = getv function %tmp.90 :println;
         %tmp.92 = "LOST";
         invoke %tmp.90 %tmp.91(%tmp.92);
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_60_16_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_59_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_59_16_if_end:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_45_12_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_44_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_44_12_if_end:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_25_12_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_24_8_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_24_8_if_false:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_68_8_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 70 12 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_70_12_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_60_16_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_59_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_59_16_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_45_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_44_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_44_12_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_25_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_24_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_24_8_if_false:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_68_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 70 12 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_70_12_if_stmt:
         %tmp.93 = lgetv %keyEvent;
         %tmp.94 = getv function %tmp.93 :getKey;
         %tmp.95 = invoke %tmp.93 %tmp.94();
         %tmp.97 = getv ? :KEY_UP;
         %tmp.98 = eq %tmp.95 %tmp.97;
-        bf %tmp.98 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_70_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_70_12_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_71_12_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 72 16 ]
+        bf %tmp.98 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_70_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_70_12_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_71_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 72 16 ]
         %tmp.99 = self;
         %tmp.100 = getv function %tmp.99 :getApp;
         %tmp.101 = invoke %tmp.99 %tmp.100();
@@ -239,20 +239,20 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.110 = 1;
         %tmp.111 = add %tmp.109 %tmp.110;
         invoke %tmp.102 %tmp.103(%tmp.111);
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_71_12_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_70_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_70_12_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 76 12 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_76_12_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_71_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_70_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_70_12_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 76 12 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_76_12_if_stmt:
         %tmp.112 = lgetv %keyEvent;
         %tmp.113 = getv function %tmp.112 :getKey;
         %tmp.114 = invoke %tmp.112 %tmp.113();
         %tmp.116 = getv ? :KEY_DOWN;
         %tmp.117 = eq %tmp.114 %tmp.116;
-        bf %tmp.117 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_76_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_76_12_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_77_12_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 78 16 ]
+        bf %tmp.117 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_76_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_76_12_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_77_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 78 16 ]
         %tmp.118 = self;
         %tmp.119 = getv function %tmp.118 :getApp;
         %tmp.120 = invoke %tmp.118 %tmp.119();
@@ -267,26 +267,26 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.129 = 1;
         %tmp.130 = sub %tmp.128 %tmp.129;
         invoke %tmp.121 %tmp.122(%tmp.130);
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_77_12_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_76_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_76_12_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 82 12 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_82_12_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_77_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_76_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_76_12_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 82 12 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_82_12_if_stmt:
         %tmp.131 = lgetv %keyEvent;
         %tmp.132 = getv function %tmp.131 :getKey;
         %tmp.133 = invoke %tmp.131 %tmp.132();
         %tmp.134 = 4;
         %tmp.135 = eq %tmp.133 %tmp.134;
-        bf %tmp.135 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_82_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_82_12_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_83_12_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 84 16 ]
+        bf %tmp.135 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_82_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_82_12_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_83_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 84 16 ]
         %tmp.136 = getm $.Toybox.System;
         %tmp.137 = getv function %tmp.136 :println;
         %tmp.138 = "REQUEST NEW GAME";
         invoke %tmp.136 %tmp.137(%tmp.138);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 86 16 ]
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_86_16_if_stmt:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 86 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_86_16_if_stmt:
         %tmp.139 = self;
         %tmp.140 = getv function %tmp.139 :getApp;
         %tmp.141 = invoke %tmp.139 %tmp.140();
@@ -294,39 +294,63 @@ _home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDele
         %tmp.143 = getv %tmp.142 :status;
         %tmp.145 = getv ? :STATUS_ACTIVE_ROUND;
         %tmp.146 = ne %tmp.143 %tmp.145;
-        bf %tmp.146 @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_86_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_86_16_if_true:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_87_16_start:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 88 20 ]
+        bf %tmp.146 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_86_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_86_16_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_87_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 88 20 ]
         %tmp.147 = getm $.Toybox.System;
         %tmp.148 = getv function %tmp.147 :println;
         %tmp.149 = "STARTING NEW GAME";
         invoke %tmp.147 %tmp.148(%tmp.149);
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 89 20 ]
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 89 20 ]
         %tmp.150 = self;
         %tmp.151 = getv function %tmp.150 :getApp;
         %tmp.152 = invoke %tmp.150 %tmp.151();
         %tmp.153 = getv %tmp.152 :engine;
         %tmp.154 = getv function %tmp.153 :startRound;
         invoke %tmp.153 %tmp.154();
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_87_16_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_86_16_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_86_16_if_end:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_83_12_stop:
-        goto @_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_82_12_if_end;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_82_12_if_end:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_68_8_stop:
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_24_8_if_end:
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 97 8 ]
-        %tmp.155 = getm $.Toybox.WatchUi;
-        %tmp.156 = getv function %tmp.155 :requestUpdate;
-        invoke %tmp.155 %tmp.156();
-[ "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc" 99 8 ]
-        %tmp.157 = true;
-        ret %tmp.157;
-_home_max_Dokumente_Playground_iqconnect_Projects_Blackjack_source_BlackjackDelegate_mc_20_29_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_87_16_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_86_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_86_16_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_83_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_82_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_82_12_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_68_8_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_24_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 97 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_97_8_if_stmt:
+        %tmp.155 = self;
+        %tmp.156 = getv function %tmp.155 :getApp;
+        %tmp.157 = invoke %tmp.155 %tmp.156();
+        %tmp.158 = getv %tmp.157 :engine;
+        %tmp.159 = getv function %tmp.158 :getBet;
+        %tmp.160 = invoke %tmp.158 %tmp.159();
+        %tmp.161 = 0;
+        %tmp.162 = lt %tmp.160 %tmp.161;
+        bf %tmp.162 @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_97_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_97_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_98_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 99 12 ]
+        %tmp.163 = self;
+        %tmp.164 = getv function %tmp.163 :getApp;
+        %tmp.165 = invoke %tmp.163 %tmp.164();
+        %tmp.166 = getv %tmp.165 :engine;
+        %tmp.167 = getv function %tmp.166 :setBet;
+        %tmp.168 = 0;
+        invoke %tmp.166 %tmp.167(%tmp.168);
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_98_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_97_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_97_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 102 8 ]
+        %tmp.169 = getm $.Toybox.WatchUi;
+        %tmp.170 = getv function %tmp.169 :requestUpdate;
+        invoke %tmp.169 %tmp.170();
+[ "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" 104 8 ]
+        %tmp.171 = true;
+        ret %tmp.171;
+_home_max_git_blackjack_connectiq_source_BlackjackDelegate_mc_20_29_stop:
     }
 }
-[ @file = "/home/max/Dokumente/Playground/iqconnect/Projects/Blackjack/source/BlackjackDelegate.mc"; @line = 1; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc"; @line = 1; ]
 <init> {
 }
