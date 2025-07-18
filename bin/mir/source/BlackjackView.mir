@@ -1,917 +1,2047 @@
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 1; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Graphics,1,14,22]; ]
 import Toybox.Graphics;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 2; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [WatchUi,2,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 3; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 3; @symbol_usingdef<0> = [Toybox,3,6,12]; @symbol_usingdef<1> = [Graphics,3,13,21]; ]
 using Toybox.Graphics;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 4; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 4; @symbol_usingdef<0> = [Toybox,4,6,12]; @symbol_usingdef<1> = [WatchUi,4,13,20]; ]
 using Toybox.WatchUi;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 6; ]
-class BlackjackView extends WatchUi.View{
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 6; @symbol_classdef = [BlackjackView,6,6,19]; @symbol_extends<0> = [WatchUi,6,28,35]; @symbol_extends<1> = [View,6,36,40]; ]
+class BlackjackView extends WatchUi.View {
     [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 6; ]
     <init> {
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 23 16 ]
+        symbol [ Graphics %tmp.1 23 35 43 ];
+        %tmp.1 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.2 23 44 54 ];
+        %tmp.2 = getv %tmp.1 :FONT_XTINY;
+        putv self :button_text_size %tmp.2;
     }
     [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 6; ]
     static
     <init> {
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 8; @symbol_functiondef = [initialize,8,13,23]; ]
     function initialize() as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_8_26_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 9 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_9_4_11_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 10 8 ]
+        symbol [ View %tmp.2 10 8 12 ];
         %tmp.2 = getv ? :View;
+        symbol [ initialize %tmp.3 10 13 23 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_8_26_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_9_4_11_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 12; @position = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 13; @position = 8; @symbol_vardef = [heart_bitmap,13,8,20]; ]
     var heart_bitmap;
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 13; @position = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 14; @position = 8; @symbol_vardef = [diamond_bitmap,14,8,22]; ]
     var diamond_bitmap;
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 14; @position = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 15; @position = 8; @symbol_vardef = [spade_bitmap,15,8,20]; ]
     var spade_bitmap;
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 15; @position = 8; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 16; @position = 8; @symbol_vardef = [club_bitmap,16,8,19]; ]
     var club_bitmap;
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 18; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 18; @position = 15; @symbol_vardef = [hit_button_pos,18,15,29]; ]
+    public
+    var hit_button_pos;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 19; @position = 15; @symbol_vardef = [stand_button_pos,19,15,31]; ]
+    public
+    var stand_button_pos;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 20; @position = 15; @symbol_vardef = [split_button_pos,20,15,31]; ]
+    public
+    var split_button_pos;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 21; @position = 15; @symbol_vardef = [deal_button_pos,21,15,30]; ]
+    public
+    var deal_button_pos;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 23; @position = 16; @symbol_vardef = [button_text_size,23,16,32]; ]
+    private
+    var button_text_size;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 24; @position = 16; @symbol_vardef = [button_text_color,24,16,33]; ]
+    private
+    var button_text_color = 0xffaa00;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 26; @position = 16; @symbol_vardef = [scale_factor,26,16,28]; ]
+    private
+    var scale_factor = 1;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 28; @position = 8; @symbol_vardef = [background_color,28,8,24]; ]
+    var background_color = 0x006a4e;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 31; @symbol_functiondef = [onLayout,31,13,21]; @symbol_param<0> = [dc,31,22,24]; @symbol_param<0>_type<0> = [Dc,31,28,30]; ]
     function onLayout(dc as Dc) as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_18_40_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 19 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_31_40_51_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 32 8 ]
         %tmp.1 = self;
+        symbol [ setLayout %tmp.2 32 8 17 ];
         %tmp.2 = getv function %tmp.1 :setLayout;
+        symbol [ Rez %tmp.4 32 18 21 ];
         %tmp.4 = getv ? :Rez;
+        symbol [ Layouts %tmp.5 32 22 29 ];
         %tmp.5 = getv %tmp.4 :Layouts;
+        symbol [ MainLayout %tmp.6 32 30 40 ];
         %tmp.6 = getv function %tmp.5 :MainLayout;
-        %tmp.8 = lgetv %dc;
-        %tmp.9 = invoke %tmp.5 %tmp.6(%tmp.8);
-        invoke %tmp.1 %tmp.2(%tmp.9);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 23 8 ]
-        %tmp.12 = getm $.Toybox.WatchUi;
-        %tmp.13 = getv function ? %tmp.12 :Bitmap;
-        %tmp.14 = newd 1;
-        %tmp.16 = const :rezId;
-        %tmp.18 = getv ? :Rez;
-        %tmp.19 = getv %tmp.18 :Drawables;
-        %tmp.20 = getv %tmp.19 :heart;
-        %tmp.21 = dup %tmp.14;
-        %tmp.22 = aputv %tmp.21 %tmp.16 %tmp.20;
-        %tmp.10 = newc %tmp.13 (%tmp.22);
-        putv self :heart_bitmap %tmp.10;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 27 8 ]
-        %tmp.25 = getm $.Toybox.WatchUi;
-        %tmp.26 = getv function ? %tmp.25 :Bitmap;
-        %tmp.27 = newd 1;
-        %tmp.29 = const :rezId;
-        %tmp.31 = getv ? :Rez;
-        %tmp.32 = getv %tmp.31 :Drawables;
-        %tmp.33 = getv %tmp.32 :diamond;
-        %tmp.34 = dup %tmp.27;
-        %tmp.35 = aputv %tmp.34 %tmp.29 %tmp.33;
-        %tmp.23 = newc %tmp.26 (%tmp.35);
-        putv self :diamond_bitmap %tmp.23;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 31 8 ]
-        %tmp.38 = getm $.Toybox.WatchUi;
-        %tmp.39 = getv function ? %tmp.38 :Bitmap;
-        %tmp.40 = newd 1;
-        %tmp.42 = const :rezId;
-        %tmp.44 = getv ? :Rez;
-        %tmp.45 = getv %tmp.44 :Drawables;
-        %tmp.46 = getv %tmp.45 :spade;
-        %tmp.47 = dup %tmp.40;
-        %tmp.48 = aputv %tmp.47 %tmp.42 %tmp.46;
-        %tmp.36 = newc %tmp.39 (%tmp.48);
-        putv self :spade_bitmap %tmp.36;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 35 8 ]
-        %tmp.51 = getm $.Toybox.WatchUi;
-        %tmp.52 = getv function ? %tmp.51 :Bitmap;
-        %tmp.53 = newd 1;
-        %tmp.55 = const :rezId;
-        %tmp.57 = getv ? :Rez;
-        %tmp.58 = getv %tmp.57 :Drawables;
-        %tmp.59 = getv %tmp.58 :club;
-        %tmp.60 = dup %tmp.53;
-        %tmp.61 = aputv %tmp.60 %tmp.55 %tmp.59;
-        %tmp.49 = newc %tmp.52 (%tmp.61);
-        putv self :club_bitmap %tmp.49;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_18_40_stop:
+        %tmp.7 = lgetv %dc;
+        symbol [ dc %tmp.7 32 41 43 ];
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        invoke %tmp.1 %tmp.2(%tmp.8);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 36 8 ]
+        symbol [ WatchUi %tmp.11 36 27 34 ];
+        %tmp.11 = getm $.Toybox.WatchUi;
+        symbol [ Bitmap %tmp.12 36 35 41 ];
+        %tmp.12 = getv function ? %tmp.11 :Bitmap;
+        %tmp.13 = newd 1;
+        %tmp.15 = const :rezId;
+        symbol [ rezId %tmp.15 37 13 18 const ];
+        symbol [ Rez %tmp.17 37 20 23 ];
+        %tmp.17 = getv ? :Rez;
+        symbol [ Drawables %tmp.18 37 24 33 ];
+        %tmp.18 = getv %tmp.17 :Drawables;
+        symbol [ heart %tmp.19 37 34 39 ];
+        %tmp.19 = getv %tmp.18 :heart;
+        %tmp.20 = dup %tmp.13;
+        %tmp.21 = aputv %tmp.20 %tmp.15 %tmp.19;
+        %tmp.9 = newc %tmp.12 (%tmp.21);
+        symbol [ heart_bitmap ? 36 8 20 ];
+        putv self :heart_bitmap %tmp.9;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 40 8 ]
+        symbol [ WatchUi %tmp.24 40 29 36 ];
+        %tmp.24 = getm $.Toybox.WatchUi;
+        symbol [ Bitmap %tmp.25 40 37 43 ];
+        %tmp.25 = getv function ? %tmp.24 :Bitmap;
+        %tmp.26 = newd 1;
+        %tmp.28 = const :rezId;
+        symbol [ rezId %tmp.28 41 13 18 const ];
+        symbol [ Rez %tmp.30 41 20 23 ];
+        %tmp.30 = getv ? :Rez;
+        symbol [ Drawables %tmp.31 41 24 33 ];
+        %tmp.31 = getv %tmp.30 :Drawables;
+        symbol [ diamond %tmp.32 41 34 41 ];
+        %tmp.32 = getv %tmp.31 :diamond;
+        %tmp.33 = dup %tmp.26;
+        %tmp.34 = aputv %tmp.33 %tmp.28 %tmp.32;
+        %tmp.22 = newc %tmp.25 (%tmp.34);
+        symbol [ diamond_bitmap ? 40 8 22 ];
+        putv self :diamond_bitmap %tmp.22;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 44 8 ]
+        symbol [ WatchUi %tmp.37 44 27 34 ];
+        %tmp.37 = getm $.Toybox.WatchUi;
+        symbol [ Bitmap %tmp.38 44 35 41 ];
+        %tmp.38 = getv function ? %tmp.37 :Bitmap;
+        %tmp.39 = newd 1;
+        %tmp.41 = const :rezId;
+        symbol [ rezId %tmp.41 45 13 18 const ];
+        symbol [ Rez %tmp.43 45 20 23 ];
+        %tmp.43 = getv ? :Rez;
+        symbol [ Drawables %tmp.44 45 24 33 ];
+        %tmp.44 = getv %tmp.43 :Drawables;
+        symbol [ spade %tmp.45 45 34 39 ];
+        %tmp.45 = getv %tmp.44 :spade;
+        %tmp.46 = dup %tmp.39;
+        %tmp.47 = aputv %tmp.46 %tmp.41 %tmp.45;
+        %tmp.35 = newc %tmp.38 (%tmp.47);
+        symbol [ spade_bitmap ? 44 8 20 ];
+        putv self :spade_bitmap %tmp.35;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 48 8 ]
+        symbol [ WatchUi %tmp.50 48 26 33 ];
+        %tmp.50 = getm $.Toybox.WatchUi;
+        symbol [ Bitmap %tmp.51 48 34 40 ];
+        %tmp.51 = getv function ? %tmp.50 :Bitmap;
+        %tmp.52 = newd 1;
+        %tmp.54 = const :rezId;
+        symbol [ rezId %tmp.54 49 13 18 const ];
+        symbol [ Rez %tmp.56 49 20 23 ];
+        %tmp.56 = getv ? :Rez;
+        symbol [ Drawables %tmp.57 49 24 33 ];
+        %tmp.57 = getv %tmp.56 :Drawables;
+        symbol [ club %tmp.58 49 34 38 ];
+        %tmp.58 = getv %tmp.57 :club;
+        %tmp.59 = dup %tmp.52;
+        %tmp.60 = aputv %tmp.59 %tmp.54 %tmp.58;
+        %tmp.48 = newc %tmp.51 (%tmp.60);
+        symbol [ club_bitmap ? 48 8 19 ];
+        putv self :club_bitmap %tmp.48;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_31_40_51_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 44; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 56; @symbol_functiondef = [onShow,56,13,19]; ]
     function onShow() as Void {
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 48; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 60; @symbol_functiondef = [onUpdate,60,13,21]; @symbol_param<0> = [dc,60,22,24]; @symbol_param<0>_type<0> = [Dc,60,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 49 8 ]
-        %tmp.2 = getv ? :View;
-        %tmp.3 = getv function %tmp.2 :onUpdate;
-        %tmp.5 = lgetv %dc;
-        invoke %tmp.2 %tmp.3(%tmp.5);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 51 8 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_stop" ]
-        %status.1 = local;
-        %tmp.6 = self;
-        %tmp.7 = getv function %tmp.6 :getApp;
-        %tmp.8 = invoke %tmp.6 %tmp.7();
-        %tmp.9 = getv %tmp.8 :engine;
-        %tmp.10 = getv %tmp.9 :status;
-        lputv %status.1 %tmp.10;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 53 8 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_stop" ]
-        %screen_width.2 = local;
-        %tmp.11 = lgetv %dc;
-        %tmp.12 = getv function %tmp.11 :getWidth;
-        %tmp.13 = invoke %tmp.11 %tmp.12();
-        lputv %screen_width.2 %tmp.13;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 54 8 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_stop" ]
-        %screen_height.3 = local;
-        %tmp.14 = lgetv %dc;
-        %tmp.15 = getv function %tmp.14 :getHeight;
-        %tmp.16 = invoke %tmp.14 %tmp.15();
-        lputv %screen_height.3 %tmp.16;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 55 8 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_stop" ]
-        %center_x.4 = local;
-        %tmp.18 = lgetv %screen_width.2;
-        %tmp.19 = 2;
-        %tmp.20 = div %tmp.18 %tmp.19;
-        lputv %center_x.4 %tmp.20;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 56 8 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_stop" ]
-        %center_y.5 = local;
-        %tmp.22 = lgetv %screen_height.3;
-        %tmp.23 = 2;
-        %tmp.24 = div %tmp.22 %tmp.23;
-        lputv %center_y.5 %tmp.24;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 58 8 ]
-        %tmp.25 = lgetv %dc;
-        %tmp.26 = getv function %tmp.25 :setColor;
-        %tmp.27 = getm $.Toybox.Graphics;
-        %tmp.28 = getv %tmp.27 :COLOR_WHITE;
-        %tmp.29 = getm $.Toybox.Graphics;
-        %tmp.30 = getv %tmp.29 :COLOR_BLACK;
-        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 60 8 ]
-        %tmp.31 = lgetv %dc;
-        %tmp.32 = getv function %tmp.31 :drawText;
-        %tmp.34 = lgetv %center_x.4;
-        %tmp.36 = lgetv %screen_height.3;
-        %tmp.37 = 12;
-        %tmp.38 = div %tmp.36 %tmp.37;
-        %tmp.39 = getm $.Toybox.Graphics;
-        %tmp.40 = getv %tmp.39 :FONT_XTINY;
-        %tmp.41 = "Bet: ";
-        %tmp.42 = self;
-        %tmp.43 = getv function %tmp.42 :getApp;
-        %tmp.44 = invoke %tmp.42 %tmp.43();
-        %tmp.45 = getv %tmp.44 :engine;
-        %tmp.46 = getv function %tmp.45 :getBet;
-        %tmp.47 = invoke %tmp.45 %tmp.46();
-        %tmp.48 = add %tmp.41 %tmp.47;
-        %tmp.49 = " €";
-        %tmp.50 = add %tmp.48 %tmp.49;
-        %tmp.51 = getm $.Toybox.Graphics;
-        %tmp.52 = getv %tmp.51 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.31 %tmp.32(%tmp.34, %tmp.38, %tmp.40, %tmp.50, %tmp.52);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 62 8 ]
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_62_8_if_stmt:
-        %tmp.54 = lgetv %status.1;
-        %tmp.56 = getv ? :STATUS_IDLE;
-        %tmp.57 = ne %tmp.54 %tmp.56;
-        bf %tmp.57 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_62_8_if_false;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_62_8_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 64 12 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_stop" ]
-        %player_cards.6 = local;
-        %tmp.58 = self;
-        %tmp.59 = getv function %tmp.58 :getApp;
-        %tmp.60 = invoke %tmp.58 %tmp.59();
-        %tmp.61 = getv %tmp.60 :engine;
-        %tmp.62 = getv function %tmp.61 :getPlayerCards;
-        %tmp.63 = invoke %tmp.61 %tmp.62();
-        lputv %player_cards.6 %tmp.63;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 65 12 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_stop" ]
-        %dealer_cards.7 = local;
-        %tmp.64 = self;
-        %tmp.65 = getv function %tmp.64 :getApp;
-        %tmp.66 = invoke %tmp.64 %tmp.65();
-        %tmp.67 = getv %tmp.66 :engine;
-        %tmp.68 = getv function %tmp.67 :getDealerCards;
-        %tmp.69 = invoke %tmp.67 %tmp.68();
-        lputv %dealer_cards.7 %tmp.69;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 67 12 ]
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_67_12_if_stmt:
-        %tmp.71 = lgetv %status.1;
-        %tmp.73 = getv ? :STATUS_ACTIVE_ROUND;
-        %tmp.74 = eq %tmp.71 %tmp.73;
-        bf %tmp.74 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_67_12_if_false;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_67_12_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_68_12_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 69 16 ]
-        %tmp.75 = lgetv %dc;
-        %tmp.76 = getv function %tmp.75 :drawText;
-        %tmp.78 = lgetv %screen_width.2;
-        %tmp.79 = 4;
-        %tmp.80 = div %tmp.78 %tmp.79;
-        %tmp.82 = lgetv %screen_height.3;
-        %tmp.83 = 6;
-        %tmp.84 = div %tmp.82 %tmp.83;
-        %tmp.85 = getm $.Toybox.Graphics;
-        %tmp.86 = getv %tmp.85 :FONT_XTINY;
-        %tmp.87 = "Dealer";
-        %tmp.88 = getm $.Toybox.Graphics;
-        %tmp.89 = getv %tmp.88 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.75 %tmp.76(%tmp.80, %tmp.84, %tmp.86, %tmp.87, %tmp.89);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 71 16 ]
-        %tmp.90 = lgetv %dc;
-        %tmp.91 = getv function %tmp.90 :drawText;
-        %tmp.93 = lgetv %center_x.4;
-        %tmp.95 = lgetv %screen_height.3;
-        %tmp.96 = 2.0;
-        %tmp.97 = div %tmp.95 %tmp.96;
-        %tmp.98 = 25.0;
-        %tmp.99 = sub %tmp.97 %tmp.98;
-        %tmp.101 = getv ? :Math;
-        %tmp.102 = getv function %tmp.101 :cos;
-        %tmp.104 = getv ? :Math;
-        %tmp.105 = getv %tmp.104 :PI;
-        %tmp.106 = invoke %tmp.101 %tmp.102(%tmp.105);
-        %tmp.107 = mul %tmp.99 %tmp.106;
-        %tmp.108 = add %tmp.93 %tmp.107;
-        %tmp.110 = lgetv %center_y.5;
-        %tmp.112 = lgetv %screen_height.3;
-        %tmp.113 = 2.0;
-        %tmp.114 = div %tmp.112 %tmp.113;
-        %tmp.115 = 25.0;
-        %tmp.116 = sub %tmp.114 %tmp.115;
-        %tmp.118 = getv ? :Math;
-        %tmp.119 = getv function %tmp.118 :sin;
-        %tmp.121 = getv ? :Math;
-        %tmp.122 = getv %tmp.121 :PI;
-        %tmp.123 = invoke %tmp.118 %tmp.119(%tmp.122);
-        %tmp.124 = mul %tmp.116 %tmp.123;
-        %tmp.125 = add %tmp.110 %tmp.124;
-        %tmp.126 = getm $.Toybox.Graphics;
-        %tmp.127 = getv %tmp.126 :FONT_XTINY;
-        %tmp.128 = "Hit!";
-        %tmp.129 = getm $.Toybox.Graphics;
-        %tmp.130 = getv %tmp.129 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.90 %tmp.91(%tmp.108, %tmp.125, %tmp.127, %tmp.128, %tmp.130);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 72 16 ]
-        %tmp.131 = lgetv %dc;
-        %tmp.132 = getv function %tmp.131 :drawText;
-        %tmp.134 = lgetv %center_x.4;
-        %tmp.136 = lgetv %screen_height.3;
-        %tmp.137 = 2.0;
-        %tmp.138 = div %tmp.136 %tmp.137;
-        %tmp.139 = 25.0;
-        %tmp.140 = sub %tmp.138 %tmp.139;
-        %tmp.142 = getv ? :Math;
-        %tmp.143 = getv function %tmp.142 :cos;
-        %tmp.145 = getv ? :Math;
-        %tmp.146 = getv %tmp.145 :PI;
-        %tmp.147 = 5.0;
-        %tmp.148 = 6.0;
-        %tmp.149 = div %tmp.147 %tmp.148;
-        %tmp.150 = mul %tmp.146 %tmp.149;
-        %tmp.151 = invoke %tmp.142 %tmp.143(%tmp.150);
-        %tmp.152 = mul %tmp.140 %tmp.151;
-        %tmp.153 = add %tmp.134 %tmp.152;
-        %tmp.155 = lgetv %center_y.5;
-        %tmp.157 = lgetv %screen_height.3;
-        %tmp.158 = 2.0;
-        %tmp.159 = div %tmp.157 %tmp.158;
-        %tmp.160 = 25.0;
-        %tmp.161 = sub %tmp.159 %tmp.160;
-        %tmp.163 = getv ? :Math;
-        %tmp.164 = getv function %tmp.163 :sin;
-        %tmp.166 = getv ? :Math;
-        %tmp.167 = getv %tmp.166 :PI;
-        %tmp.168 = 5.0;
-        %tmp.169 = 6.0;
-        %tmp.170 = div %tmp.168 %tmp.169;
-        %tmp.171 = mul %tmp.167 %tmp.170;
-        %tmp.172 = invoke %tmp.163 %tmp.164(%tmp.171);
-        %tmp.173 = mul %tmp.161 %tmp.172;
-        %tmp.174 = add %tmp.155 %tmp.173;
-        %tmp.175 = getm $.Toybox.Graphics;
-        %tmp.176 = getv %tmp.175 :FONT_XTINY;
-        %tmp.177 = "Stand!";
-        %tmp.178 = getm $.Toybox.Graphics;
-        %tmp.179 = getv %tmp.178 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.131 %tmp.132(%tmp.153, %tmp.174, %tmp.176, %tmp.177, %tmp.179);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_68_12_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_67_12_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_67_12_if_false:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_76_12_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 78 16 ]
-        %tmp.180 = lgetv %dc;
-        %tmp.181 = getv function %tmp.180 :drawText;
-        %tmp.183 = lgetv %screen_width.2;
-        %tmp.184 = 4;
-        %tmp.185 = div %tmp.183 %tmp.184;
-        %tmp.187 = lgetv %screen_height.3;
-        %tmp.188 = 6;
-        %tmp.189 = div %tmp.187 %tmp.188;
-        %tmp.190 = getm $.Toybox.Graphics;
-        %tmp.191 = getv %tmp.190 :FONT_XTINY;
-        %tmp.192 = "Dealer: ";
-        %tmp.193 = self;
-        %tmp.194 = getv function %tmp.193 :getApp;
-        %tmp.195 = invoke %tmp.193 %tmp.194();
-        %tmp.196 = getv %tmp.195 :engine;
-        %tmp.197 = getv function %tmp.196 :getDealerPoints;
-        %tmp.198 = invoke %tmp.196 %tmp.197();
-        %tmp.199 = add %tmp.192 %tmp.198;
-        %tmp.200 = getm $.Toybox.Graphics;
-        %tmp.201 = getv %tmp.200 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.180 %tmp.181(%tmp.185, %tmp.189, %tmp.191, %tmp.199, %tmp.201);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_76_12_stop:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_67_12_if_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 81 12 ]
-        for @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_test @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_incr @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_init:
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_begin" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_end" ]
-        %i.8 = local;
-        %tmp.202 = 0;
-        lputv %i.8 %tmp.202;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_test:
-        %tmp.204 = lgetv %i.8;
-        %tmp.205 = lgetv %dealer_cards.7;
-        %tmp.206 = getv function %tmp.205 :size;
-        %tmp.207 = invoke %tmp.205 %tmp.206();
-        %tmp.208 = lt %tmp.204 %tmp.207;
-        bf %tmp.208 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_begin:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_82_12_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 84 16 ]
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_16_if_stmt:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_19_begin:
-        %tmp.210 = lgetv %i.8;
-        %tmp.211 = 0;
-        %tmp.212 = gt %tmp.210 %tmp.211;
-        %tmp.213 = dup %tmp.212;
-        bf %tmp.213 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_28_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_28_true:
-        %tmp.215 = lgetv %status.1;
-        %tmp.217 = getv ? :STATUS_ACTIVE_ROUND;
-        %tmp.218 = eq %tmp.215 %tmp.217;
-        %tmp.219 = and %tmp.212 %tmp.218;
-        push %tmp.219;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_28_end:
-        %tmp.220 = phi [%tmp.213 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_19_begin] [%tmp.219 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_28_true] [%tmp.220 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_28_end];
-        bf %tmp.220 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_16_if_false;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_16_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_16_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 86 20 ]
-        %tmp.221 = self;
-        %tmp.222 = getv function %tmp.221 :drawCard;
-        %tmp.224 = lgetv %dc;
-        %tmp.226 = lgetv %screen_width.2;
-        %tmp.227 = 4;
-        %tmp.228 = div %tmp.226 %tmp.227;
-        %tmp.229 = 35;
-        %tmp.231 = lgetv %i.8;
-        %tmp.232 = mul %tmp.229 %tmp.231;
-        %tmp.233 = add %tmp.228 %tmp.232;
-        %tmp.235 = lgetv %screen_height.3;
-        %tmp.236 = 6;
-        %tmp.237 = div %tmp.235 %tmp.236;
-        %tmp.238 = 20;
-        %tmp.239 = add %tmp.237 %tmp.238;
-        %tmp.240 = 30;
-        %tmp.241 = 50;
-        %tmp.243 = lgetv %dealer_cards.7;
-        %tmp.245 = lgetv %i.8;
-        %tmp.246 = agetv %tmp.243 %tmp.245;
-        %tmp.247 = getv function %tmp.246 :valueName;
-        %tmp.248 = invoke %tmp.246 %tmp.247();
-        %tmp.250 = lgetv %dealer_cards.7;
-        %tmp.252 = lgetv %i.8;
-        %tmp.253 = agetv %tmp.250 %tmp.252;
-        %tmp.254 = getv %tmp.253 :suit;
-        %tmp.255 = true;
-        invoke %tmp.221 %tmp.222(%tmp.224, %tmp.233, %tmp.239, %tmp.240, %tmp.241, %tmp.248, %tmp.254, %tmp.255);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_16_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_16_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_16_if_false:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_90_16_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 91 20 ]
-        %tmp.256 = self;
-        %tmp.257 = getv function %tmp.256 :drawCard;
-        %tmp.259 = lgetv %dc;
-        %tmp.261 = lgetv %screen_width.2;
-        %tmp.262 = 4;
-        %tmp.263 = div %tmp.261 %tmp.262;
-        %tmp.264 = 35;
-        %tmp.266 = lgetv %i.8;
-        %tmp.267 = mul %tmp.264 %tmp.266;
-        %tmp.268 = add %tmp.263 %tmp.267;
-        %tmp.270 = lgetv %screen_height.3;
-        %tmp.271 = 6;
-        %tmp.272 = div %tmp.270 %tmp.271;
-        %tmp.273 = 20;
-        %tmp.274 = add %tmp.272 %tmp.273;
-        %tmp.275 = 30;
-        %tmp.276 = 50;
-        %tmp.278 = lgetv %dealer_cards.7;
-        %tmp.280 = lgetv %i.8;
-        %tmp.281 = agetv %tmp.278 %tmp.280;
-        %tmp.282 = getv function %tmp.281 :valueName;
-        %tmp.283 = invoke %tmp.281 %tmp.282();
-        %tmp.285 = lgetv %dealer_cards.7;
-        %tmp.287 = lgetv %i.8;
-        %tmp.288 = agetv %tmp.285 %tmp.287;
-        %tmp.289 = getv %tmp.288 :suit;
-        %tmp.290 = false;
-        invoke %tmp.256 %tmp.257(%tmp.259, %tmp.268, %tmp.274, %tmp.275, %tmp.276, %tmp.283, %tmp.289, %tmp.290);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_90_16_stop:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_16_if_end:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_82_12_stop:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_incr:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 81 ]
-        %tmp.293 = lgetv %i.8;
-        %tmp.294 = add %tmp.293 1;
-        lputv %i.8 %tmp.294;
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_test;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_81_12_for_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 95 12 ]
-        %tmp.295 = lgetv %dc;
-        %tmp.296 = getv function %tmp.295 :drawText;
-        %tmp.298 = lgetv %screen_width.2;
-        %tmp.299 = 4;
-        %tmp.300 = div %tmp.298 %tmp.299;
-        %tmp.302 = lgetv %screen_height.3;
-        %tmp.303 = 1.7;
-        %tmp.304 = div %tmp.302 %tmp.303;
-        %tmp.305 = getm $.Toybox.Graphics;
-        %tmp.306 = getv %tmp.305 :FONT_XTINY;
-        %tmp.307 = "Player: ";
-        %tmp.308 = self;
-        %tmp.309 = getv function %tmp.308 :getApp;
-        %tmp.310 = invoke %tmp.308 %tmp.309();
-        %tmp.311 = getv %tmp.310 :engine;
-        %tmp.312 = getv function %tmp.311 :getPlayerPoints;
-        %tmp.313 = invoke %tmp.311 %tmp.312();
-        %tmp.314 = add %tmp.307 %tmp.313;
-        %tmp.315 = getm $.Toybox.Graphics;
-        %tmp.316 = getv %tmp.315 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.295 %tmp.296(%tmp.300, %tmp.304, %tmp.306, %tmp.314, %tmp.316);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 97 12 ]
-        for @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_test @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_incr @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_init:
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_begin" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_end" ]
-        %i.9 = local;
-        %tmp.317 = 0;
-        lputv %i.9 %tmp.317;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_test:
-        %tmp.319 = lgetv %i.9;
-        %tmp.320 = lgetv %player_cards.6;
-        %tmp.321 = getv function %tmp.320 :size;
-        %tmp.322 = invoke %tmp.320 %tmp.321();
-        %tmp.323 = lt %tmp.319 %tmp.322;
-        bf %tmp.323 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_begin:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_98_12_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 99 16 ]
-        %tmp.324 = self;
-        %tmp.325 = getv function %tmp.324 :drawCard;
-        %tmp.327 = lgetv %dc;
-        %tmp.329 = lgetv %screen_width.2;
-        %tmp.330 = 4;
-        %tmp.331 = div %tmp.329 %tmp.330;
-        %tmp.332 = 35;
-        %tmp.334 = lgetv %i.9;
-        %tmp.335 = mul %tmp.332 %tmp.334;
-        %tmp.336 = add %tmp.331 %tmp.335;
-        %tmp.338 = lgetv %screen_height.3;
-        %tmp.339 = 1.7;
-        %tmp.340 = div %tmp.338 %tmp.339;
-        %tmp.341 = 20;
-        %tmp.342 = add %tmp.340 %tmp.341;
-        %tmp.343 = 30;
-        %tmp.344 = 50;
-        %tmp.346 = lgetv %player_cards.6;
-        %tmp.348 = lgetv %i.9;
-        %tmp.349 = agetv %tmp.346 %tmp.348;
-        %tmp.350 = getv function %tmp.349 :valueName;
-        %tmp.351 = invoke %tmp.349 %tmp.350();
-        %tmp.353 = lgetv %player_cards.6;
-        %tmp.355 = lgetv %i.9;
-        %tmp.356 = agetv %tmp.353 %tmp.355;
-        %tmp.357 = getv %tmp.356 :suit;
-        %tmp.358 = false;
-        invoke %tmp.324 %tmp.325(%tmp.327, %tmp.336, %tmp.342, %tmp.343, %tmp.344, %tmp.351, %tmp.357, %tmp.358);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_98_12_stop:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_incr:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 97 ]
-        %tmp.361 = lgetv %i.9;
-        %tmp.362 = add %tmp.361 1;
-        lputv %i.9 %tmp.362;
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_test;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_97_12_for_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 102 12 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_stop" ]
-        %status_label.10 = local;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 104 12 ]
-        %tmp.364 = lgetv %status.1;
-        push %tmp.364;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_switchStmtBegin:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 106 16 ]
-        %tmp.365 = dup %tmp.364;
-        %tmp.367 = getv ? :STATUS_ACTIVE_ROUND;
-        %tmp.368 = getv function %tmp.365 :equals;
-        %tmp.369 = invoke %tmp.365 %tmp.368 (%tmp.367);
-        bt %tmp.369 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_106_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 110 16 ]
-        %tmp.370 = dup %tmp.364;
-        %tmp.372 = getv ? :STATUS_LOST;
-        %tmp.373 = getv function %tmp.370 :equals;
-        %tmp.374 = invoke %tmp.370 %tmp.373 (%tmp.372);
-        bt %tmp.374 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_110_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 113 16 ]
-        %tmp.375 = dup %tmp.364;
-        %tmp.377 = getv ? :STATUS_WON;
-        %tmp.378 = getv function %tmp.375 :equals;
-        %tmp.379 = invoke %tmp.375 %tmp.378 (%tmp.377);
-        bt %tmp.379 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_113_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 116 16 ]
-        %tmp.380 = dup %tmp.364;
-        %tmp.382 = getv ? :STATUS_TIE;
-        %tmp.383 = getv function %tmp.380 :equals;
-        %tmp.384 = invoke %tmp.380 %tmp.383 (%tmp.382);
-        bt %tmp.384 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_116_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 119 16 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_defaultCodeBegin;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_106_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 107 20 ]
-        %tmp.385 = "";
-        lputv %status_label.10 %tmp.385;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 109 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_110_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 111 20 ]
-        %tmp.386 = "Lost!";
-        lputv %status_label.10 %tmp.386;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 112 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_113_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 114 20 ]
-        %tmp.387 = "Won!";
-        lputv %status_label.10 %tmp.387;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 115 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_116_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 117 20 ]
-        %tmp.388 = "Tie!";
-        lputv %status_label.10 %tmp.388;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 118 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_119_16_switchCase:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_defaultCodeBegin:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 120 20 ]
-        %tmp.390 = lgetv %status.1;
-        lputv %status_label.10 %tmp.390;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 121 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_104_12_switchStmtEnd:
-        pop;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 124 12 ]
-        %tmp.391 = lgetv %dc;
-        %tmp.392 = getv function %tmp.391 :drawText;
-        %tmp.394 = lgetv %center_x.4;
-        %tmp.396 = lgetv %center_y.5;
-        %tmp.397 = 10;
-        %tmp.398 = sub %tmp.396 %tmp.397;
-        %tmp.399 = getm $.Toybox.Graphics;
-        %tmp.400 = getv %tmp.399 :FONT_TINY;
-        %tmp.402 = lgetv %status_label.10;
-        %tmp.403 = getm $.Toybox.Graphics;
-        %tmp.404 = getv %tmp.403 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.391 %tmp.392(%tmp.394, %tmp.398, %tmp.400, %tmp.402, %tmp.404);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_63_8_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_62_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_62_8_if_false:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_62_8_if_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 134 8 ]
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_134_8_if_stmt:
-        %tmp.406 = lgetv %status.1;
-        %tmp.408 = getv ? :STATUS_ACTIVE_ROUND;
-        %tmp.409 = ne %tmp.406 %tmp.408;
-        bf %tmp.409 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_134_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_134_8_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_135_8_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 136 12 ]
-        %tmp.410 = lgetv %dc;
-        %tmp.411 = getv function %tmp.410 :drawText;
-        %tmp.413 = lgetv %center_x.4;
-        %tmp.415 = lgetv %screen_height.3;
-        %tmp.416 = 2.0;
-        %tmp.417 = div %tmp.415 %tmp.416;
-        %tmp.418 = 25.0;
-        %tmp.419 = sub %tmp.417 %tmp.418;
-        %tmp.421 = getv ? :Math;
-        %tmp.422 = getv function %tmp.421 :cos;
-        %tmp.424 = getv ? :Math;
-        %tmp.425 = getv %tmp.424 :PI;
-        %tmp.426 = invoke %tmp.421 %tmp.422(%tmp.425);
-        %tmp.427 = mul %tmp.419 %tmp.426;
-        %tmp.428 = add %tmp.413 %tmp.427;
-        %tmp.430 = lgetv %center_y.5;
-        %tmp.432 = lgetv %screen_height.3;
-        %tmp.433 = 2.0;
-        %tmp.434 = div %tmp.432 %tmp.433;
-        %tmp.435 = 25.0;
-        %tmp.436 = sub %tmp.434 %tmp.435;
-        %tmp.438 = getv ? :Math;
-        %tmp.439 = getv function %tmp.438 :sin;
-        %tmp.441 = getv ? :Math;
-        %tmp.442 = getv %tmp.441 :PI;
-        %tmp.443 = invoke %tmp.438 %tmp.439(%tmp.442);
-        %tmp.444 = mul %tmp.436 %tmp.443;
-        %tmp.445 = add %tmp.430 %tmp.444;
-        %tmp.446 = getm $.Toybox.Graphics;
-        %tmp.447 = getv %tmp.446 :FONT_XTINY;
-        %tmp.448 = "Bet+";
-        %tmp.449 = getm $.Toybox.Graphics;
-        %tmp.450 = getv %tmp.449 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.410 %tmp.411(%tmp.428, %tmp.445, %tmp.447, %tmp.448, %tmp.450);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 137 12 ]
-        %tmp.451 = lgetv %dc;
-        %tmp.452 = getv function %tmp.451 :drawText;
-        %tmp.454 = lgetv %center_x.4;
-        %tmp.456 = lgetv %screen_height.3;
-        %tmp.457 = 2.0;
-        %tmp.458 = div %tmp.456 %tmp.457;
-        %tmp.459 = 25.0;
-        %tmp.460 = sub %tmp.458 %tmp.459;
-        %tmp.462 = getv ? :Math;
-        %tmp.463 = getv function %tmp.462 :cos;
-        %tmp.465 = getv ? :Math;
-        %tmp.466 = getv %tmp.465 :PI;
-        %tmp.467 = 5.0;
-        %tmp.468 = 6.0;
-        %tmp.469 = div %tmp.467 %tmp.468;
-        %tmp.470 = mul %tmp.466 %tmp.469;
-        %tmp.471 = invoke %tmp.462 %tmp.463(%tmp.470);
-        %tmp.472 = mul %tmp.460 %tmp.471;
-        %tmp.473 = add %tmp.454 %tmp.472;
-        %tmp.475 = lgetv %center_y.5;
-        %tmp.477 = lgetv %screen_height.3;
-        %tmp.478 = 2.0;
-        %tmp.479 = div %tmp.477 %tmp.478;
-        %tmp.480 = 25.0;
-        %tmp.481 = sub %tmp.479 %tmp.480;
-        %tmp.483 = getv ? :Math;
-        %tmp.484 = getv function %tmp.483 :sin;
-        %tmp.486 = getv ? :Math;
-        %tmp.487 = getv %tmp.486 :PI;
-        %tmp.488 = 5.0;
-        %tmp.489 = 6.0;
-        %tmp.490 = div %tmp.488 %tmp.489;
-        %tmp.491 = mul %tmp.487 %tmp.490;
-        %tmp.492 = invoke %tmp.483 %tmp.484(%tmp.491);
-        %tmp.493 = mul %tmp.481 %tmp.492;
-        %tmp.494 = add %tmp.475 %tmp.493;
-        %tmp.495 = getm $.Toybox.Graphics;
-        %tmp.496 = getv %tmp.495 :FONT_XTINY;
-        %tmp.497 = "Bet-";
-        %tmp.498 = getm $.Toybox.Graphics;
-        %tmp.499 = getv %tmp.498 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.451 %tmp.452(%tmp.473, %tmp.494, %tmp.496, %tmp.497, %tmp.499);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 138 12 ]
-        %tmp.500 = lgetv %dc;
-        %tmp.501 = getv function %tmp.500 :drawText;
-        %tmp.503 = lgetv %center_x.4;
-        %tmp.505 = lgetv %screen_height.3;
-        %tmp.506 = 2.0;
-        %tmp.507 = div %tmp.505 %tmp.506;
-        %tmp.508 = 25.0;
-        %tmp.509 = sub %tmp.507 %tmp.508;
-        %tmp.511 = getv ? :Math;
-        %tmp.512 = getv function %tmp.511 :cos;
-        %tmp.514 = getv ? :Math;
-        %tmp.515 = getv %tmp.514 :PI;
-        %tmp.516 = -1.0;
-        %tmp.517 = 6.0;
-        %tmp.518 = div %tmp.516 %tmp.517;
-        %tmp.519 = mul %tmp.515 %tmp.518;
-        %tmp.520 = invoke %tmp.511 %tmp.512(%tmp.519);
-        %tmp.521 = mul %tmp.509 %tmp.520;
-        %tmp.522 = add %tmp.503 %tmp.521;
-        %tmp.524 = lgetv %center_y.5;
-        %tmp.526 = lgetv %screen_height.3;
-        %tmp.527 = 2.0;
-        %tmp.528 = div %tmp.526 %tmp.527;
-        %tmp.529 = 25.0;
-        %tmp.530 = sub %tmp.528 %tmp.529;
-        %tmp.532 = getv ? :Math;
-        %tmp.533 = getv function %tmp.532 :sin;
-        %tmp.535 = getv ? :Math;
-        %tmp.536 = getv %tmp.535 :PI;
-        %tmp.537 = sub 0 %tmp.536;
-        %tmp.538 = 1.0;
-        %tmp.539 = 6.0;
-        %tmp.540 = div %tmp.538 %tmp.539;
-        %tmp.541 = mul %tmp.537 %tmp.540;
-        %tmp.542 = invoke %tmp.532 %tmp.533(%tmp.541);
-        %tmp.543 = mul %tmp.530 %tmp.542;
-        %tmp.544 = add %tmp.524 %tmp.543;
-        %tmp.545 = getm $.Toybox.Graphics;
-        %tmp.546 = getv %tmp.545 :FONT_XTINY;
-        %tmp.547 = "Play!";
-        %tmp.548 = getm $.Toybox.Graphics;
-        %tmp.549 = getv %tmp.548 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.500 %tmp.501(%tmp.522, %tmp.544, %tmp.546, %tmp.547, %tmp.549);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_135_8_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_134_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_134_8_if_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 142 8 ]
-        %tmp.550 = lgetv %dc;
-        %tmp.551 = getv function %tmp.550 :drawText;
-        %tmp.553 = lgetv %center_x.4;
-        %tmp.555 = lgetv %screen_height.3;
-        %tmp.556 = 20;
-        %tmp.557 = sub %tmp.555 %tmp.556;
-        %tmp.558 = getm $.Toybox.Graphics;
-        %tmp.559 = getv %tmp.558 :FONT_XTINY;
-        %tmp.560 = self;
-        %tmp.561 = getv function %tmp.560 :getApp;
-        %tmp.562 = invoke %tmp.560 %tmp.561();
-        %tmp.563 = getv %tmp.562 :engine;
-        %tmp.564 = getv function %tmp.563 :getMoney;
-        %tmp.565 = invoke %tmp.563 %tmp.564();
-        %tmp.566 = " €";
-        %tmp.567 = add %tmp.565 %tmp.566;
-        %tmp.568 = getm $.Toybox.Graphics;
-        %tmp.569 = getv %tmp.568 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.550 %tmp.551(%tmp.553, %tmp.557, %tmp.559, %tmp.567, %tmp.569);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_48_40_stop:
-    }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 146; ]
-    function drawCard(dc, x, y, width, height, value, suit, flip) {
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_147_4_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 149 8 ]
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_149_8_if_stmt:
-        %tmp.2 = lgetv %flip;
-        bf %tmp.2 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_149_8_if_false;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_149_8_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_150_8_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 151 12 ]
-        %tmp.3 = lgetv %dc;
-        %tmp.4 = getv function %tmp.3 :setColor;
-        %tmp.5 = getm $.Toybox.Graphics;
-        %tmp.6 = getv %tmp.5 :COLOR_LT_GRAY;
-        %tmp.7 = getm $.Toybox.Graphics;
-        %tmp.8 = getv %tmp.7 :COLOR_BLACK;
-        invoke %tmp.3 %tmp.4(%tmp.6, %tmp.8);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 152 12 ]
-        %tmp.9 = lgetv %dc;
-        %tmp.10 = getv function %tmp.9 :fillRectangle;
-        %tmp.12 = lgetv %x;
-        %tmp.14 = lgetv %y;
-        %tmp.16 = lgetv %width;
-        %tmp.18 = lgetv %height;
-        invoke %tmp.9 %tmp.10(%tmp.12, %tmp.14, %tmp.16, %tmp.18);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_150_8_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_149_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_149_8_if_false:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_156_8_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 157 12 ]
-        %tmp.19 = lgetv %dc;
-        %tmp.20 = getv function %tmp.19 :setColor;
-        %tmp.21 = getm $.Toybox.Graphics;
-        %tmp.22 = getv %tmp.21 :COLOR_WHITE;
-        %tmp.23 = getm $.Toybox.Graphics;
-        %tmp.24 = getv %tmp.23 :COLOR_BLACK;
-        invoke %tmp.19 %tmp.20(%tmp.22, %tmp.24);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 158 12 ]
+        symbol [ View %tmp.2 62 8 12 ];
+        %tmp.2 = getv ? :View;
+        symbol [ onUpdate %tmp.3 62 13 21 ];
+        %tmp.3 = getv function %tmp.2 :onUpdate;
+        %tmp.4 = lgetv %dc;
+        symbol [ dc %tmp.4 62 22 24 ];
+        invoke %tmp.2 %tmp.3(%tmp.4);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 64 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_stop" ]
+        %status.1 = local;
+        symbol [ status %status.1 64 12 18 ];
+        %tmp.5 = self;
+        symbol [ getApp %tmp.6 64 21 27 ];
+        %tmp.6 = getv function %tmp.5 :getApp;
+        %tmp.7 = invoke %tmp.5 %tmp.6();
+        symbol [ engine %tmp.8 64 30 36 ];
+        %tmp.8 = getv %tmp.7 :engine;
+        symbol [ status %tmp.9 64 37 43 ];
+        %tmp.9 = getv %tmp.8 :status;
+        lputv %status.1 %tmp.9;
+        symbol [ status %status.1 64 12 18 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 66 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_stop" ]
+        %screen_width.2 = local;
+        symbol [ screen_width %screen_width.2 66 12 24 ];
+        %tmp.10 = lgetv %dc;
+        symbol [ dc %tmp.10 66 27 29 ];
+        symbol [ getWidth %tmp.11 66 30 38 ];
+        %tmp.11 = getv function %tmp.10 :getWidth;
+        %tmp.12 = invoke %tmp.10 %tmp.11();
+        lputv %screen_width.2 %tmp.12;
+        symbol [ screen_width %screen_width.2 66 12 24 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 67 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_stop" ]
+        %screen_height.3 = local;
+        symbol [ screen_height %screen_height.3 67 12 25 ];
+        %tmp.13 = lgetv %dc;
+        symbol [ dc %tmp.13 67 28 30 ];
+        symbol [ getHeight %tmp.14 67 31 40 ];
+        %tmp.14 = getv function %tmp.13 :getHeight;
+        %tmp.15 = invoke %tmp.13 %tmp.14();
+        lputv %screen_height.3 %tmp.15;
+        symbol [ screen_height %screen_height.3 67 12 25 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 68 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_stop" ]
+        %center_x.4 = local;
+        symbol [ center_x %center_x.4 68 12 20 ];
+        %tmp.16 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.16 68 23 35 ];
+        %tmp.17 = 2;
+        %tmp.18 = div %tmp.16 %tmp.17;
+        lputv %center_x.4 %tmp.18;
+        symbol [ center_x %center_x.4 68 12 20 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 69 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_stop" ]
+        %center_y.5 = local;
+        symbol [ center_y %center_y.5 69 12 20 ];
+        %tmp.19 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.19 69 23 36 ];
+        %tmp.20 = 2;
+        %tmp.21 = div %tmp.19 %tmp.20;
+        lputv %center_y.5 %tmp.21;
+        symbol [ center_y %center_y.5 69 12 20 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 71 8 ]
+        %tmp.22 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.22 71 23 35 ];
+        %tmp.23 = 280.0;
+        %tmp.24 = div %tmp.22 %tmp.23;
+        symbol [ scale_factor ? 71 8 20 ];
+        putv self :scale_factor %tmp.24;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 74 8 ]
         %tmp.25 = lgetv %dc;
-        %tmp.26 = getv function %tmp.25 :fillRectangle;
-        %tmp.28 = lgetv %x;
-        %tmp.30 = lgetv %y;
-        %tmp.32 = lgetv %width;
-        %tmp.34 = lgetv %height;
-        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30, %tmp.32, %tmp.34);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 160 12 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_156_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_156_8_stop" ]
-        %suit_bitmap.1 = local;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 162 12 ]
-        %tmp.36 = lgetv %suit;
-        push %tmp.36;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_switchStmtBegin:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 164 16 ]
-        %tmp.37 = dup %tmp.36;
-        %tmp.39 = getv ? :SUIT_HEARTS;
-        %tmp.40 = getv function %tmp.37 :equals;
-        %tmp.41 = invoke %tmp.37 %tmp.40 (%tmp.39);
-        bt %tmp.41 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_164_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 168 16 ]
-        %tmp.42 = dup %tmp.36;
-        %tmp.44 = getv ? :SUIT_SPADES;
-        %tmp.45 = getv function %tmp.42 :equals;
-        %tmp.46 = invoke %tmp.42 %tmp.45 (%tmp.44);
-        bt %tmp.46 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_168_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 172 16 ]
-        %tmp.47 = dup %tmp.36;
-        %tmp.49 = getv ? :SUIT_CLUBS;
-        %tmp.50 = getv function %tmp.47 :equals;
-        %tmp.51 = invoke %tmp.47 %tmp.50 (%tmp.49);
-        bt %tmp.51 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_172_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 176 16 ]
-        %tmp.52 = dup %tmp.36;
-        %tmp.54 = getv ? :SUIT_DIAMONDS;
-        %tmp.55 = getv function %tmp.52 :equals;
-        %tmp.56 = invoke %tmp.52 %tmp.55 (%tmp.54);
-        bt %tmp.56 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_176_16_switchCase;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 180 16 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_defaultCodeBegin;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_164_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 165 20 ]
-        %tmp.58 = getv ? :heart_bitmap;
-        lputv %suit_bitmap.1 %tmp.58;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 166 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_168_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 169 20 ]
-        %tmp.60 = getv ? :spade_bitmap;
-        lputv %suit_bitmap.1 %tmp.60;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 170 24 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_172_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 173 20 ]
-        %tmp.62 = getv ? :club_bitmap;
-        lputv %suit_bitmap.1 %tmp.62;
+        symbol [ dc %tmp.25 74 8 10 ];
+        symbol [ setColor %tmp.26 74 11 19 ];
+        %tmp.26 = getv function %tmp.25 :setColor;
+        symbol [ Graphics %tmp.27 74 20 28 ];
+        %tmp.27 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.28 74 29 40 ];
+        %tmp.28 = getv %tmp.27 :COLOR_WHITE;
+        symbol [ background_color %tmp.30 74 42 58 ];
+        %tmp.30 = getv ? :background_color;
+        invoke %tmp.25 %tmp.26(%tmp.28, %tmp.30);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 76 8 ]
+        %tmp.31 = lgetv %dc;
+        symbol [ dc %tmp.31 76 8 10 ];
+        symbol [ clear %tmp.32 76 11 16 ];
+        %tmp.32 = getv function %tmp.31 :clear;
+        invoke %tmp.31 %tmp.32();
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 81 8 ]
+        %tmp.33 = lgetv %dc;
+        symbol [ dc %tmp.33 81 8 10 ];
+        symbol [ drawText %tmp.34 81 11 19 ];
+        %tmp.34 = getv function %tmp.33 :drawText;
+        %tmp.35 = lgetv %center_x.4;
+        symbol [ center_x %tmp.35 81 20 28 ];
+        %tmp.36 = lgetv %center_y.5;
+        symbol [ center_y %tmp.36 81 29 37 ];
+        symbol [ Graphics %tmp.37 81 39 47 ];
+        %tmp.37 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.38 81 48 58 ];
+        %tmp.38 = getv %tmp.37 :FONT_XTINY;
+        %tmp.39 = "€ ";
+        %tmp.40 = self;
+        symbol [ getApp %tmp.41 81 69 75 ];
+        %tmp.41 = getv function %tmp.40 :getApp;
+        %tmp.42 = invoke %tmp.40 %tmp.41();
+        symbol [ engine %tmp.43 81 78 84 ];
+        %tmp.43 = getv %tmp.42 :engine;
+        symbol [ getBet %tmp.44 81 85 91 ];
+        %tmp.44 = getv function %tmp.43 :getBet;
+        %tmp.45 = invoke %tmp.43 %tmp.44();
+        %tmp.46 = add %tmp.39 %tmp.45;
+        symbol [ Graphics %tmp.47 81 94 102 ];
+        %tmp.47 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.48 81 103 122 ];
+        %tmp.48 = getv %tmp.47 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.33 %tmp.34(%tmp.35, %tmp.36, %tmp.38, %tmp.46, %tmp.48);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 84 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_8_207_8_if_stmt:
+        %tmp.49 = lgetv %status.1;
+        symbol [ status %tmp.49 84 11 17 ];
+        symbol [ STATUS_IDLE %tmp.51 84 21 32 ];
+        %tmp.51 = getv ? :STATUS_IDLE;
+        %tmp.52 = ne %tmp.49 %tmp.51;
+        bf %tmp.52 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_8_207_8_if_else_false;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_8_207_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 86 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_stop" ]
+        %player_cards.6 = local;
+        symbol [ player_cards %player_cards.6 86 16 28 ];
+        %tmp.53 = self;
+        symbol [ getApp %tmp.54 86 32 38 ];
+        %tmp.54 = getv function %tmp.53 :getApp;
+        %tmp.55 = invoke %tmp.53 %tmp.54();
+        symbol [ engine %tmp.56 86 41 47 ];
+        %tmp.56 = getv %tmp.55 :engine;
+        symbol [ getPlayerCards %tmp.57 86 48 62 ];
+        %tmp.57 = getv function %tmp.56 :getPlayerCards;
+        %tmp.58 = invoke %tmp.56 %tmp.57();
+        lputv %player_cards.6 %tmp.58;
+        symbol [ player_cards %player_cards.6 86 16 28 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 87 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_stop" ]
+        %player_cards_split1.7 = local;
+        symbol [ player_cards_split1 %player_cards_split1.7 87 16 35 ];
+        %tmp.59 = self;
+        symbol [ getApp %tmp.60 87 39 45 ];
+        %tmp.60 = getv function %tmp.59 :getApp;
+        %tmp.61 = invoke %tmp.59 %tmp.60();
+        symbol [ engine %tmp.62 87 48 54 ];
+        %tmp.62 = getv %tmp.61 :engine;
+        symbol [ getPlayerCards_split1 %tmp.63 87 55 76 ];
+        %tmp.63 = getv function %tmp.62 :getPlayerCards_split1;
+        %tmp.64 = invoke %tmp.62 %tmp.63();
+        lputv %player_cards_split1.7 %tmp.64;
+        symbol [ player_cards_split1 %player_cards_split1.7 87 16 35 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 88 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_stop" ]
+        %player_cards_split2.8 = local;
+        symbol [ player_cards_split2 %player_cards_split2.8 88 16 35 ];
+        %tmp.65 = self;
+        symbol [ getApp %tmp.66 88 39 45 ];
+        %tmp.66 = getv function %tmp.65 :getApp;
+        %tmp.67 = invoke %tmp.65 %tmp.66();
+        symbol [ engine %tmp.68 88 48 54 ];
+        %tmp.68 = getv %tmp.67 :engine;
+        symbol [ getPlayerCards_split2 %tmp.69 88 55 76 ];
+        %tmp.69 = getv function %tmp.68 :getPlayerCards_split2;
+        %tmp.70 = invoke %tmp.68 %tmp.69();
+        lputv %player_cards_split2.8 %tmp.70;
+        symbol [ player_cards_split2 %player_cards_split2.8 88 16 35 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 90 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_stop" ]
+        %dealer_cards.9 = local;
+        symbol [ dealer_cards %dealer_cards.9 90 16 28 ];
+        %tmp.71 = self;
+        symbol [ getApp %tmp.72 90 32 38 ];
+        %tmp.72 = getv function %tmp.71 :getApp;
+        %tmp.73 = invoke %tmp.71 %tmp.72();
+        symbol [ engine %tmp.74 90 41 47 ];
+        %tmp.74 = getv %tmp.73 :engine;
+        symbol [ getDealerCards %tmp.75 90 48 62 ];
+        %tmp.75 = getv function %tmp.74 :getDealerCards;
+        %tmp.76 = invoke %tmp.74 %tmp.75();
+        lputv %dealer_cards.9 %tmp.76;
+        symbol [ dealer_cards %dealer_cards.9 90 16 28 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 92 12 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_92_12_120_12_if_stmt:
+        %tmp.77 = lgetv %status.1;
+        symbol [ status %tmp.77 92 15 21 ];
+        symbol [ STATUS_ACTIVE_ROUND %tmp.79 92 25 44 ];
+        %tmp.79 = getv ? :STATUS_ACTIVE_ROUND;
+        %tmp.80 = eq %tmp.77 %tmp.79;
+        bf %tmp.80 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_92_12_120_12_if_else_false;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_92_12_120_12_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_93_12_114_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 94 16 ]
+        %tmp.81 = lgetv %dc;
+        symbol [ dc %tmp.81 94 16 18 ];
+        symbol [ setColor %tmp.82 94 19 27 ];
+        %tmp.82 = getv function %tmp.81 :setColor;
+        symbol [ button_text_color %tmp.84 94 28 45 ];
+        %tmp.84 = getv ? :button_text_color;
+        symbol [ background_color %tmp.86 94 47 63 ];
+        %tmp.86 = getv ? :background_color;
+        invoke %tmp.81 %tmp.82(%tmp.84, %tmp.86);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 97 16 ]
+        %tmp.87 = newa 4;
+        %tmp.88 = lgetv %center_x.4;
+        symbol [ center_x %tmp.88 97 34 42 ];
+        %tmp.89 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.89 97 46 59 ];
+        %tmp.90 = 2.0;
+        %tmp.91 = div %tmp.89 %tmp.90;
+        %tmp.92 = 20.0;
+        symbol [ scale_factor %tmp.94 97 70 82 ];
+        %tmp.94 = getv ? :scale_factor;
+        %tmp.95 = mul %tmp.92 %tmp.94;
+        %tmp.96 = sub %tmp.91 %tmp.95;
+        symbol [ Math %tmp.98 97 85 89 ];
+        %tmp.98 = getv ? :Math;
+        symbol [ cos %tmp.99 97 90 93 ];
+        %tmp.99 = getv function %tmp.98 :cos;
+        symbol [ Math %tmp.101 97 94 98 ];
+        %tmp.101 = getv ? :Math;
+        symbol [ PI %tmp.102 97 99 101 ];
+        %tmp.102 = getv %tmp.101 :PI;
+        %tmp.103 = -5.0;
+        %tmp.104 = 6.0;
+        %tmp.105 = div %tmp.103 %tmp.104;
+        %tmp.106 = mul %tmp.102 %tmp.105;
+        %tmp.107 = invoke %tmp.98 %tmp.99(%tmp.106);
+        %tmp.108 = mul %tmp.96 %tmp.107;
+        %tmp.109 = add %tmp.88 %tmp.108;
+        %tmp.110 = dup %tmp.87;
+        %tmp.111 = aputv %tmp.110 0 %tmp.109;
+        %tmp.112 = lgetv %center_y.5;
+        symbol [ center_y %tmp.112 97 114 122 ];
+        %tmp.113 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.113 97 126 139 ];
+        %tmp.114 = 2.0;
+        %tmp.115 = div %tmp.113 %tmp.114;
+        %tmp.116 = 20.0;
+        symbol [ scale_factor %tmp.118 97 150 162 ];
+        %tmp.118 = getv ? :scale_factor;
+        %tmp.119 = mul %tmp.116 %tmp.118;
+        %tmp.120 = sub %tmp.115 %tmp.119;
+        symbol [ Math %tmp.122 97 165 169 ];
+        %tmp.122 = getv ? :Math;
+        symbol [ sin %tmp.123 97 170 173 ];
+        %tmp.123 = getv function %tmp.122 :sin;
+        symbol [ Math %tmp.125 97 174 178 ];
+        %tmp.125 = getv ? :Math;
+        symbol [ PI %tmp.126 97 179 181 ];
+        %tmp.126 = getv %tmp.125 :PI;
+        %tmp.127 = -5.0;
+        %tmp.128 = 6.0;
+        %tmp.129 = div %tmp.127 %tmp.128;
+        %tmp.130 = mul %tmp.126 %tmp.129;
+        %tmp.131 = invoke %tmp.122 %tmp.123(%tmp.130);
+        %tmp.132 = mul %tmp.120 %tmp.131;
+        %tmp.133 = add %tmp.112 %tmp.132;
+        %tmp.134 = dup %tmp.111;
+        %tmp.135 = aputv %tmp.134 1 %tmp.133;
+        %tmp.136 = 40;
+        %tmp.137 = dup %tmp.135;
+        %tmp.138 = aputv %tmp.137 2 %tmp.136;
+        %tmp.139 = 25;
+        %tmp.140 = dup %tmp.138;
+        %tmp.141 = aputv %tmp.140 3 %tmp.139;
+        symbol [ hit_button_pos ? 97 16 30 ];
+        putv self :hit_button_pos %tmp.141;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 99 16 ]
+        %tmp.142 = lgetv %dc;
+        symbol [ dc %tmp.142 99 16 18 ];
+        symbol [ drawText %tmp.143 99 19 27 ];
+        %tmp.143 = getv function %tmp.142 :drawText;
+        symbol [ hit_button_pos %tmp.145 99 28 42 ];
+        %tmp.145 = getv ? :hit_button_pos;
+        %tmp.146 = 0;
+        %tmp.147 = agetv %tmp.145 %tmp.146;
+        symbol [ hit_button_pos %tmp.149 99 48 62 ];
+        %tmp.149 = getv ? :hit_button_pos;
+        %tmp.150 = 2;
+        %tmp.151 = agetv %tmp.149 %tmp.150;
+        %tmp.152 = 2;
+        %tmp.153 = div %tmp.151 %tmp.152;
+        %tmp.154 = add %tmp.147 %tmp.153;
+        symbol [ hit_button_pos %tmp.156 99 69 83 ];
+        %tmp.156 = getv ? :hit_button_pos;
+        %tmp.157 = 1;
+        %tmp.158 = agetv %tmp.156 %tmp.157;
+        symbol [ button_text_size %tmp.160 99 88 104 ];
+        %tmp.160 = getv ? :button_text_size;
+        %tmp.161 = "Hit";
+        symbol [ Graphics %tmp.162 99 113 121 ];
+        %tmp.162 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.163 99 122 141 ];
+        %tmp.163 = getv %tmp.162 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.142 %tmp.143(%tmp.154, %tmp.158, %tmp.160, %tmp.161, %tmp.163);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 103 16 ]
+        %tmp.164 = newa 4;
+        %tmp.165 = lgetv %center_x.4;
+        symbol [ center_x %tmp.165 103 36 44 ];
+        %tmp.166 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.166 103 48 61 ];
+        %tmp.167 = 2.0;
+        %tmp.168 = div %tmp.166 %tmp.167;
+        %tmp.169 = 20.0;
+        symbol [ scale_factor %tmp.171 103 72 84 ];
+        %tmp.171 = getv ? :scale_factor;
+        %tmp.172 = mul %tmp.169 %tmp.171;
+        %tmp.173 = sub %tmp.168 %tmp.172;
+        symbol [ Math %tmp.175 103 87 91 ];
+        %tmp.175 = getv ? :Math;
+        symbol [ cos %tmp.176 103 92 95 ];
+        %tmp.176 = getv function %tmp.175 :cos;
+        symbol [ Math %tmp.178 103 96 100 ];
+        %tmp.178 = getv ? :Math;
+        symbol [ PI %tmp.179 103 101 103 ];
+        %tmp.179 = getv %tmp.178 :PI;
+        %tmp.180 = 5.0;
+        %tmp.181 = 6.0;
+        %tmp.182 = div %tmp.180 %tmp.181;
+        %tmp.183 = mul %tmp.179 %tmp.182;
+        %tmp.184 = invoke %tmp.175 %tmp.176(%tmp.183);
+        %tmp.185 = mul %tmp.173 %tmp.184;
+        %tmp.186 = add %tmp.165 %tmp.185;
+        %tmp.187 = dup %tmp.164;
+        %tmp.188 = aputv %tmp.187 0 %tmp.186;
+        %tmp.189 = lgetv %center_y.5;
+        symbol [ center_y %tmp.189 103 115 123 ];
+        %tmp.190 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.190 103 127 140 ];
+        %tmp.191 = 2.0;
+        %tmp.192 = div %tmp.190 %tmp.191;
+        %tmp.193 = 20.0;
+        symbol [ scale_factor %tmp.195 103 151 163 ];
+        %tmp.195 = getv ? :scale_factor;
+        %tmp.196 = mul %tmp.193 %tmp.195;
+        %tmp.197 = sub %tmp.192 %tmp.196;
+        symbol [ Math %tmp.199 103 166 170 ];
+        %tmp.199 = getv ? :Math;
+        symbol [ sin %tmp.200 103 171 174 ];
+        %tmp.200 = getv function %tmp.199 :sin;
+        symbol [ Math %tmp.202 103 175 179 ];
+        %tmp.202 = getv ? :Math;
+        symbol [ PI %tmp.203 103 180 182 ];
+        %tmp.203 = getv %tmp.202 :PI;
+        %tmp.204 = 5.0;
+        %tmp.205 = 6.0;
+        %tmp.206 = div %tmp.204 %tmp.205;
+        %tmp.207 = mul %tmp.203 %tmp.206;
+        %tmp.208 = invoke %tmp.199 %tmp.200(%tmp.207);
+        %tmp.209 = mul %tmp.197 %tmp.208;
+        %tmp.210 = add %tmp.189 %tmp.209;
+        %tmp.211 = dup %tmp.188;
+        %tmp.212 = aputv %tmp.211 1 %tmp.210;
+        %tmp.213 = 40;
+        %tmp.214 = dup %tmp.212;
+        %tmp.215 = aputv %tmp.214 2 %tmp.213;
+        %tmp.216 = 25;
+        %tmp.217 = dup %tmp.215;
+        %tmp.218 = aputv %tmp.217 3 %tmp.216;
+        symbol [ stand_button_pos ? 103 16 32 ];
+        putv self :stand_button_pos %tmp.218;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 105 16 ]
+        %tmp.219 = lgetv %dc;
+        symbol [ dc %tmp.219 105 16 18 ];
+        symbol [ drawText %tmp.220 105 19 27 ];
+        %tmp.220 = getv function %tmp.219 :drawText;
+        symbol [ stand_button_pos %tmp.222 105 28 44 ];
+        %tmp.222 = getv ? :stand_button_pos;
+        %tmp.223 = 0;
+        %tmp.224 = agetv %tmp.222 %tmp.223;
+        symbol [ stand_button_pos %tmp.226 105 50 66 ];
+        %tmp.226 = getv ? :stand_button_pos;
+        %tmp.227 = 2;
+        %tmp.228 = agetv %tmp.226 %tmp.227;
+        %tmp.229 = 2;
+        %tmp.230 = div %tmp.228 %tmp.229;
+        %tmp.231 = add %tmp.224 %tmp.230;
+        symbol [ stand_button_pos %tmp.233 105 73 89 ];
+        %tmp.233 = getv ? :stand_button_pos;
+        %tmp.234 = 1;
+        %tmp.235 = agetv %tmp.233 %tmp.234;
+        symbol [ button_text_size %tmp.237 105 94 110 ];
+        %tmp.237 = getv ? :button_text_size;
+        %tmp.238 = "Stand";
+        symbol [ Graphics %tmp.239 105 120 128 ];
+        %tmp.239 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.240 105 129 148 ];
+        %tmp.240 = getv %tmp.239 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.219 %tmp.220(%tmp.231, %tmp.235, %tmp.237, %tmp.238, %tmp.240);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 109 16 ]
+        %tmp.241 = newa 4;
+        %tmp.242 = lgetv %center_x.4;
+        symbol [ center_x %tmp.242 109 36 44 ];
+        %tmp.243 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.243 109 48 61 ];
+        %tmp.244 = 2.0;
+        %tmp.245 = div %tmp.243 %tmp.244;
+        %tmp.246 = 20.0;
+        symbol [ scale_factor %tmp.248 109 72 84 ];
+        %tmp.248 = getv ? :scale_factor;
+        %tmp.249 = mul %tmp.246 %tmp.248;
+        %tmp.250 = sub %tmp.245 %tmp.249;
+        symbol [ Math %tmp.252 109 87 91 ];
+        %tmp.252 = getv ? :Math;
+        symbol [ cos %tmp.253 109 92 95 ];
+        %tmp.253 = getv function %tmp.252 :cos;
+        symbol [ Math %tmp.255 109 96 100 ];
+        %tmp.255 = getv ? :Math;
+        symbol [ PI %tmp.256 109 101 103 ];
+        %tmp.256 = getv %tmp.255 :PI;
+        %tmp.257 = invoke %tmp.252 %tmp.253(%tmp.256);
+        %tmp.258 = mul %tmp.250 %tmp.257;
+        %tmp.259 = add %tmp.242 %tmp.258;
+        %tmp.260 = dup %tmp.241;
+        %tmp.261 = aputv %tmp.260 0 %tmp.259;
+        %tmp.262 = lgetv %center_y.5;
+        symbol [ center_y %tmp.262 109 105 113 ];
+        %tmp.263 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.263 109 117 130 ];
+        %tmp.264 = 2.0;
+        %tmp.265 = div %tmp.263 %tmp.264;
+        %tmp.266 = 20.0;
+        symbol [ scale_factor %tmp.268 109 141 153 ];
+        %tmp.268 = getv ? :scale_factor;
+        %tmp.269 = mul %tmp.266 %tmp.268;
+        %tmp.270 = sub %tmp.265 %tmp.269;
+        symbol [ Math %tmp.272 109 156 160 ];
+        %tmp.272 = getv ? :Math;
+        symbol [ sin %tmp.273 109 161 164 ];
+        %tmp.273 = getv function %tmp.272 :sin;
+        symbol [ Math %tmp.275 109 165 169 ];
+        %tmp.275 = getv ? :Math;
+        symbol [ PI %tmp.276 109 170 172 ];
+        %tmp.276 = getv %tmp.275 :PI;
+        %tmp.277 = invoke %tmp.272 %tmp.273(%tmp.276);
+        %tmp.278 = mul %tmp.270 %tmp.277;
+        %tmp.279 = add %tmp.262 %tmp.278;
+        %tmp.280 = dup %tmp.261;
+        %tmp.281 = aputv %tmp.280 1 %tmp.279;
+        %tmp.282 = 40;
+        %tmp.283 = dup %tmp.281;
+        %tmp.284 = aputv %tmp.283 2 %tmp.282;
+        %tmp.285 = 25;
+        %tmp.286 = dup %tmp.284;
+        %tmp.287 = aputv %tmp.286 3 %tmp.285;
+        symbol [ split_button_pos ? 109 16 32 ];
+        putv self :split_button_pos %tmp.287;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 111 16 ]
+        %tmp.288 = lgetv %dc;
+        symbol [ dc %tmp.288 111 16 18 ];
+        symbol [ drawText %tmp.289 111 19 27 ];
+        %tmp.289 = getv function %tmp.288 :drawText;
+        symbol [ split_button_pos %tmp.291 111 28 44 ];
+        %tmp.291 = getv ? :split_button_pos;
+        %tmp.292 = 0;
+        %tmp.293 = agetv %tmp.291 %tmp.292;
+        symbol [ split_button_pos %tmp.295 111 50 66 ];
+        %tmp.295 = getv ? :split_button_pos;
+        %tmp.296 = 2;
+        %tmp.297 = agetv %tmp.295 %tmp.296;
+        %tmp.298 = 2;
+        %tmp.299 = div %tmp.297 %tmp.298;
+        %tmp.300 = add %tmp.293 %tmp.299;
+        symbol [ split_button_pos %tmp.302 111 73 89 ];
+        %tmp.302 = getv ? :split_button_pos;
+        %tmp.303 = 1;
+        %tmp.304 = agetv %tmp.302 %tmp.303;
+        symbol [ button_text_size %tmp.306 111 94 110 ];
+        %tmp.306 = getv ? :button_text_size;
+        %tmp.307 = "Split";
+        symbol [ Graphics %tmp.308 111 120 128 ];
+        %tmp.308 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.309 111 129 148 ];
+        %tmp.309 = getv %tmp.308 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.288 %tmp.289(%tmp.300, %tmp.304, %tmp.306, %tmp.307, %tmp.309);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 113 16 ]
+        %tmp.310 = lgetv %dc;
+        symbol [ dc %tmp.310 113 16 18 ];
+        symbol [ setColor %tmp.311 113 19 27 ];
+        %tmp.311 = getv function %tmp.310 :setColor;
+        symbol [ Graphics %tmp.312 113 28 36 ];
+        %tmp.312 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.313 113 37 48 ];
+        %tmp.313 = getv %tmp.312 :COLOR_WHITE;
+        symbol [ background_color %tmp.315 113 50 66 ];
+        %tmp.315 = getv ? :background_color;
+        invoke %tmp.310 %tmp.311(%tmp.313, %tmp.315);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_93_12_114_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_92_12_120_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_92_12_120_12_if_else_false:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_117_12_120_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 119 16 ]
+        %tmp.316 = lgetv %dc;
+        symbol [ dc %tmp.316 119 16 18 ];
+        symbol [ drawText %tmp.317 119 19 27 ];
+        %tmp.317 = getv function %tmp.316 :drawText;
+        %tmp.318 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.318 119 28 40 ];
+        %tmp.319 = 3;
+        %tmp.320 = div %tmp.318 %tmp.319;
+        %tmp.321 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.321 119 43 56 ];
+        %tmp.322 = 7;
+        %tmp.323 = div %tmp.321 %tmp.322;
+        symbol [ Graphics %tmp.324 119 60 68 ];
+        %tmp.324 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.325 119 69 79 ];
+        %tmp.325 = getv %tmp.324 :FONT_XTINY;
+        %tmp.326 = self;
+        symbol [ getApp %tmp.327 119 81 87 ];
+        %tmp.327 = getv function %tmp.326 :getApp;
+        %tmp.328 = invoke %tmp.326 %tmp.327();
+        symbol [ engine %tmp.329 119 90 96 ];
+        %tmp.329 = getv %tmp.328 :engine;
+        symbol [ getDealerPoints %tmp.330 119 97 112 ];
+        %tmp.330 = getv function %tmp.329 :getDealerPoints;
+        %tmp.331 = invoke %tmp.329 %tmp.330();
+        symbol [ Graphics %tmp.332 119 115 123 ];
+        %tmp.332 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.333 119 124 141 ];
+        %tmp.333 = getv %tmp.332 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.316 %tmp.317(%tmp.320, %tmp.323, %tmp.325, %tmp.331, %tmp.333);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_117_12_120_12_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_92_12_120_12_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 123 12 ]
+        for @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_test @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_incr @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_init:
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_begin" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_end" ]
+        %i.10 = local;
+        symbol [ i %i.10 123 20 21 ];
+        %tmp.334 = 0;
+        lputv %i.10 %tmp.334;
+        symbol [ i %i.10 123 20 21 ];
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_test:
+        %tmp.335 = lgetv %i.10;
+        symbol [ i %tmp.335 123 28 29 ];
+        %tmp.336 = lgetv %dealer_cards.9;
+        symbol [ dealer_cards %tmp.336 123 32 44 ];
+        symbol [ size %tmp.337 123 45 49 ];
+        %tmp.337 = getv function %tmp.336 :size;
+        %tmp.338 = invoke %tmp.336 %tmp.337();
+        %tmp.339 = lt %tmp.335 %tmp.338;
+        bf %tmp.339 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_begin:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_124_12_135_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 126 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_16_134_16_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_19_126_38_begin:
+        %tmp.340 = lgetv %i.10;
+        symbol [ i %tmp.340 126 19 20 ];
+        %tmp.341 = 0;
+        %tmp.342 = gt %tmp.340 %tmp.341;
+        bf %tmp.342 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_16_134_16_if_else_false;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_28_126_38_true:
+        %tmp.343 = lgetv %status.1;
+        symbol [ status %tmp.343 126 28 34 ];
+        symbol [ STATUS_ACTIVE_ROUND %tmp.345 126 38 57 ];
+        %tmp.345 = getv ? :STATUS_ACTIVE_ROUND;
+        %tmp.346 = eq %tmp.343 %tmp.345;
+        push %tmp.346;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_28_126_38_end:
+        %tmp.347 = phi [%tmp.342 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_19_126_38_begin] [%tmp.346 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_28_126_38_true] [%tmp.347 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_28_126_38_end];
+        bf %tmp.347 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_16_134_16_if_else_false;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_16_134_16_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_127_16_129_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 128 20 ]
+        %tmp.348 = self;
+        symbol [ drawCard %tmp.349 128 20 28 ];
+        %tmp.349 = getv function %tmp.348 :drawCard;
+        %tmp.350 = lgetv %dc;
+        symbol [ dc %tmp.350 128 29 31 ];
+        %tmp.351 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.351 128 33 45 ];
+        %tmp.352 = 3;
+        %tmp.353 = div %tmp.351 %tmp.352;
+        %tmp.354 = 35;
+        symbol [ scale_factor %tmp.356 128 52 64 ];
+        %tmp.356 = getv ? :scale_factor;
+        %tmp.357 = mul %tmp.354 %tmp.356;
+        %tmp.358 = lgetv %i.10;
+        symbol [ i %tmp.358 128 65 66 ];
+        %tmp.359 = mul %tmp.357 %tmp.358;
+        %tmp.360 = add %tmp.353 %tmp.359;
+        %tmp.361 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.361 128 68 81 ];
+        %tmp.362 = 7;
+        %tmp.363 = div %tmp.361 %tmp.362;
+        %tmp.364 = 20;
+        symbol [ scale_factor %tmp.366 128 87 99 ];
+        %tmp.366 = getv ? :scale_factor;
+        %tmp.367 = mul %tmp.364 %tmp.366;
+        %tmp.368 = add %tmp.363 %tmp.367;
+        %tmp.369 = 30;
+        symbol [ scale_factor %tmp.371 128 104 116 ];
+        %tmp.371 = getv ? :scale_factor;
+        %tmp.372 = mul %tmp.369 %tmp.371;
+        %tmp.373 = 50;
+        symbol [ scale_factor %tmp.375 128 120 132 ];
+        %tmp.375 = getv ? :scale_factor;
+        %tmp.376 = mul %tmp.373 %tmp.375;
+        %tmp.377 = lgetv %dealer_cards.9;
+        symbol [ dealer_cards %tmp.377 128 133 145 ];
+        %tmp.378 = lgetv %i.10;
+        symbol [ i %tmp.378 128 146 147 ];
+        %tmp.379 = agetv %tmp.377 %tmp.378;
+        symbol [ valueName %tmp.380 128 149 158 ];
+        %tmp.380 = getv function %tmp.379 :valueName;
+        %tmp.381 = invoke %tmp.379 %tmp.380();
+        %tmp.382 = lgetv %dealer_cards.9;
+        symbol [ dealer_cards %tmp.382 128 161 173 ];
+        %tmp.383 = lgetv %i.10;
+        symbol [ i %tmp.383 128 174 175 ];
+        %tmp.384 = agetv %tmp.382 %tmp.383;
+        symbol [ suit %tmp.385 128 177 181 ];
+        %tmp.385 = getv %tmp.384 :suit;
+        %tmp.386 = true;
+        invoke %tmp.348 %tmp.349(%tmp.350, %tmp.360, %tmp.368, %tmp.372, %tmp.376, %tmp.381, %tmp.385, %tmp.386);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_127_16_129_16_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_16_134_16_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_16_134_16_if_else_false:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_132_16_134_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 133 20 ]
+        %tmp.387 = self;
+        symbol [ drawCard %tmp.388 133 20 28 ];
+        %tmp.388 = getv function %tmp.387 :drawCard;
+        %tmp.389 = lgetv %dc;
+        symbol [ dc %tmp.389 133 29 31 ];
+        %tmp.390 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.390 133 33 45 ];
+        %tmp.391 = 3;
+        %tmp.392 = div %tmp.390 %tmp.391;
+        %tmp.393 = 35;
+        symbol [ scale_factor %tmp.395 133 52 64 ];
+        %tmp.395 = getv ? :scale_factor;
+        %tmp.396 = mul %tmp.393 %tmp.395;
+        %tmp.397 = lgetv %i.10;
+        symbol [ i %tmp.397 133 65 66 ];
+        %tmp.398 = mul %tmp.396 %tmp.397;
+        %tmp.399 = add %tmp.392 %tmp.398;
+        %tmp.400 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.400 133 68 81 ];
+        %tmp.401 = 7;
+        %tmp.402 = div %tmp.400 %tmp.401;
+        %tmp.403 = 20;
+        symbol [ scale_factor %tmp.405 133 87 99 ];
+        %tmp.405 = getv ? :scale_factor;
+        %tmp.406 = mul %tmp.403 %tmp.405;
+        %tmp.407 = add %tmp.402 %tmp.406;
+        %tmp.408 = 30;
+        symbol [ scale_factor %tmp.410 133 104 116 ];
+        %tmp.410 = getv ? :scale_factor;
+        %tmp.411 = mul %tmp.408 %tmp.410;
+        %tmp.412 = 50;
+        symbol [ scale_factor %tmp.414 133 120 132 ];
+        %tmp.414 = getv ? :scale_factor;
+        %tmp.415 = mul %tmp.412 %tmp.414;
+        %tmp.416 = lgetv %dealer_cards.9;
+        symbol [ dealer_cards %tmp.416 133 133 145 ];
+        %tmp.417 = lgetv %i.10;
+        symbol [ i %tmp.417 133 146 147 ];
+        %tmp.418 = agetv %tmp.416 %tmp.417;
+        symbol [ valueName %tmp.419 133 149 158 ];
+        %tmp.419 = getv function %tmp.418 :valueName;
+        %tmp.420 = invoke %tmp.418 %tmp.419();
+        %tmp.421 = lgetv %dealer_cards.9;
+        symbol [ dealer_cards %tmp.421 133 161 173 ];
+        %tmp.422 = lgetv %i.10;
+        symbol [ i %tmp.422 133 174 175 ];
+        %tmp.423 = agetv %tmp.421 %tmp.422;
+        symbol [ suit %tmp.424 133 177 181 ];
+        %tmp.424 = getv %tmp.423 :suit;
+        %tmp.425 = false;
+        invoke %tmp.387 %tmp.388(%tmp.389, %tmp.399, %tmp.407, %tmp.411, %tmp.415, %tmp.420, %tmp.424, %tmp.425);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_132_16_134_16_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_126_16_134_16_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_124_12_135_12_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_incr:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 123 ]
+        %tmp.428 = lgetv %i.10;
+        symbol [ i %tmp.428 123 53 54 ];
+        %tmp.429 = add %tmp.428 1;
+        lputv %i.10 %tmp.429;
+        symbol [ i %i.10 123 53 54 ];
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_test;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_123_12_135_12_for_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 140 12 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_140_12_165_12_if_stmt:
+        %tmp.430 = self;
+        symbol [ getApp %tmp.431 140 15 21 ];
+        %tmp.431 = getv function %tmp.430 :getApp;
+        %tmp.432 = invoke %tmp.430 %tmp.431();
+        symbol [ engine %tmp.433 140 24 30 ];
+        %tmp.433 = getv %tmp.432 :engine;
+        symbol [ split_status %tmp.434 140 31 43 ];
+        %tmp.434 = getv %tmp.433 :split_status;
+        %tmp.435 = 0;
+        %tmp.436 = eq %tmp.434 %tmp.435;
+        bf %tmp.436 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_140_12_165_12_if_else_false;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_140_12_165_12_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_141_12_148_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 142 16 ]
+        %tmp.437 = lgetv %dc;
+        symbol [ dc %tmp.437 142 16 18 ];
+        symbol [ drawText %tmp.438 142 19 27 ];
+        %tmp.438 = getv function %tmp.437 :drawText;
+        %tmp.439 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.439 142 28 40 ];
+        %tmp.440 = 3;
+        %tmp.441 = div %tmp.439 %tmp.440;
+        %tmp.442 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.442 142 44 57 ];
+        %tmp.443 = 1.7;
+        %tmp.444 = div %tmp.442 %tmp.443;
+        symbol [ Graphics %tmp.445 142 63 71 ];
+        %tmp.445 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.446 142 72 82 ];
+        %tmp.446 = getv %tmp.445 :FONT_XTINY;
+        %tmp.447 = self;
+        symbol [ getApp %tmp.448 142 84 90 ];
+        %tmp.448 = getv function %tmp.447 :getApp;
+        %tmp.449 = invoke %tmp.447 %tmp.448();
+        symbol [ engine %tmp.450 142 93 99 ];
+        %tmp.450 = getv %tmp.449 :engine;
+        symbol [ getPlayerPoints %tmp.451 142 100 115 ];
+        %tmp.451 = getv function %tmp.450 :getPlayerPoints;
+        %tmp.452 = invoke %tmp.450 %tmp.451();
+        symbol [ Graphics %tmp.453 142 118 126 ];
+        %tmp.453 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.454 142 127 144 ];
+        %tmp.454 = getv %tmp.453 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.437 %tmp.438(%tmp.441, %tmp.444, %tmp.446, %tmp.452, %tmp.454);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 144 16 ]
+        for @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_test @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_incr @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_init:
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_begin" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_end" ]
+        %i.11 = local;
+        symbol [ i %i.11 144 24 25 ];
+        %tmp.455 = 0;
+        lputv %i.11 %tmp.455;
+        symbol [ i %i.11 144 24 25 ];
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_test:
+        %tmp.456 = lgetv %i.11;
+        symbol [ i %tmp.456 144 32 33 ];
+        %tmp.457 = lgetv %player_cards.6;
+        symbol [ player_cards %tmp.457 144 36 48 ];
+        symbol [ size %tmp.458 144 49 53 ];
+        %tmp.458 = getv function %tmp.457 :size;
+        %tmp.459 = invoke %tmp.457 %tmp.458();
+        %tmp.460 = lt %tmp.456 %tmp.459;
+        bf %tmp.460 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_begin:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_145_16_147_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 146 20 ]
+        %tmp.461 = self;
+        symbol [ drawCard %tmp.462 146 20 28 ];
+        %tmp.462 = getv function %tmp.461 :drawCard;
+        %tmp.463 = lgetv %dc;
+        symbol [ dc %tmp.463 146 29 31 ];
+        %tmp.464 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.464 146 33 45 ];
+        %tmp.465 = 3;
+        %tmp.466 = div %tmp.464 %tmp.465;
+        %tmp.467 = 35;
+        symbol [ scale_factor %tmp.469 146 52 64 ];
+        %tmp.469 = getv ? :scale_factor;
+        %tmp.470 = mul %tmp.467 %tmp.469;
+        %tmp.471 = lgetv %i.11;
+        symbol [ i %tmp.471 146 65 66 ];
+        %tmp.472 = mul %tmp.470 %tmp.471;
+        %tmp.473 = add %tmp.466 %tmp.472;
+        %tmp.474 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.474 146 69 82 ];
+        %tmp.475 = 1.7;
+        %tmp.476 = div %tmp.474 %tmp.475;
+        %tmp.477 = 20;
+        symbol [ scale_factor %tmp.479 146 92 104 ];
+        %tmp.479 = getv ? :scale_factor;
+        %tmp.480 = mul %tmp.477 %tmp.479;
+        %tmp.481 = add %tmp.476 %tmp.480;
+        %tmp.482 = 30;
+        symbol [ scale_factor %tmp.484 146 109 121 ];
+        %tmp.484 = getv ? :scale_factor;
+        %tmp.485 = mul %tmp.482 %tmp.484;
+        %tmp.486 = 50;
+        symbol [ scale_factor %tmp.488 146 126 138 ];
+        %tmp.488 = getv ? :scale_factor;
+        %tmp.489 = mul %tmp.486 %tmp.488;
+        %tmp.490 = lgetv %player_cards.6;
+        symbol [ player_cards %tmp.490 146 140 152 ];
+        %tmp.491 = lgetv %i.11;
+        symbol [ i %tmp.491 146 153 154 ];
+        %tmp.492 = agetv %tmp.490 %tmp.491;
+        symbol [ valueName %tmp.493 146 156 165 ];
+        %tmp.493 = getv function %tmp.492 :valueName;
+        %tmp.494 = invoke %tmp.492 %tmp.493();
+        %tmp.495 = lgetv %player_cards.6;
+        symbol [ player_cards %tmp.495 146 168 180 ];
+        %tmp.496 = lgetv %i.11;
+        symbol [ i %tmp.496 146 181 182 ];
+        %tmp.497 = agetv %tmp.495 %tmp.496;
+        symbol [ suit %tmp.498 146 184 188 ];
+        %tmp.498 = getv %tmp.497 :suit;
+        %tmp.499 = false;
+        invoke %tmp.461 %tmp.462(%tmp.463, %tmp.473, %tmp.481, %tmp.485, %tmp.489, %tmp.494, %tmp.498, %tmp.499);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_145_16_147_16_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_incr:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 144 ]
+        %tmp.502 = lgetv %i.11;
+        symbol [ i %tmp.502 144 57 58 ];
+        %tmp.503 = add %tmp.502 1;
+        lputv %i.11 %tmp.503;
+        symbol [ i %i.11 144 57 58 ];
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_test;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_144_16_147_16_for_end:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_141_12_148_12_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_140_12_165_12_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_140_12_165_12_if_else_false:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_151_12_165_12_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 152 16 ]
+        %tmp.504 = lgetv %dc;
+        symbol [ dc %tmp.504 152 16 18 ];
+        symbol [ drawText %tmp.505 152 19 27 ];
+        %tmp.505 = getv function %tmp.504 :drawText;
+        %tmp.506 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.506 152 28 40 ];
+        %tmp.507 = 3;
+        %tmp.508 = div %tmp.506 %tmp.507;
+        %tmp.509 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.509 152 44 57 ];
+        %tmp.510 = 2.0;
+        %tmp.511 = div %tmp.509 %tmp.510;
+        symbol [ Graphics %tmp.512 152 63 71 ];
+        %tmp.512 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.513 152 72 82 ];
+        %tmp.513 = getv %tmp.512 :FONT_XTINY;
+        %tmp.514 = self;
+        symbol [ getApp %tmp.515 152 84 90 ];
+        %tmp.515 = getv function %tmp.514 :getApp;
+        %tmp.516 = invoke %tmp.514 %tmp.515();
+        symbol [ engine %tmp.517 152 93 99 ];
+        %tmp.517 = getv %tmp.516 :engine;
+        symbol [ getPlayerPoints_split1 %tmp.518 152 100 122 ];
+        %tmp.518 = getv function %tmp.517 :getPlayerPoints_split1;
+        %tmp.519 = invoke %tmp.517 %tmp.518();
+        symbol [ Graphics %tmp.520 152 125 133 ];
+        %tmp.520 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.521 152 134 151 ];
+        %tmp.521 = getv %tmp.520 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.504 %tmp.505(%tmp.508, %tmp.511, %tmp.513, %tmp.519, %tmp.521);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 154 16 ]
+        for @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_test @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_incr @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_init:
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_begin" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_end" ]
+        %i.12 = local;
+        symbol [ i %i.12 154 24 25 ];
+        %tmp.522 = 0;
+        lputv %i.12 %tmp.522;
+        symbol [ i %i.12 154 24 25 ];
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_test:
+        %tmp.523 = lgetv %i.12;
+        symbol [ i %tmp.523 154 32 33 ];
+        %tmp.524 = lgetv %player_cards_split1.7;
+        symbol [ player_cards_split1 %tmp.524 154 36 55 ];
+        symbol [ size %tmp.525 154 56 60 ];
+        %tmp.525 = getv function %tmp.524 :size;
+        %tmp.526 = invoke %tmp.524 %tmp.525();
+        %tmp.527 = lt %tmp.523 %tmp.526;
+        bf %tmp.527 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_begin:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_155_16_157_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 156 20 ]
+        %tmp.528 = self;
+        symbol [ drawCard %tmp.529 156 20 28 ];
+        %tmp.529 = getv function %tmp.528 :drawCard;
+        %tmp.530 = lgetv %dc;
+        symbol [ dc %tmp.530 156 29 31 ];
+        %tmp.531 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.531 156 33 45 ];
+        %tmp.532 = 3;
+        %tmp.533 = div %tmp.531 %tmp.532;
+        %tmp.534 = 35;
+        symbol [ scale_factor %tmp.536 156 52 64 ];
+        %tmp.536 = getv ? :scale_factor;
+        %tmp.537 = mul %tmp.534 %tmp.536;
+        %tmp.538 = lgetv %i.12;
+        symbol [ i %tmp.538 156 65 66 ];
+        %tmp.539 = mul %tmp.537 %tmp.538;
+        %tmp.540 = add %tmp.533 %tmp.539;
+        %tmp.541 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.541 156 69 82 ];
+        %tmp.542 = 2.0;
+        %tmp.543 = div %tmp.541 %tmp.542;
+        %tmp.544 = 20;
+        symbol [ scale_factor %tmp.546 156 92 104 ];
+        %tmp.546 = getv ? :scale_factor;
+        %tmp.547 = mul %tmp.544 %tmp.546;
+        %tmp.548 = add %tmp.543 %tmp.547;
+        %tmp.549 = 30;
+        symbol [ scale_factor %tmp.551 156 109 121 ];
+        %tmp.551 = getv ? :scale_factor;
+        %tmp.552 = mul %tmp.549 %tmp.551;
+        %tmp.553 = 50;
+        symbol [ scale_factor %tmp.555 156 126 138 ];
+        %tmp.555 = getv ? :scale_factor;
+        %tmp.556 = mul %tmp.553 %tmp.555;
+        %tmp.557 = lgetv %player_cards_split1.7;
+        symbol [ player_cards_split1 %tmp.557 156 140 159 ];
+        %tmp.558 = lgetv %i.12;
+        symbol [ i %tmp.558 156 160 161 ];
+        %tmp.559 = agetv %tmp.557 %tmp.558;
+        symbol [ valueName %tmp.560 156 163 172 ];
+        %tmp.560 = getv function %tmp.559 :valueName;
+        %tmp.561 = invoke %tmp.559 %tmp.560();
+        %tmp.562 = lgetv %player_cards_split1.7;
+        symbol [ player_cards_split1 %tmp.562 156 175 194 ];
+        %tmp.563 = lgetv %i.12;
+        symbol [ i %tmp.563 156 195 196 ];
+        %tmp.564 = agetv %tmp.562 %tmp.563;
+        symbol [ suit %tmp.565 156 198 202 ];
+        %tmp.565 = getv %tmp.564 :suit;
+        %tmp.566 = false;
+        invoke %tmp.528 %tmp.529(%tmp.530, %tmp.540, %tmp.548, %tmp.552, %tmp.556, %tmp.561, %tmp.565, %tmp.566);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_155_16_157_16_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_incr:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 154 ]
+        %tmp.569 = lgetv %i.12;
+        symbol [ i %tmp.569 154 64 65 ];
+        %tmp.570 = add %tmp.569 1;
+        lputv %i.12 %tmp.570;
+        symbol [ i %i.12 154 64 65 ];
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_test;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_154_16_157_16_for_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 159 16 ]
+        %tmp.571 = lgetv %dc;
+        symbol [ dc %tmp.571 159 16 18 ];
+        symbol [ drawText %tmp.572 159 19 27 ];
+        %tmp.572 = getv function %tmp.571 :drawText;
+        %tmp.573 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.573 159 28 40 ];
+        %tmp.574 = 3;
+        %tmp.575 = div %tmp.573 %tmp.574;
+        %tmp.576 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.576 159 44 57 ];
+        %tmp.577 = 1.5;
+        %tmp.578 = div %tmp.576 %tmp.577;
+        %tmp.579 = 50;
+        symbol [ scale_factor %tmp.581 159 67 79 ];
+        %tmp.581 = getv ? :scale_factor;
+        %tmp.582 = mul %tmp.579 %tmp.581;
+        %tmp.583 = add %tmp.578 %tmp.582;
+        %tmp.584 = 20;
+        %tmp.585 = add %tmp.583 %tmp.584;
+        symbol [ Graphics %tmp.586 159 84 92 ];
+        %tmp.586 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.587 159 93 103 ];
+        %tmp.587 = getv %tmp.586 :FONT_XTINY;
+        %tmp.588 = self;
+        symbol [ getApp %tmp.589 159 105 111 ];
+        %tmp.589 = getv function %tmp.588 :getApp;
+        %tmp.590 = invoke %tmp.588 %tmp.589();
+        symbol [ engine %tmp.591 159 114 120 ];
+        %tmp.591 = getv %tmp.590 :engine;
+        symbol [ getPlayerPoints_split2 %tmp.592 159 121 143 ];
+        %tmp.592 = getv function %tmp.591 :getPlayerPoints_split2;
+        %tmp.593 = invoke %tmp.591 %tmp.592();
+        symbol [ Graphics %tmp.594 159 146 154 ];
+        %tmp.594 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.595 159 155 172 ];
+        %tmp.595 = getv %tmp.594 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.571 %tmp.572(%tmp.575, %tmp.585, %tmp.587, %tmp.593, %tmp.595);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 161 16 ]
+        for @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_test @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_incr @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_init:
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_begin" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_end" ]
+        %i.13 = local;
+        symbol [ i %i.13 161 24 25 ];
+        %tmp.596 = 0;
+        lputv %i.13 %tmp.596;
+        symbol [ i %i.13 161 24 25 ];
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_test:
+        %tmp.597 = lgetv %i.13;
+        symbol [ i %tmp.597 161 32 33 ];
+        %tmp.598 = lgetv %player_cards_split2.8;
+        symbol [ player_cards_split2 %tmp.598 161 36 55 ];
+        symbol [ size %tmp.599 161 56 60 ];
+        %tmp.599 = getv function %tmp.598 :size;
+        %tmp.600 = invoke %tmp.598 %tmp.599();
+        %tmp.601 = lt %tmp.597 %tmp.600;
+        bf %tmp.601 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_begin:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_16_164_16_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 163 20 ]
+        %tmp.602 = self;
+        symbol [ drawCard %tmp.603 163 20 28 ];
+        %tmp.603 = getv function %tmp.602 :drawCard;
+        %tmp.604 = lgetv %dc;
+        symbol [ dc %tmp.604 163 29 31 ];
+        %tmp.605 = lgetv %screen_width.2;
+        symbol [ screen_width %tmp.605 163 33 45 ];
+        %tmp.606 = 3;
+        %tmp.607 = div %tmp.605 %tmp.606;
+        %tmp.608 = 35;
+        symbol [ scale_factor %tmp.610 163 52 64 ];
+        %tmp.610 = getv ? :scale_factor;
+        %tmp.611 = mul %tmp.608 %tmp.610;
+        %tmp.612 = lgetv %i.13;
+        symbol [ i %tmp.612 163 65 66 ];
+        %tmp.613 = mul %tmp.611 %tmp.612;
+        %tmp.614 = add %tmp.607 %tmp.613;
+        %tmp.615 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.615 163 69 82 ];
+        %tmp.616 = 1.5;
+        %tmp.617 = div %tmp.615 %tmp.616;
+        %tmp.618 = 20;
+        symbol [ scale_factor %tmp.620 163 92 104 ];
+        %tmp.620 = getv ? :scale_factor;
+        %tmp.621 = mul %tmp.618 %tmp.620;
+        %tmp.622 = add %tmp.617 %tmp.621;
+        %tmp.623 = 30;
+        symbol [ scale_factor %tmp.625 163 109 121 ];
+        %tmp.625 = getv ? :scale_factor;
+        %tmp.626 = mul %tmp.623 %tmp.625;
+        %tmp.627 = 50;
+        symbol [ scale_factor %tmp.629 163 126 138 ];
+        %tmp.629 = getv ? :scale_factor;
+        %tmp.630 = mul %tmp.627 %tmp.629;
+        %tmp.631 = lgetv %player_cards_split2.8;
+        symbol [ player_cards_split2 %tmp.631 163 140 159 ];
+        %tmp.632 = lgetv %i.13;
+        symbol [ i %tmp.632 163 160 161 ];
+        %tmp.633 = agetv %tmp.631 %tmp.632;
+        symbol [ valueName %tmp.634 163 163 172 ];
+        %tmp.634 = getv function %tmp.633 :valueName;
+        %tmp.635 = invoke %tmp.633 %tmp.634();
+        %tmp.636 = lgetv %player_cards_split2.8;
+        symbol [ player_cards_split2 %tmp.636 163 175 194 ];
+        %tmp.637 = lgetv %i.13;
+        symbol [ i %tmp.637 163 195 196 ];
+        %tmp.638 = agetv %tmp.636 %tmp.637;
+        symbol [ suit %tmp.639 163 198 202 ];
+        %tmp.639 = getv %tmp.638 :suit;
+        %tmp.640 = false;
+        invoke %tmp.602 %tmp.603(%tmp.604, %tmp.614, %tmp.622, %tmp.626, %tmp.630, %tmp.635, %tmp.639, %tmp.640);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_16_164_16_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_incr:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 161 ]
+        %tmp.643 = lgetv %i.13;
+        symbol [ i %tmp.643 161 64 65 ];
+        %tmp.644 = add %tmp.643 1;
+        lputv %i.13 %tmp.644;
+        symbol [ i %i.13 161 64 65 ];
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_test;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_161_16_164_16_for_end:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_151_12_165_12_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_140_12_165_12_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 168 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_stop" ]
+        %status_label.14 = local;
+        symbol [ status_label %status_label.14 168 16 28 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 169 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_stop" ]
+        %status_color.15 = local;
+        symbol [ status_color %status_color.15 169 16 28 ];
+        symbol [ Graphics %tmp.645 169 31 39 ];
+        %tmp.645 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.646 169 40 51 ];
+        %tmp.646 = getv %tmp.645 :COLOR_WHITE;
+        lputv %status_color.15 %tmp.646;
+        symbol [ status_color %status_color.15 169 16 28 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 171 12 ]
+        %tmp.647 = lgetv %status.1;
+        symbol [ status %tmp.647 171 19 25 ];
+        push %tmp.647;
+        switch %tmp.647 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtBegin:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 173 16 ]
+        %tmp.648 = dup %tmp.647;
+        symbol [ STATUS_ACTIVE_ROUND %tmp.650 173 21 40 ];
+        %tmp.650 = getv ? :STATUS_ACTIVE_ROUND;
+        %tmp.651 = getv function %tmp.648 :equals;
+        %tmp.652 = invoke %tmp.648 %tmp.651 (%tmp.650);
+        bt %tmp.652 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_173_16_176_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 177 16 ]
+        %tmp.653 = dup %tmp.647;
+        symbol [ STATUS_LOST %tmp.655 177 21 32 ];
+        %tmp.655 = getv ? :STATUS_LOST;
+        %tmp.656 = getv function %tmp.653 :equals;
+        %tmp.657 = invoke %tmp.653 %tmp.656 (%tmp.655);
+        bt %tmp.657 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_177_16_180_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 181 16 ]
+        %tmp.658 = dup %tmp.647;
+        symbol [ STATUS_WON %tmp.660 181 21 31 ];
+        %tmp.660 = getv ? :STATUS_WON;
+        %tmp.661 = getv function %tmp.658 :equals;
+        %tmp.662 = invoke %tmp.658 %tmp.661 (%tmp.660);
+        bt %tmp.662 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_181_16_184_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 185 16 ]
+        %tmp.663 = dup %tmp.647;
+        symbol [ STATUS_TIE %tmp.665 185 21 31 ];
+        %tmp.665 = getv ? :STATUS_TIE;
+        %tmp.666 = getv function %tmp.663 :equals;
+        %tmp.667 = invoke %tmp.663 %tmp.666 (%tmp.665);
+        bt %tmp.667 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_185_16_188_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 189 16 ]
+        %tmp.668 = dup %tmp.647;
+        symbol [ STATUS_BLACKJACK %tmp.670 189 21 37 ];
+        %tmp.670 = getv ? :STATUS_BLACKJACK;
+        %tmp.671 = getv function %tmp.668 :equals;
+        %tmp.672 = invoke %tmp.668 %tmp.671 (%tmp.670);
+        bt %tmp.672 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_189_16_192_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 193 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtDefault:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_defaultCodeBegin;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_173_16_176_25_switchCase:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 174 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_176_16_switchCase:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 177 20 ]
-        %tmp.64 = getv ? :diamond_bitmap;
-        lputv %suit_bitmap.1 %tmp.64;
+        %tmp.673 = "";
+        lputv %status_label.14 %tmp.673;
+        symbol [ status_label %status_label.14 174 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 176 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_177_16_180_25_switchCase:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 178 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_180_16_switchCase:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_defaultCodeBegin:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 181 20 ]
-        %tmp.66 = getv ? :heart_bitmap;
-        lputv %suit_bitmap.1 %tmp.66;
+        %tmp.674 = "Lost!";
+        lputv %status_label.14 %tmp.674;
+        symbol [ status_label %status_label.14 178 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 179 20 ]
+        symbol [ Graphics %tmp.675 179 35 43 ];
+        %tmp.675 = getm $.Toybox.Graphics;
+        symbol [ COLOR_RED %tmp.676 179 44 53 ];
+        %tmp.676 = getv %tmp.675 :COLOR_RED;
+        lputv %status_color.15 %tmp.676;
+        symbol [ status_color %status_color.15 179 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 180 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_181_16_184_25_switchCase:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 182 20 ]
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_switchStmtEnd;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_162_12_switchStmtEnd:
+        %tmp.677 = "Won!";
+        lputv %status_label.14 %tmp.677;
+        symbol [ status_label %status_label.14 182 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 183 20 ]
+        symbol [ Graphics %tmp.678 183 35 43 ];
+        %tmp.678 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.679 183 44 55 ];
+        %tmp.679 = getv %tmp.678 :COLOR_GREEN;
+        lputv %status_color.15 %tmp.679;
+        symbol [ status_color %status_color.15 183 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 184 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_185_16_188_25_switchCase:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 186 20 ]
+        %tmp.680 = "Tie!";
+        lputv %status_label.14 %tmp.680;
+        symbol [ status_label %status_label.14 186 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 187 20 ]
+        symbol [ Graphics %tmp.681 187 35 43 ];
+        %tmp.681 = getm $.Toybox.Graphics;
+        symbol [ COLOR_YELLOW %tmp.682 187 44 56 ];
+        %tmp.682 = getv %tmp.681 :COLOR_YELLOW;
+        lputv %status_color.15 %tmp.682;
+        symbol [ status_color %status_color.15 187 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 188 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_189_16_192_25_switchCase:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 190 20 ]
+        %tmp.683 = "Blackjack!";
+        lputv %status_label.14 %tmp.683;
+        symbol [ status_label %status_label.14 190 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 191 20 ]
+        symbol [ Graphics %tmp.684 191 35 43 ];
+        %tmp.684 = getm $.Toybox.Graphics;
+        symbol [ COLOR_GREEN %tmp.685 191 44 55 ];
+        %tmp.685 = getv %tmp.684 :COLOR_GREEN;
+        lputv %status_color.15 %tmp.685;
+        symbol [ status_color %status_color.15 191 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 192 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_193_16_195_25_switchCase:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_defaultCodeBegin:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 194 20 ]
+        %tmp.686 = lgetv %status.1;
+        symbol [ status %tmp.686 194 35 41 ];
+        lputv %status_label.14 %tmp.686;
+        symbol [ status_label %status_label.14 194 20 32 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 195 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_171_12_196_12_switchStmtEnd:
         pop;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 185 12 ]
-        %tmp.67 = lgetv %dc;
-        %tmp.68 = getv function %tmp.67 :setColor;
-        %tmp.69 = getm $.Toybox.Graphics;
-        %tmp.70 = getv %tmp.69 :COLOR_BLACK;
-        %tmp.71 = getm $.Toybox.Graphics;
-        %tmp.72 = getv %tmp.71 :COLOR_WHITE;
-        invoke %tmp.67 %tmp.68(%tmp.70, %tmp.72);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 187 12 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_156_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_156_8_stop" ]
-        %text.2 = local;
-        %tmp.74 = lgetv %value;
-        lputv %text.2 %tmp.74;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 188 12 ]
-        %tmp.75 = lgetv %dc;
-        %tmp.76 = getv function %tmp.75 :drawText;
-        %tmp.78 = lgetv %x;
-        %tmp.80 = lgetv %y;
-        %tmp.81 = getm $.Toybox.Graphics;
-        %tmp.82 = getv %tmp.81 :FONT_XTINY;
-        %tmp.84 = lgetv %text.2;
-        %tmp.85 = getm $.Toybox.Graphics;
-        %tmp.86 = getv %tmp.85 :TEXT_JUSTIFY_LEFT;
-        invoke %tmp.75 %tmp.76(%tmp.78, %tmp.80, %tmp.82, %tmp.84, %tmp.86);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 190 12 ]
-        %tmp.87 = lgetv %suit_bitmap.1;
-        %tmp.89 = lgetv %x;
-        %tmp.90 = 20;
-        %tmp.91 = add %tmp.89 %tmp.90;
-        putv %tmp.87 :locX %tmp.91;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 191 12 ]
-        %tmp.92 = lgetv %suit_bitmap.1;
-        %tmp.94 = lgetv %y;
-        putv %tmp.92 :locY %tmp.94;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 192 12 ]
-        %tmp.95 = lgetv %suit_bitmap.1;
-        %tmp.96 = getv function %tmp.95 :draw;
-        %tmp.98 = lgetv %dc;
-        invoke %tmp.95 %tmp.96(%tmp.98);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_156_8_stop:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_149_8_if_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 196 8 ]
-        %tmp.99 = lgetv %dc;
-        %tmp.100 = getv function %tmp.99 :setColor;
-        %tmp.101 = getm $.Toybox.Graphics;
-        %tmp.102 = getv %tmp.101 :COLOR_WHITE;
-        %tmp.103 = getm $.Toybox.Graphics;
-        %tmp.104 = getv %tmp.103 :COLOR_BLACK;
-        invoke %tmp.99 %tmp.100(%tmp.102, %tmp.104);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_147_4_stop:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 198 12 ]
+        %tmp.687 = lgetv %dc;
+        symbol [ dc %tmp.687 198 12 14 ];
+        symbol [ setColor %tmp.688 198 15 23 ];
+        %tmp.688 = getv function %tmp.687 :setColor;
+        %tmp.689 = lgetv %status_color.15;
+        symbol [ status_color %tmp.689 198 24 36 ];
+        symbol [ background_color %tmp.691 198 38 54 ];
+        %tmp.691 = getv ? :background_color;
+        invoke %tmp.687 %tmp.688(%tmp.689, %tmp.691);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 199 12 ]
+        %tmp.692 = lgetv %dc;
+        symbol [ dc %tmp.692 199 12 14 ];
+        symbol [ drawText %tmp.693 199 15 23 ];
+        %tmp.693 = getv function %tmp.692 :drawText;
+        %tmp.694 = lgetv %center_x.4;
+        symbol [ center_x %tmp.694 199 24 32 ];
+        %tmp.695 = 10;
+        symbol [ scale_factor %tmp.697 199 36 48 ];
+        %tmp.697 = getv ? :scale_factor;
+        %tmp.698 = mul %tmp.695 %tmp.697;
+        symbol [ Graphics %tmp.699 199 50 58 ];
+        %tmp.699 = getm $.Toybox.Graphics;
+        symbol [ FONT_TINY %tmp.700 199 59 68 ];
+        %tmp.700 = getv %tmp.699 :FONT_TINY;
+        %tmp.701 = lgetv %status_label.14;
+        symbol [ status_label %tmp.701 199 69 81 ];
+        symbol [ Graphics %tmp.702 199 82 90 ];
+        %tmp.702 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.703 199 91 110 ];
+        %tmp.703 = getv %tmp.702 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.692 %tmp.693(%tmp.694, %tmp.698, %tmp.700, %tmp.701, %tmp.703);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 200 12 ]
+        %tmp.704 = lgetv %dc;
+        symbol [ dc %tmp.704 200 12 14 ];
+        symbol [ setColor %tmp.705 200 15 23 ];
+        %tmp.705 = getv function %tmp.704 :setColor;
+        symbol [ Graphics %tmp.706 200 24 32 ];
+        %tmp.706 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.707 200 33 44 ];
+        %tmp.707 = getv %tmp.706 :COLOR_WHITE;
+        symbol [ background_color %tmp.709 200 46 62 ];
+        %tmp.709 = getv ? :background_color;
+        invoke %tmp.704 %tmp.705(%tmp.707, %tmp.709);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_85_8_202_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_8_207_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_8_207_8_if_else_false:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_84_8_207_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 210 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_210_8_237_8_if_stmt:
+        %tmp.710 = lgetv %status.1;
+        symbol [ status %tmp.710 210 11 17 ];
+        symbol [ STATUS_ACTIVE_ROUND %tmp.712 210 21 40 ];
+        %tmp.712 = getv ? :STATUS_ACTIVE_ROUND;
+        %tmp.713 = ne %tmp.710 %tmp.712;
+        bf %tmp.713 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_210_8_237_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_210_8_237_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_211_8_237_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 215 12 ]
+        %tmp.714 = lgetv %dc;
+        symbol [ dc %tmp.714 215 12 14 ];
+        symbol [ setColor %tmp.715 215 15 23 ];
+        %tmp.715 = getv function %tmp.714 :setColor;
+        symbol [ button_text_color %tmp.717 215 24 41 ];
+        %tmp.717 = getv ? :button_text_color;
+        symbol [ background_color %tmp.719 215 43 59 ];
+        %tmp.719 = getv ? :background_color;
+        invoke %tmp.714 %tmp.715(%tmp.717, %tmp.719);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 218 12 ]
+        %tmp.720 = newa 4;
+        %tmp.721 = lgetv %center_x.4;
+        symbol [ center_x %tmp.721 218 30 38 ];
+        %tmp.722 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.722 218 42 55 ];
+        %tmp.723 = 2.0;
+        %tmp.724 = div %tmp.722 %tmp.723;
+        %tmp.725 = 20.0;
+        symbol [ scale_factor %tmp.727 218 66 78 ];
+        %tmp.727 = getv ? :scale_factor;
+        %tmp.728 = mul %tmp.725 %tmp.727;
+        %tmp.729 = sub %tmp.724 %tmp.728;
+        symbol [ Math %tmp.731 218 81 85 ];
+        %tmp.731 = getv ? :Math;
+        symbol [ cos %tmp.732 218 86 89 ];
+        %tmp.732 = getv function %tmp.731 :cos;
+        symbol [ Math %tmp.734 218 90 94 ];
+        %tmp.734 = getv ? :Math;
+        symbol [ PI %tmp.735 218 95 97 ];
+        %tmp.735 = getv %tmp.734 :PI;
+        %tmp.736 = -5.0;
+        %tmp.737 = 6.0;
+        %tmp.738 = div %tmp.736 %tmp.737;
+        %tmp.739 = mul %tmp.735 %tmp.738;
+        %tmp.740 = invoke %tmp.731 %tmp.732(%tmp.739);
+        %tmp.741 = mul %tmp.729 %tmp.740;
+        %tmp.742 = add %tmp.721 %tmp.741;
+        %tmp.743 = dup %tmp.720;
+        %tmp.744 = aputv %tmp.743 0 %tmp.742;
+        %tmp.745 = lgetv %center_y.5;
+        symbol [ center_y %tmp.745 218 110 118 ];
+        %tmp.746 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.746 218 122 135 ];
+        %tmp.747 = 2.0;
+        %tmp.748 = div %tmp.746 %tmp.747;
+        %tmp.749 = 20.0;
+        symbol [ scale_factor %tmp.751 218 146 158 ];
+        %tmp.751 = getv ? :scale_factor;
+        %tmp.752 = mul %tmp.749 %tmp.751;
+        %tmp.753 = sub %tmp.748 %tmp.752;
+        symbol [ Math %tmp.755 218 161 165 ];
+        %tmp.755 = getv ? :Math;
+        symbol [ sin %tmp.756 218 166 169 ];
+        %tmp.756 = getv function %tmp.755 :sin;
+        symbol [ Math %tmp.758 218 170 174 ];
+        %tmp.758 = getv ? :Math;
+        symbol [ PI %tmp.759 218 175 177 ];
+        %tmp.759 = getv %tmp.758 :PI;
+        %tmp.760 = -5.0;
+        %tmp.761 = 6.0;
+        %tmp.762 = div %tmp.760 %tmp.761;
+        %tmp.763 = mul %tmp.759 %tmp.762;
+        %tmp.764 = invoke %tmp.755 %tmp.756(%tmp.763);
+        %tmp.765 = mul %tmp.753 %tmp.764;
+        %tmp.766 = add %tmp.745 %tmp.765;
+        %tmp.767 = dup %tmp.744;
+        %tmp.768 = aputv %tmp.767 1 %tmp.766;
+        %tmp.769 = 40;
+        %tmp.770 = dup %tmp.768;
+        %tmp.771 = aputv %tmp.770 2 %tmp.769;
+        %tmp.772 = 25;
+        %tmp.773 = dup %tmp.771;
+        %tmp.774 = aputv %tmp.773 3 %tmp.772;
+        symbol [ hit_button_pos ? 218 12 26 ];
+        putv self :hit_button_pos %tmp.774;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 220 12 ]
+        %tmp.775 = lgetv %dc;
+        symbol [ dc %tmp.775 220 12 14 ];
+        symbol [ drawText %tmp.776 220 15 23 ];
+        %tmp.776 = getv function %tmp.775 :drawText;
+        symbol [ hit_button_pos %tmp.778 220 24 38 ];
+        %tmp.778 = getv ? :hit_button_pos;
+        %tmp.779 = 0;
+        %tmp.780 = agetv %tmp.778 %tmp.779;
+        symbol [ hit_button_pos %tmp.782 220 44 58 ];
+        %tmp.782 = getv ? :hit_button_pos;
+        %tmp.783 = 2;
+        %tmp.784 = agetv %tmp.782 %tmp.783;
+        %tmp.785 = 2;
+        %tmp.786 = div %tmp.784 %tmp.785;
+        %tmp.787 = add %tmp.780 %tmp.786;
+        symbol [ hit_button_pos %tmp.789 220 65 79 ];
+        %tmp.789 = getv ? :hit_button_pos;
+        %tmp.790 = 1;
+        %tmp.791 = agetv %tmp.789 %tmp.790;
+        symbol [ button_text_size %tmp.793 220 84 100 ];
+        %tmp.793 = getv ? :button_text_size;
+        %tmp.794 = "Bet+";
+        symbol [ Graphics %tmp.795 220 110 118 ];
+        %tmp.795 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.796 220 119 138 ];
+        %tmp.796 = getv %tmp.795 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.775 %tmp.776(%tmp.787, %tmp.791, %tmp.793, %tmp.794, %tmp.796);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 224 12 ]
+        %tmp.797 = newa 4;
+        %tmp.798 = lgetv %center_x.4;
+        symbol [ center_x %tmp.798 224 32 40 ];
+        %tmp.799 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.799 224 44 57 ];
+        %tmp.800 = 2.0;
+        %tmp.801 = div %tmp.799 %tmp.800;
+        %tmp.802 = 20.0;
+        symbol [ scale_factor %tmp.804 224 68 80 ];
+        %tmp.804 = getv ? :scale_factor;
+        %tmp.805 = mul %tmp.802 %tmp.804;
+        %tmp.806 = sub %tmp.801 %tmp.805;
+        symbol [ Math %tmp.808 224 83 87 ];
+        %tmp.808 = getv ? :Math;
+        symbol [ cos %tmp.809 224 88 91 ];
+        %tmp.809 = getv function %tmp.808 :cos;
+        symbol [ Math %tmp.811 224 92 96 ];
+        %tmp.811 = getv ? :Math;
+        symbol [ PI %tmp.812 224 97 99 ];
+        %tmp.812 = getv %tmp.811 :PI;
+        %tmp.813 = 5.0;
+        %tmp.814 = 6.0;
+        %tmp.815 = div %tmp.813 %tmp.814;
+        %tmp.816 = mul %tmp.812 %tmp.815;
+        %tmp.817 = invoke %tmp.808 %tmp.809(%tmp.816);
+        %tmp.818 = mul %tmp.806 %tmp.817;
+        %tmp.819 = add %tmp.798 %tmp.818;
+        %tmp.820 = dup %tmp.797;
+        %tmp.821 = aputv %tmp.820 0 %tmp.819;
+        %tmp.822 = lgetv %center_y.5;
+        symbol [ center_y %tmp.822 224 111 119 ];
+        %tmp.823 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.823 224 123 136 ];
+        %tmp.824 = 2.0;
+        %tmp.825 = div %tmp.823 %tmp.824;
+        %tmp.826 = 20.0;
+        symbol [ scale_factor %tmp.828 224 147 159 ];
+        %tmp.828 = getv ? :scale_factor;
+        %tmp.829 = mul %tmp.826 %tmp.828;
+        %tmp.830 = sub %tmp.825 %tmp.829;
+        symbol [ Math %tmp.832 224 162 166 ];
+        %tmp.832 = getv ? :Math;
+        symbol [ sin %tmp.833 224 167 170 ];
+        %tmp.833 = getv function %tmp.832 :sin;
+        symbol [ Math %tmp.835 224 171 175 ];
+        %tmp.835 = getv ? :Math;
+        symbol [ PI %tmp.836 224 176 178 ];
+        %tmp.836 = getv %tmp.835 :PI;
+        %tmp.837 = 5.0;
+        %tmp.838 = 6.0;
+        %tmp.839 = div %tmp.837 %tmp.838;
+        %tmp.840 = mul %tmp.836 %tmp.839;
+        %tmp.841 = invoke %tmp.832 %tmp.833(%tmp.840);
+        %tmp.842 = mul %tmp.830 %tmp.841;
+        %tmp.843 = add %tmp.822 %tmp.842;
+        %tmp.844 = dup %tmp.821;
+        %tmp.845 = aputv %tmp.844 1 %tmp.843;
+        %tmp.846 = 40;
+        %tmp.847 = dup %tmp.845;
+        %tmp.848 = aputv %tmp.847 2 %tmp.846;
+        %tmp.849 = 25;
+        %tmp.850 = dup %tmp.848;
+        %tmp.851 = aputv %tmp.850 3 %tmp.849;
+        symbol [ stand_button_pos ? 224 12 28 ];
+        putv self :stand_button_pos %tmp.851;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 226 12 ]
+        %tmp.852 = lgetv %dc;
+        symbol [ dc %tmp.852 226 12 14 ];
+        symbol [ drawText %tmp.853 226 15 23 ];
+        %tmp.853 = getv function %tmp.852 :drawText;
+        symbol [ stand_button_pos %tmp.855 226 24 40 ];
+        %tmp.855 = getv ? :stand_button_pos;
+        %tmp.856 = 0;
+        %tmp.857 = agetv %tmp.855 %tmp.856;
+        symbol [ stand_button_pos %tmp.859 226 46 62 ];
+        %tmp.859 = getv ? :stand_button_pos;
+        %tmp.860 = 2;
+        %tmp.861 = agetv %tmp.859 %tmp.860;
+        %tmp.862 = 2;
+        %tmp.863 = div %tmp.861 %tmp.862;
+        %tmp.864 = add %tmp.857 %tmp.863;
+        symbol [ stand_button_pos %tmp.866 226 69 85 ];
+        %tmp.866 = getv ? :stand_button_pos;
+        %tmp.867 = 1;
+        %tmp.868 = agetv %tmp.866 %tmp.867;
+        symbol [ button_text_size %tmp.870 226 90 106 ];
+        %tmp.870 = getv ? :button_text_size;
+        %tmp.871 = "Bet-";
+        symbol [ Graphics %tmp.872 226 115 123 ];
+        %tmp.872 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.873 226 124 143 ];
+        %tmp.873 = getv %tmp.872 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.852 %tmp.853(%tmp.864, %tmp.868, %tmp.870, %tmp.871, %tmp.873);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 230 12 ]
+        %tmp.874 = newa 4;
+        %tmp.875 = lgetv %center_x.4;
+        symbol [ center_x %tmp.875 230 31 39 ];
+        %tmp.876 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.876 230 43 56 ];
+        %tmp.877 = 2.0;
+        %tmp.878 = div %tmp.876 %tmp.877;
+        %tmp.879 = 35.0;
+        symbol [ scale_factor %tmp.881 230 67 79 ];
+        %tmp.881 = getv ? :scale_factor;
+        %tmp.882 = mul %tmp.879 %tmp.881;
+        %tmp.883 = sub %tmp.878 %tmp.882;
+        symbol [ Math %tmp.885 230 82 86 ];
+        %tmp.885 = getv ? :Math;
+        symbol [ cos %tmp.886 230 87 90 ];
+        %tmp.886 = getv function %tmp.885 :cos;
+        symbol [ Math %tmp.888 230 91 95 ];
+        %tmp.888 = getv ? :Math;
+        symbol [ PI %tmp.889 230 96 98 ];
+        %tmp.889 = getv %tmp.888 :PI;
+        %tmp.890 = -1.0;
+        %tmp.891 = 6.0;
+        %tmp.892 = div %tmp.890 %tmp.891;
+        %tmp.893 = mul %tmp.889 %tmp.892;
+        %tmp.894 = invoke %tmp.885 %tmp.886(%tmp.893);
+        %tmp.895 = mul %tmp.883 %tmp.894;
+        %tmp.896 = add %tmp.875 %tmp.895;
+        %tmp.897 = dup %tmp.874;
+        %tmp.898 = aputv %tmp.897 0 %tmp.896;
+        %tmp.899 = lgetv %center_y.5;
+        symbol [ center_y %tmp.899 230 111 119 ];
+        %tmp.900 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.900 230 123 136 ];
+        %tmp.901 = 2.0;
+        %tmp.902 = div %tmp.900 %tmp.901;
+        %tmp.903 = 35.0;
+        symbol [ scale_factor %tmp.905 230 147 159 ];
+        %tmp.905 = getv ? :scale_factor;
+        %tmp.906 = mul %tmp.903 %tmp.905;
+        %tmp.907 = sub %tmp.902 %tmp.906;
+        symbol [ Math %tmp.909 230 162 166 ];
+        %tmp.909 = getv ? :Math;
+        symbol [ sin %tmp.910 230 167 170 ];
+        %tmp.910 = getv function %tmp.909 :sin;
+        symbol [ Math %tmp.912 230 172 176 ];
+        %tmp.912 = getv ? :Math;
+        symbol [ PI %tmp.913 230 177 179 ];
+        %tmp.913 = getv %tmp.912 :PI;
+        %tmp.914 = sub 0 %tmp.913;
+        %tmp.915 = 1.0;
+        %tmp.916 = 6.0;
+        %tmp.917 = div %tmp.915 %tmp.916;
+        %tmp.918 = mul %tmp.914 %tmp.917;
+        %tmp.919 = invoke %tmp.909 %tmp.910(%tmp.918);
+        %tmp.920 = mul %tmp.907 %tmp.919;
+        %tmp.921 = add %tmp.899 %tmp.920;
+        %tmp.922 = dup %tmp.898;
+        %tmp.923 = aputv %tmp.922 1 %tmp.921;
+        %tmp.924 = 40;
+        %tmp.925 = dup %tmp.923;
+        %tmp.926 = aputv %tmp.925 2 %tmp.924;
+        %tmp.927 = 25;
+        %tmp.928 = dup %tmp.926;
+        %tmp.929 = aputv %tmp.928 3 %tmp.927;
+        symbol [ deal_button_pos ? 230 12 27 ];
+        putv self :deal_button_pos %tmp.929;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 232 12 ]
+        %tmp.930 = lgetv %dc;
+        symbol [ dc %tmp.930 232 12 14 ];
+        symbol [ drawText %tmp.931 232 15 23 ];
+        %tmp.931 = getv function %tmp.930 :drawText;
+        symbol [ deal_button_pos %tmp.933 232 24 39 ];
+        %tmp.933 = getv ? :deal_button_pos;
+        %tmp.934 = 0;
+        %tmp.935 = agetv %tmp.933 %tmp.934;
+        symbol [ deal_button_pos %tmp.937 232 45 60 ];
+        %tmp.937 = getv ? :deal_button_pos;
+        %tmp.938 = 2;
+        %tmp.939 = agetv %tmp.937 %tmp.938;
+        %tmp.940 = 2;
+        %tmp.941 = div %tmp.939 %tmp.940;
+        %tmp.942 = add %tmp.935 %tmp.941;
+        symbol [ deal_button_pos %tmp.944 232 67 82 ];
+        %tmp.944 = getv ? :deal_button_pos;
+        %tmp.945 = 1;
+        %tmp.946 = agetv %tmp.944 %tmp.945;
+        symbol [ button_text_size %tmp.948 232 87 103 ];
+        %tmp.948 = getv ? :button_text_size;
+        %tmp.949 = "Deal";
+        symbol [ Graphics %tmp.950 232 112 120 ];
+        %tmp.950 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.951 232 121 140 ];
+        %tmp.951 = getv %tmp.950 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.930 %tmp.931(%tmp.942, %tmp.946, %tmp.948, %tmp.949, %tmp.951);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 234 12 ]
+        %tmp.952 = lgetv %dc;
+        symbol [ dc %tmp.952 234 12 14 ];
+        symbol [ setColor %tmp.953 234 15 23 ];
+        %tmp.953 = getv function %tmp.952 :setColor;
+        symbol [ Graphics %tmp.954 234 24 32 ];
+        %tmp.954 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.955 234 33 44 ];
+        %tmp.955 = getv %tmp.954 :COLOR_WHITE;
+        symbol [ background_color %tmp.957 234 46 62 ];
+        %tmp.957 = getv ? :background_color;
+        invoke %tmp.952 %tmp.953(%tmp.955, %tmp.957);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_211_8_237_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_210_8_237_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_210_8_237_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 239 8 ]
+        %tmp.958 = lgetv %dc;
+        symbol [ dc %tmp.958 239 8 10 ];
+        symbol [ drawText %tmp.959 239 11 19 ];
+        %tmp.959 = getv function %tmp.958 :drawText;
+        %tmp.960 = lgetv %center_x.4;
+        symbol [ center_x %tmp.960 239 20 28 ];
+        %tmp.961 = lgetv %screen_height.3;
+        symbol [ screen_height %tmp.961 239 29 42 ];
+        %tmp.962 = 20;
+        symbol [ scale_factor %tmp.964 239 48 60 ];
+        %tmp.964 = getv ? :scale_factor;
+        %tmp.965 = mul %tmp.962 %tmp.964;
+        %tmp.966 = sub %tmp.961 %tmp.965;
+        symbol [ Graphics %tmp.967 239 62 70 ];
+        %tmp.967 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.968 239 71 81 ];
+        %tmp.968 = getv %tmp.967 :FONT_XTINY;
+        %tmp.969 = "€ ";
+        %tmp.970 = self;
+        symbol [ getApp %tmp.971 239 90 96 ];
+        %tmp.971 = getv function %tmp.970 :getApp;
+        %tmp.972 = invoke %tmp.970 %tmp.971();
+        symbol [ engine %tmp.973 239 99 105 ];
+        %tmp.973 = getv %tmp.972 :engine;
+        symbol [ getMoney %tmp.974 239 106 114 ];
+        %tmp.974 = getv function %tmp.973 :getMoney;
+        %tmp.975 = invoke %tmp.973 %tmp.974();
+        %tmp.976 = add %tmp.969 %tmp.975;
+        symbol [ Graphics %tmp.977 239 118 126 ];
+        %tmp.977 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_CENTER %tmp.978 239 127 146 ];
+        %tmp.978 = getv %tmp.977 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.958 %tmp.959(%tmp.960, %tmp.966, %tmp.968, %tmp.976, %tmp.978);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 203; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 243; @symbol_functiondef = [drawCard,243,13,21]; @symbol_param<0> = [dc,243,22,24]; @symbol_param<1> = [x,243,26,27]; @symbol_param<2> = [y,243,29,30]; @symbol_param<3> = [width,243,32,37]; @symbol_param<4> = [height,243,39,45]; @symbol_param<5> = [value,243,47,52]; @symbol_param<6> = [suit,243,54,58]; @symbol_param<7> = [flip,243,60,64]; ]
+    function drawCard(dc, x, y, width, height, value, suit, flip) {
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_244_4_299_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 246 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_stmt:
+        %tmp.1 = lgetv %flip;
+        symbol [ flip %tmp.1 246 11 15 ];
+        bf %tmp.1 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_else_false;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_247_8_250_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 248 12 ]
+        %tmp.2 = lgetv %dc;
+        symbol [ dc %tmp.2 248 12 14 ];
+        symbol [ setColor %tmp.3 248 15 23 ];
+        %tmp.3 = getv function %tmp.2 :setColor;
+        symbol [ Graphics %tmp.4 248 24 32 ];
+        %tmp.4 = getm $.Toybox.Graphics;
+        symbol [ COLOR_LT_GRAY %tmp.5 248 33 46 ];
+        %tmp.5 = getv %tmp.4 :COLOR_LT_GRAY;
+        symbol [ background_color %tmp.7 248 48 64 ];
+        %tmp.7 = getv ? :background_color;
+        invoke %tmp.2 %tmp.3(%tmp.5, %tmp.7);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 249 12 ]
+        %tmp.8 = lgetv %dc;
+        symbol [ dc %tmp.8 249 12 14 ];
+        symbol [ fillRectangle %tmp.9 249 15 28 ];
+        %tmp.9 = getv function %tmp.8 :fillRectangle;
+        %tmp.10 = lgetv %x;
+        symbol [ x %tmp.10 249 29 30 ];
+        %tmp.11 = lgetv %y;
+        symbol [ y %tmp.11 249 32 33 ];
+        %tmp.12 = lgetv %width;
+        symbol [ width %tmp.12 249 35 40 ];
+        %tmp.13 = lgetv %height;
+        symbol [ height %tmp.13 249 42 48 ];
+        invoke %tmp.8 %tmp.9(%tmp.10, %tmp.11, %tmp.12, %tmp.13);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_247_8_250_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_else_false:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 254 12 ]
+        %tmp.14 = lgetv %dc;
+        symbol [ dc %tmp.14 254 12 14 ];
+        symbol [ setColor %tmp.15 254 15 23 ];
+        %tmp.15 = getv function %tmp.14 :setColor;
+        symbol [ Graphics %tmp.16 254 24 32 ];
+        %tmp.16 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.17 254 33 44 ];
+        %tmp.17 = getv %tmp.16 :COLOR_WHITE;
+        symbol [ background_color %tmp.19 254 46 62 ];
+        %tmp.19 = getv ? :background_color;
+        invoke %tmp.14 %tmp.15(%tmp.17, %tmp.19);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 255 12 ]
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 255 12 14 ];
+        symbol [ fillRectangle %tmp.21 255 15 28 ];
+        %tmp.21 = getv function %tmp.20 :fillRectangle;
+        %tmp.22 = lgetv %x;
+        symbol [ x %tmp.22 255 29 30 ];
+        %tmp.23 = lgetv %y;
+        symbol [ y %tmp.23 255 32 33 ];
+        %tmp.24 = lgetv %width;
+        symbol [ width %tmp.24 255 35 40 ];
+        %tmp.25 = lgetv %height;
+        symbol [ height %tmp.25 255 42 48 ];
+        invoke %tmp.20 %tmp.21(%tmp.22, %tmp.23, %tmp.24, %tmp.25);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 257 12 ]
+        %tmp.26 = lgetv %dc;
+        symbol [ dc %tmp.26 257 12 14 ];
+        symbol [ setPenWidth %tmp.27 257 15 26 ];
+        %tmp.27 = getv function %tmp.26 :setPenWidth;
+        symbol [ Math %tmp.29 257 27 31 ];
+        %tmp.29 = getv ? :Math;
+        symbol [ round %tmp.30 257 32 37 ];
+        %tmp.30 = getv function %tmp.29 :round;
+        %tmp.31 = 1;
+        symbol [ scale_factor %tmp.33 257 40 52 ];
+        %tmp.33 = getv ? :scale_factor;
+        %tmp.34 = mul %tmp.31 %tmp.33;
+        %tmp.35 = invoke %tmp.29 %tmp.30(%tmp.34);
+        invoke %tmp.26 %tmp.27(%tmp.35);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 258 12 ]
+        %tmp.36 = lgetv %dc;
+        symbol [ dc %tmp.36 258 12 14 ];
+        symbol [ setColor %tmp.37 258 15 23 ];
+        %tmp.37 = getv function %tmp.36 :setColor;
+        symbol [ Graphics %tmp.38 258 24 32 ];
+        %tmp.38 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.39 258 33 44 ];
+        %tmp.39 = getv %tmp.38 :COLOR_BLACK;
+        symbol [ background_color %tmp.41 258 46 62 ];
+        %tmp.41 = getv ? :background_color;
+        invoke %tmp.36 %tmp.37(%tmp.39, %tmp.41);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 259 12 ]
+        %tmp.42 = lgetv %dc;
+        symbol [ dc %tmp.42 259 12 14 ];
+        symbol [ drawRectangle %tmp.43 259 15 28 ];
+        %tmp.43 = getv function %tmp.42 :drawRectangle;
+        %tmp.44 = lgetv %x;
+        symbol [ x %tmp.44 259 29 30 ];
+        %tmp.45 = lgetv %y;
+        symbol [ y %tmp.45 259 32 33 ];
+        %tmp.46 = lgetv %width;
+        symbol [ width %tmp.46 259 35 40 ];
+        %tmp.47 = lgetv %height;
+        symbol [ height %tmp.47 259 42 48 ];
+        invoke %tmp.42 %tmp.43(%tmp.44, %tmp.45, %tmp.46, %tmp.47);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 261 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_stop" ]
+        %suit_bitmap.1 = local;
+        symbol [ suit_bitmap %suit_bitmap.1 261 16 27 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 263 12 ]
+        %tmp.48 = lgetv %suit;
+        symbol [ suit %tmp.48 263 19 23 ];
+        push %tmp.48;
+        switch %tmp.48 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtBegin:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 265 16 ]
+        %tmp.49 = dup %tmp.48;
+        symbol [ SUIT_HEARTS %tmp.51 265 21 32 ];
+        %tmp.51 = getv ? :SUIT_HEARTS;
+        %tmp.52 = getv function %tmp.49 :equals;
+        %tmp.53 = invoke %tmp.49 %tmp.52 (%tmp.51);
+        bt %tmp.53 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_265_16_267_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 269 16 ]
+        %tmp.54 = dup %tmp.48;
+        symbol [ SUIT_SPADES %tmp.56 269 21 32 ];
+        %tmp.56 = getv ? :SUIT_SPADES;
+        %tmp.57 = getv function %tmp.54 :equals;
+        %tmp.58 = invoke %tmp.54 %tmp.57 (%tmp.56);
+        bt %tmp.58 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_269_16_271_29_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 273 16 ]
+        %tmp.59 = dup %tmp.48;
+        symbol [ SUIT_CLUBS %tmp.61 273 21 31 ];
+        %tmp.61 = getv ? :SUIT_CLUBS;
+        %tmp.62 = getv function %tmp.59 :equals;
+        %tmp.63 = invoke %tmp.59 %tmp.62 (%tmp.61);
+        bt %tmp.63 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_273_16_275_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 277 16 ]
+        %tmp.64 = dup %tmp.48;
+        symbol [ SUIT_DIAMONDS %tmp.66 277 21 34 ];
+        %tmp.66 = getv ? :SUIT_DIAMONDS;
+        %tmp.67 = getv function %tmp.64 :equals;
+        %tmp.68 = invoke %tmp.64 %tmp.67 (%tmp.66);
+        bt %tmp.68 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_277_16_279_25_switchCase;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 281 16 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtDefault:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_defaultCodeBegin;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_265_16_267_25_switchCase:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 266 20 ]
+        symbol [ heart_bitmap %tmp.70 266 34 46 ];
+        %tmp.70 = getv ? :heart_bitmap;
+        lputv %suit_bitmap.1 %tmp.70;
+        symbol [ suit_bitmap %suit_bitmap.1 266 20 31 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 267 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_269_16_271_29_switchCase:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 270 20 ]
+        symbol [ spade_bitmap %tmp.72 270 34 46 ];
+        %tmp.72 = getv ? :spade_bitmap;
+        lputv %suit_bitmap.1 %tmp.72;
+        symbol [ suit_bitmap %suit_bitmap.1 270 20 31 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 271 24 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_273_16_275_25_switchCase:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 274 20 ]
+        symbol [ club_bitmap %tmp.74 274 34 45 ];
+        %tmp.74 = getv ? :club_bitmap;
+        lputv %suit_bitmap.1 %tmp.74;
+        symbol [ suit_bitmap %suit_bitmap.1 274 20 31 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 275 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_277_16_279_25_switchCase:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 278 20 ]
+        symbol [ diamond_bitmap %tmp.76 278 34 48 ];
+        %tmp.76 = getv ? :diamond_bitmap;
+        lputv %suit_bitmap.1 %tmp.76;
+        symbol [ suit_bitmap %suit_bitmap.1 278 20 31 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 279 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_281_16_283_25_switchCase:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_defaultCodeBegin:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 282 20 ]
+        symbol [ heart_bitmap %tmp.78 282 34 46 ];
+        %tmp.78 = getv ? :heart_bitmap;
+        lputv %suit_bitmap.1 %tmp.78;
+        symbol [ suit_bitmap %suit_bitmap.1 282 20 31 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 283 20 ]
+        goto break @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtEnd;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchStmtEnd:
+        pop;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 286 12 ]
+        %tmp.79 = lgetv %dc;
+        symbol [ dc %tmp.79 286 12 14 ];
+        symbol [ setColor %tmp.80 286 15 23 ];
+        %tmp.80 = getv function %tmp.79 :setColor;
+        symbol [ Graphics %tmp.81 286 24 32 ];
+        %tmp.81 = getm $.Toybox.Graphics;
+        symbol [ COLOR_BLACK %tmp.82 286 33 44 ];
+        %tmp.82 = getv %tmp.81 :COLOR_BLACK;
+        symbol [ Graphics %tmp.83 286 46 54 ];
+        %tmp.83 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.84 286 55 66 ];
+        %tmp.84 = getv %tmp.83 :COLOR_WHITE;
+        invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 288 12 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_stop" ]
+        %text.2 = local;
+        symbol [ text %text.2 288 16 20 ];
+        %tmp.85 = lgetv %value;
+        symbol [ value %tmp.85 288 23 28 ];
+        lputv %text.2 %tmp.85;
+        symbol [ text %text.2 288 16 20 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 289 12 ]
+        %tmp.86 = lgetv %dc;
+        symbol [ dc %tmp.86 289 12 14 ];
+        symbol [ drawText %tmp.87 289 15 23 ];
+        %tmp.87 = getv function %tmp.86 :drawText;
+        %tmp.88 = lgetv %x;
+        symbol [ x %tmp.88 289 24 25 ];
+        %tmp.89 = 3;
+        symbol [ scale_factor %tmp.91 289 28 40 ];
+        %tmp.91 = getv ? :scale_factor;
+        %tmp.92 = mul %tmp.89 %tmp.91;
+        %tmp.93 = add %tmp.88 %tmp.92;
+        %tmp.94 = lgetv %y;
+        symbol [ y %tmp.94 289 42 43 ];
+        symbol [ Graphics %tmp.95 289 45 53 ];
+        %tmp.95 = getm $.Toybox.Graphics;
+        symbol [ FONT_XTINY %tmp.96 289 54 64 ];
+        %tmp.96 = getv %tmp.95 :FONT_XTINY;
+        %tmp.97 = lgetv %text.2;
+        symbol [ text %tmp.97 289 66 70 ];
+        symbol [ Graphics %tmp.98 289 72 80 ];
+        %tmp.98 = getm $.Toybox.Graphics;
+        symbol [ TEXT_JUSTIFY_LEFT %tmp.99 289 81 98 ];
+        %tmp.99 = getv %tmp.98 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.86 %tmp.87(%tmp.93, %tmp.94, %tmp.96, %tmp.97, %tmp.99);
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 291 12 ]
+        %tmp.100 = lgetv %suit_bitmap.1;
+        symbol [ suit_bitmap %tmp.100 291 12 23 ];
+        %tmp.101 = lgetv %x;
+        symbol [ x %tmp.101 291 31 32 ];
+        symbol [ locX ? 291 24 28 ];
+        putv %tmp.100 :locX %tmp.101;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 292 12 ]
+        %tmp.102 = lgetv %suit_bitmap.1;
+        symbol [ suit_bitmap %tmp.102 292 12 23 ];
+        %tmp.103 = lgetv %y;
+        symbol [ y %tmp.103 292 31 32 ];
+        %tmp.104 = 20;
+        symbol [ scale_factor %tmp.106 292 38 50 ];
+        %tmp.106 = getv ? :scale_factor;
+        %tmp.107 = mul %tmp.104 %tmp.106;
+        %tmp.108 = add %tmp.103 %tmp.107;
+        symbol [ locY ? 292 24 28 ];
+        putv %tmp.102 :locY %tmp.108;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 293 12 ]
+        %tmp.109 = lgetv %suit_bitmap.1;
+        symbol [ suit_bitmap %tmp.109 293 12 23 ];
+        symbol [ draw %tmp.110 293 24 28 ];
+        %tmp.110 = getv function %tmp.109 :draw;
+        %tmp.111 = lgetv %dc;
+        symbol [ dc %tmp.111 293 29 31 ];
+        invoke %tmp.109 %tmp.110(%tmp.111);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 297 8 ]
+        %tmp.112 = lgetv %dc;
+        symbol [ dc %tmp.112 297 8 10 ];
+        symbol [ setColor %tmp.113 297 11 19 ];
+        %tmp.113 = getv function %tmp.112 :setColor;
+        symbol [ Graphics %tmp.114 297 20 28 ];
+        %tmp.114 = getm $.Toybox.Graphics;
+        symbol [ COLOR_WHITE %tmp.115 297 29 40 ];
+        %tmp.115 = getv %tmp.114 :COLOR_WHITE;
+        symbol [ background_color %tmp.117 297 42 58 ];
+        %tmp.117 = getv ? :background_color;
+        invoke %tmp.112 %tmp.113(%tmp.115, %tmp.117);
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_244_4_299_4_stop:
+    }
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 304; @symbol_functiondef = [onHide,304,13,19]; ]
     function onHide() as Void {
     }
 }

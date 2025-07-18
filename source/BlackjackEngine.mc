@@ -8,14 +8,20 @@ class BlackjackEngine
 
     private var dealer_cards;
     private var player_cards;
+    private var player_cards_split1;
+    private var player_cards_split2;
 
     private var playerHandPoints;
+    private var playerHandPoints_split1;
+    private var playerHandPoints_split2;
     private var dealerHandPoints;
 
     private var player_bet;
     private var player_money;
 
     public var status;
+
+    public var split_status;
 
     //constructor
     public function initialize(nDecks, money, bet) 
@@ -27,6 +33,8 @@ class BlackjackEngine
 
       player_money = money;
       player_bet = bet;
+
+      split_status = 0;
       
       status = STATUS_IDLE;
     }
@@ -36,6 +44,17 @@ class BlackjackEngine
       return player_cards;
     }
 
+    public function getPlayerCards_split1()
+    {
+      return player_cards_split1;
+    }
+
+    public function getPlayerCards_split2()
+    {
+      return player_cards_split2;
+    }
+
+
     public function getDealerCards()
     {
       return dealer_cards;
@@ -44,6 +63,16 @@ class BlackjackEngine
     public function getPlayerPoints()
     {
       return playerHandPoints;
+    }
+
+    public function getPlayerPoints_split1()
+    {
+      return playerHandPoints_split1;
+    }
+
+    public function getPlayerPoints_split2()
+    {
+      return playerHandPoints_split2;
     }
 
     public function getDealerPoints()
@@ -74,11 +103,16 @@ class BlackjackEngine
     {
         status = STATUS_ACTIVE_ROUND;
 
+        split_status = 0;
+
         playerHandPoints = 0;
         dealerHandPoints = 0;
 
         dealer_cards = new [2];
         player_cards = new [2];
+
+        player_cards_split1 = new [0];
+        player_cards_split2 = new [0];
 
         dealer_cards[0] = deck.drawCard();
         dealer_cards[1] = deck.drawCard();
@@ -88,6 +122,36 @@ class BlackjackEngine
 
         recalculatePoints();
 
+        if(getPlayerPoints() == 21)
+        {
+          if(getDealerPoints() != 21)
+          {
+            status = STATUS_BLACKJACK;
+            handleEndOfRound();
+          }
+
+          else 
+          {
+            status = STATUS_TIE;
+            handleEndOfRound();            
+          }
+        }
+
+        if(getDealerPoints() == 21)
+        {
+          if(getPlayerPoints() != 21)
+          {
+            status = STATUS_LOST;
+            handleEndOfRound();
+          }
+
+          else 
+          {
+            status = STATUS_TIE;
+            handleEndOfRound();            
+          }
+        }
+
         //System.println(dealer_cards[0].value + " Suit:" + dealer_cards[0].suit );
     }
 
@@ -95,71 +159,170 @@ class BlackjackEngine
     {
         if(status == STATUS_ACTIVE_ROUND)
         {
-          player_cards.add(deck.drawCard());
-
-          recalculatePoints();
-
-          if(playerHandPoints > 21)
+          if(split_status == 0)
           {
-            status = STATUS_LOST;
-            handleEndOfRound();
+            player_cards.add(deck.drawCard());
+
+            recalculatePoints();
+
+            if(playerHandPoints > 21)
+            {
+              status = STATUS_LOST;
+              handleEndOfRound();
+            }
+          }
+
+          else if(split_status == 1)
+          {
+            player_cards_split1.add(deck.drawCard());
+
+            recalculatePoints();
+
+            if(playerHandPoints_split1 > 21)
+            {
+              split_status = 2;
+            }
+          }
+
+          else if(split_status == 2)
+          {
+            player_cards_split2.add(deck.drawCard());
+
+            recalculatePoints();
+
+            if(playerHandPoints_split1 > 21)
+            {
+              handleEndOfRound();
+            }
+
+            // if(playerHandPoints > 21)
+            // {
+            //   status = STATUS_LOST;
+            //   handleEndOfRound();
+            // }
           }
         }
+
     }
 
     public function stand()
     {
         if(status == STATUS_ACTIVE_ROUND)
         {
-          while(dealerHandPoints < 17)
+          if(split_status == 0)
           {
-            dealer_cards.add(deck.drawCard());
-            recalculatePoints();
+            while(dealerHandPoints < 17)
+            {
+              dealer_cards.add(deck.drawCard());
+              recalculatePoints();
+            }
+
+            if(dealerHandPoints < playerHandPoints && playerHandPoints <= 21)
+            {
+              status = STATUS_WON;
+            }
+
+            if(dealerHandPoints > 21)
+            {
+              status = STATUS_WON;
+            }
+
+            if(dealerHandPoints > playerHandPoints && dealerHandPoints <= 21)
+            {
+              status = STATUS_LOST;
+            }
+
+            if(dealerHandPoints == playerHandPoints)
+            {
+              status = STATUS_TIE;
+            }
+
+            //just for error handling
+            if(playerHandPoints > 21)
+            {
+              status = STATUS_LOST;
+            }
+
+            handleEndOfRound();
+
+            System.println("Game ended: "+status);
           }
 
-          if(dealerHandPoints < playerHandPoints)
+          else if (split_status == 2)
           {
-            status = STATUS_WON;
+            // split_status = 2;
+
+            while(dealerHandPoints < 17)
+            {
+              dealer_cards.add(deck.drawCard());
+              recalculatePoints();
+            }
+
+            if(dealerHandPoints < playerHandPoints_split1 && playerHandPoints_split1 <= 21)
+            {
+              status = STATUS_WON;
+            }
+
+            if(dealerHandPoints < playerHandPoints_split2 && playerHandPoints_split2 <= 21)
+            {
+              status = STATUS_WON;
+            }
+
+            if(dealerHandPoints > 21)
+            {
+              status = STATUS_WON;
+            }
+
+            if(dealerHandPoints > playerHandPoints_split1 && dealerHandPoints > playerHandPoints_split2 && dealerHandPoints <= 21)
+            {
+              status = STATUS_LOST;
+            }
+
+            if(dealerHandPoints == playerHandPoints_split1 && dealerHandPoints == playerHandPoints_split2)
+            {
+              status = STATUS_TIE;
+            }
+
+            //just for error handling
+            if(playerHandPoints_split1 > 21 && playerHandPoints_split2 > 21)
+            {
+              status = STATUS_LOST;
+            } 
+            handleEndOfRound();
+
+            System.println("Game ended: "+status);
           }
 
-          if(dealerHandPoints > 21)
+          else if (split_status == 1)
           {
-            status = STATUS_WON;
+            split_status = 2;
           }
-
-          if(dealerHandPoints > playerHandPoints && dealerHandPoints <= 21)
-          {
-            status = STATUS_LOST;
-          }
-
-          if(dealerHandPoints == playerHandPoints)
-          {
-            status = STATUS_TIE;
-          }
-
-          //just for error handling
-          if(playerHandPoints > 21)
-          {
-            status = STATUS_LOST;
-          }
-
-          handleEndOfRound();
-
-          System.println("Game ended: "+status);
         }
     }
 
-    private function recalculatePoints()
+    public function split()
     {
-        playerHandPoints = 0;
-        dealerHandPoints = 0;
+        player_cards_split1 = new [1];
+        player_cards_split2 = new [1];
 
+        player_cards_split1[0] = player_cards[0];
+        player_cards_split2[0] = player_cards[1];
+
+        split_status = 1;
+
+        recalculatePoints();
+    }
+    
+
+    private function calculatePointsHand(player_hand)
+    {
         var num_aces_player = 0;
-        var num_aces_dealer = 0;
 
-        for (var i = 0; i < player_cards.size(); i++)
+        var points = 0;
+
+        for (var i = 0; i < player_hand.size(); i++)
         {
-          var value = player_cards[i].blackjackValue();
+          var value = player_hand[i].blackjackValue();
           
           if(value == 1)
           {
@@ -168,26 +331,78 @@ class BlackjackEngine
           
           else
           {
-            playerHandPoints += value;
+            points += value;
           }
 
-          System.println("Player Hand Card: " + player_cards[i].value + " Suit:" + player_cards[i].suit);
+          System.println("Player Hand Card: " + player_hand[i].value + " Suit:" + player_hand[i].suit);
         }
 
         for (var i = 0; i < num_aces_player; i++)
         {
-          if(playerHandPoints + 11 <=21)
+          if(points + 11 <=21)
           {
-            playerHandPoints += 11;
+            points += 11;
           }
 
           else
           {
-            playerHandPoints += 1;
+            points += 1;
           }
         }
 
+        return points;
+
         System.println("Player Hand Points:" + playerHandPoints);
+    }
+
+    private function recalculatePoints()
+    {
+        playerHandPoints = 0;
+        playerHandPoints_split1 = 0;
+        playerHandPoints_split2 = 0;
+        dealerHandPoints = 0;
+
+        playerHandPoints = calculatePointsHand(player_cards);
+        playerHandPoints_split1 = calculatePointsHand(player_cards_split1);
+        playerHandPoints_split2 = calculatePointsHand(player_cards_split2);
+
+
+        // var num_aces_player = 0;
+        // var num_aces_dealer = 0;
+
+        // for (var i = 0; i < player_cards.size(); i++)
+        // {
+        //   var value = player_cards[i].blackjackValue();
+          
+        //   if(value == 1)
+        //   {
+        //     num_aces_player +=1;
+        //   }
+          
+        //   else
+        //   {
+        //     playerHandPoints += value;
+        //   }
+
+        //   System.println("Player Hand Card: " + player_cards[i].value + " Suit:" + player_cards[i].suit);
+        // }
+
+        // for (var i = 0; i < num_aces_player; i++)
+        // {
+        //   if(playerHandPoints + 11 <=21)
+        //   {
+        //     playerHandPoints += 11;
+        //   }
+
+        //   else
+        //   {
+        //     playerHandPoints += 1;
+        //   }
+        // }
+
+        // System.println("Player Hand Points:" + playerHandPoints);
+
+        var num_aces_dealer = 0;
 
         for (var i = 0; i < dealer_cards.size(); i++)
         {
@@ -236,10 +451,13 @@ class BlackjackEngine
           case STATUS_LOST:
             player_money -= player_bet;
             break;
+          case STATUS_BLACKJACK:
+            player_money += Math.round((3/2)*player_bet).toNumber();
+            System.println("Blackjack Payout:" + Math.round((3.0/2.0)*player_bet));
 
+            break;
           case STATUS_TIE:
             break;
-
           default:
             System.println("Unknown status at end of round:" + status);
             break;
@@ -373,8 +591,10 @@ enum
 {
   STATUS_LOST = 0,
   STATUS_WON = 1,
-  STATUS_TIE = 2,
-  STATUS_ACTIVE_ROUND = 3,
-  STATUS_IDLE = 4
+  STATUS_BLACKJACK = 2,
+  STATUS_TIE = 3,
+  STATUS_ACTIVE_ROUND = 4,
+  STATUS_IDLE = 5
+  
 
 }

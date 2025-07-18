@@ -8,7 +8,4 @@
     <label id="player_hand" x="center" y="70" text="Player Hand:" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
     <label id="player_points" x="center" y="85" text="Player Points:" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" />
     <label id="game_status" x="center" y="120" text="Active" color="Graphics.COLOR_WHITE" justification="Graphics.TEXT_JUSTIFY_CENTER" font="Graphics.FONT_XTINY" /> -->
-
-
-
 </layout>

@@ -4,7 +4,7 @@
 <pcToLineNum>
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" id="1" lineNum="54" parent="globals" pc="268435457" symbol="getApp"/>
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" id="1" lineNum="55" parent="globals" pc="268435467" symbol="getApp"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435483" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="2" lineNum="7" parent="globals/Rez" pc="268435483" symbol="&lt;init&gt;"/>
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="3" lineNum="323" parent="globals/Deck" pc="268435507" symbol="drawCard"/>
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="3" lineNum="325" parent="globals/Deck" pc="268435509" symbol="drawCard"/>
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="3" lineNum="327" parent="globals/Deck" pc="268435528" symbol="drawCard"/>
@@ -292,13 +292,13 @@
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="40" lineNum="137" parent="globals/BlackjackView" pc="268441231" symbol="onUpdate"/>
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="40" lineNum="138" parent="globals/BlackjackView" pc="268441338" symbol="onUpdate"/>
 <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="40" lineNum="142" parent="globals/BlackjackView" pc="268441445" symbol="onUpdate"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="41" lineNum="23" parent="globals/Rez/Layouts" pc="268441510" symbol="MainLayout"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="41" lineNum="24" parent="globals/Rez/Layouts" pc="268441520" symbol="MainLayout"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="42" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268441527" symbol="&lt;init&gt;"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="43" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268441546" symbol="initialize"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="43" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268441548" symbol="initialize"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="43" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268441566" symbol="initialize"/>
-<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4024-00/source/Rez.mcgen" id="43" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268441588" symbol="initialize"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="41" lineNum="23" parent="globals/Rez/Layouts" pc="268441510" symbol="MainLayout"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="41" lineNum="24" parent="globals/Rez/Layouts" pc="268441520" symbol="MainLayout"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="42" lineNum="29" parent="globals/Rez/Menus/MainMenu" pc="268441527" symbol="&lt;init&gt;"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="43" lineNum="30" parent="globals/Rez/Menus/MainMenu" pc="268441546" symbol="initialize"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="43" lineNum="31" parent="globals/Rez/Menus/MainMenu" pc="268441548" symbol="initialize"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="43" lineNum="32" parent="globals/Rez/Menus/MainMenu" pc="268441566" symbol="initialize"/>
+<entry filename="/home/max/git/blackjack-connectiq/builds/gen/006-B4376-00/source/Rez.mcgen" id="43" lineNum="33" parent="globals/Rez/Menus/MainMenu" pc="268441588" symbol="initialize"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>

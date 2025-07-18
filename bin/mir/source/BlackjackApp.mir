@@ -1,15 +1,15 @@
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 1; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Application,1,14,25]; ]
 import Toybox.Application;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 2; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [Lang,2,14,18]; ]
 import Toybox.Lang;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 3; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 4; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 4; @symbol_importdef<0> = [Toybox,4,7,13]; @symbol_importdef<1> = [Graphics,4,14,22]; ]
 import Toybox.Graphics;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 5; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 5; @symbol_usingdef<0> = [Toybox,5,6,12]; @symbol_usingdef<1> = [System,5,13,19]; ]
 using Toybox.System;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 8; ]
-class BlackjackApp extends Application.AppBase{
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 8; @symbol_classdef = [BlackjackApp,8,6,18]; @symbol_extends<0> = [Application,8,27,38]; @symbol_extends<1> = [AppBase,8,39,46]; ]
+class BlackjackApp extends Application.AppBase {
     [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 8; ]
     <init> {
     }
@@ -17,126 +17,169 @@ class BlackjackApp extends Application.AppBase{
     static
     <init> {
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 10; @position = 15; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 10; @position = 15; @symbol_vardef = [engine,10,15,21]; ]
     public
     var engine;
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 12; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 12; @position = 15; @symbol_vardef = [view,12,15,19]; ]
+    public
+    var view;
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 14; @symbol_functiondef = [initialize,14,13,23]; ]
     function initialize() as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_12_26_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 13 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_15_4_17_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 16 8 ]
+        symbol [ AppBase %tmp.2 16 8 15 ];
         %tmp.2 = getv ? :AppBase;
+        symbol [ initialize %tmp.3 16 16 26 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_12_26_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_15_4_17_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 17; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 20; @symbol_functiondef = [onStart,20,13,20]; @symbol_param<0> = [state,20,21,26]; @symbol_param<0>_type<0> = [Dictionary,20,30,40]; ]
     function onStart(state as Dictionary or Null) as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 20 8 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_stop" ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 24 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_stop" ]
         %money.1 = local;
+        symbol [ money %money.1 24 12 17 ];
+        symbol [ Application %tmp.1 24 19 30 ];
         %tmp.1 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.2 24 31 38 ];
         %tmp.2 = getv %tmp.1 :Storage;
+        symbol [ getValue %tmp.3 24 39 47 ];
         %tmp.3 = getv function %tmp.2 :getValue;
         %tmp.4 = "money";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
         lputv %money.1 %tmp.5;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 21 8 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_stop" ]
+        symbol [ money %money.1 24 12 17 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 25 8 ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_stop" ]
         %bet.2 = local;
+        symbol [ bet %bet.2 25 12 15 ];
+        symbol [ Application %tmp.6 25 17 28 ];
         %tmp.6 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.7 25 29 36 ];
         %tmp.7 = getv %tmp.6 :Storage;
+        symbol [ getValue %tmp.8 25 37 45 ];
         %tmp.8 = getv function %tmp.7 :getValue;
         %tmp.9 = "bet";
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);
         lputv %bet.2 %tmp.10;
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 24 8 ]
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_stmt:
-        %tmp.12 = lgetv %money.1;
-        %tmp.13 = null;
-        %tmp.14 = eq %tmp.12 %tmp.13;
-        bf %tmp.14 @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_25_8_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 26 12 ]
-        %tmp.15 = 100;
-        lputv %money.1 %tmp.15;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_25_8_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_24_8_if_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 29 8 ]
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_stmt:
-        %tmp.17 = lgetv %bet.2;
-        %tmp.18 = null;
-        %tmp.19 = eq %tmp.17 %tmp.18;
-        bf %tmp.19 @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_30_8_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 31 12 ]
-        %tmp.20 = 10;
-        lputv %bet.2 %tmp.20;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_30_8_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_if_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 35 8 ]
-        %tmp.24 = getv ? :BlackjackEngine;
-        %tmp.25 = 2;
-        %tmp.27 = lgetv %money.1;
-        %tmp.29 = lgetv %bet.2;
-        %tmp.21 = newc %tmp.24 (%tmp.25, %tmp.27, %tmp.29);
-        putv self :engine %tmp.21;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_17_51_stop:
+        symbol [ bet %bet.2 25 12 15 ];
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 28 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_28_8_31_8_if_stmt:
+        %tmp.11 = lgetv %money.1;
+        symbol [ money %tmp.11 28 11 16 ];
+        %tmp.12 = null;
+        %tmp.13 = eq %tmp.11 %tmp.12;
+        bf %tmp.13 @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_28_8_31_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_28_8_31_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_31_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 30 12 ]
+        %tmp.14 = 100;
+        lputv %money.1 %tmp.14;
+        symbol [ money %money.1 30 12 17 ];
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_29_8_31_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_28_8_31_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_28_8_31_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 33 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_33_8_36_8_if_stmt:
+        %tmp.15 = lgetv %bet.2;
+        symbol [ bet %tmp.15 33 11 14 ];
+        %tmp.16 = null;
+        %tmp.17 = eq %tmp.15 %tmp.16;
+        bf %tmp.17 @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_33_8_36_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_33_8_36_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_34_8_36_8_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 35 12 ]
+        %tmp.18 = 10;
+        lputv %bet.2 %tmp.18;
+        symbol [ bet %bet.2 35 12 15 ];
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_34_8_36_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_33_8_36_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_33_8_36_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 39 8 ]
+        symbol [ BlackjackEngine %tmp.22 39 21 36 ];
+        %tmp.22 = getv ? :BlackjackEngine;
+        %tmp.23 = 2;
+        %tmp.24 = lgetv %money.1;
+        symbol [ money %tmp.24 39 39 44 ];
+        %tmp.25 = lgetv %bet.2;
+        symbol [ bet %tmp.25 39 46 49 ];
+        %tmp.19 = newc %tmp.22 (%tmp.23, %tmp.24, %tmp.25);
+        symbol [ engine ? 39 8 14 ];
+        putv self :engine %tmp.19;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 40; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 44; @symbol_functiondef = [onStop,44,13,19]; @symbol_param<0> = [state,44,20,25]; @symbol_param<0>_type<0> = [Dictionary,44,29,39]; ]
     function onStop(state as Dictionary or Null) as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_41_4_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 43 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_45_4_49_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 47 8 ]
+        symbol [ Application %tmp.1 47 8 19 ];
         %tmp.1 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.2 47 20 27 ];
         %tmp.2 = getv %tmp.1 :Storage;
+        symbol [ setValue %tmp.3 47 28 36 ];
         %tmp.3 = getv function %tmp.2 :setValue;
         %tmp.4 = "money";
+        symbol [ engine %tmp.6 47 45 51 ];
         %tmp.6 = getv ? :engine;
+        symbol [ getMoney %tmp.7 47 52 60 ];
         %tmp.7 = getv function %tmp.6 :getMoney;
         %tmp.8 = invoke %tmp.6 %tmp.7();
         invoke %tmp.2 %tmp.3(%tmp.4, %tmp.8);
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 44 8 ]
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 48 8 ]
+        symbol [ Application %tmp.9 48 8 19 ];
         %tmp.9 = getm $.Toybox.Application;
+        symbol [ Storage %tmp.10 48 20 27 ];
         %tmp.10 = getv %tmp.9 :Storage;
+        symbol [ setValue %tmp.11 48 28 36 ];
         %tmp.11 = getv function %tmp.10 :setValue;
         %tmp.12 = "bet";
+        symbol [ engine %tmp.14 48 43 49 ];
         %tmp.14 = getv ? :engine;
+        symbol [ getBet %tmp.15 48 50 56 ];
         %tmp.15 = getv function %tmp.14 :getBet;
         %tmp.16 = invoke %tmp.14 %tmp.15();
         invoke %tmp.10 %tmp.11(%tmp.12, %tmp.16);
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_41_4_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_45_4_49_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 48; ]
-    function getInitialView() as Array<Views or InputDelegates> or Null {
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_48_65_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 49 8 ]
-        %tmp.1 = newa Array<Views or InputDelegates> 2;
-        %tmp.5 = getv ? :BlackjackView;
-        %tmp.2 = newc %tmp.5 ();
-        %tmp.6 = dup %tmp.1;
-        %tmp.7 = aputv %tmp.6 0 %tmp.2;
-        %tmp.11 = getv ? :BlackjackDelegate;
-        %tmp.8 = newc %tmp.11 ();
-        %tmp.12 = dup %tmp.7;
-        %tmp.13 = aputv %tmp.12 1 %tmp.8;
-        ret %tmp.13;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_48_65_stop:
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 52; @symbol_functiondef = [getInitialView,52,13,27]; ]
+    function getInitialView() {
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_53_4_56_4_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 54 8 ]
+        symbol [ BlackjackView %tmp.4 54 19 32 ];
+        %tmp.4 = getv ? :BlackjackView;
+        %tmp.1 = newc %tmp.4 ();
+        symbol [ view ? 54 8 12 ];
+        putv self :view %tmp.1;
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 55 8 ]
+        %tmp.5 = newa 2;
+        symbol [ view %tmp.7 55 16 20 ];
+        %tmp.7 = getv ? :view;
+        %tmp.8 = dup %tmp.5;
+        %tmp.9 = aputv %tmp.8 0 %tmp.7;
+        symbol [ BlackjackDelegate %tmp.13 55 26 43 ];
+        %tmp.13 = getv ? :BlackjackDelegate;
+        %tmp.10 = newc %tmp.13 ();
+        %tmp.14 = dup %tmp.9;
+        %tmp.15 = aputv %tmp.14 1 %tmp.10;
+        ret %tmp.15;
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_53_4_56_4_stop:
     }
 }
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 54; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 60; @symbol_functiondef = [getApp,60,9,15]; @symbol_return<0> = [BlackjackApp,60,21,33]; ]
 function getApp() as BlackjackApp {
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_54_34_start:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 55 4 ]
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_60_34_62_0_start:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" 61 4 ]
+    symbol [ Application %tmp.1 61 11 22 ];
     %tmp.1 = getm $.Toybox.Application;
+    symbol [ getApp %tmp.2 61 23 29 ];
     %tmp.2 = getv function %tmp.1 :getApp;
     %tmp.3 = invoke %tmp.1 %tmp.2();
     %tmp.4 = as %tmp.3 BlackjackApp;
+    symbol [ BlackjackApp %tmp.4 61 35 47 ];
     ret %tmp.4;
-_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_54_34_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_60_34_62_0_stop:
 }
 [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackApp.mc"; @line = 1; ]
 <init> {

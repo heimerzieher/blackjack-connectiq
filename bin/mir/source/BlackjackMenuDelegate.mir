@@ -1,11 +1,11 @@
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 1; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 1; @symbol_importdef<0> = [Toybox,1,7,13]; @symbol_importdef<1> = [Lang,1,14,18]; ]
 import Toybox.Lang;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 2; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 2; @symbol_importdef<0> = [Toybox,2,7,13]; @symbol_importdef<1> = [System,2,14,20]; ]
 import Toybox.System;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 3; ]
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 3; @symbol_importdef<0> = [Toybox,3,7,13]; @symbol_importdef<1> = [WatchUi,3,14,21]; ]
 import Toybox.WatchUi;
-[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 5; ]
-class BlackjackMenuDelegate extends WatchUi.MenuInputDelegate{
+[ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 5; @symbol_classdef = [BlackjackMenuDelegate,5,6,27]; @symbol_extends<0> = [WatchUi,5,36,43]; @symbol_extends<1> = [MenuInputDelegate,5,44,61]; ]
+class BlackjackMenuDelegate extends WatchUi.MenuInputDelegate {
     [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 5; ]
     <init> {
     }
@@ -13,56 +13,68 @@ class BlackjackMenuDelegate extends WatchUi.MenuInputDelegate{
     static
     <init> {
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 7; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 7; @symbol_functiondef = [initialize,7,13,23]; ]
     function initialize() as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_7_26_start:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_7_26_9_4_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" 8 8 ]
+        symbol [ MenuInputDelegate %tmp.2 8 8 25 ];
         %tmp.2 = getv ? :MenuInputDelegate;
+        symbol [ initialize %tmp.3 8 26 36 ];
         %tmp.3 = getv function %tmp.2 :initialize;
         invoke %tmp.2 %tmp.3();
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_7_26_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_7_26_9_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 11; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 11; @symbol_functiondef = [onMenuItem,11,13,23]; @symbol_param<0> = [item,11,24,28]; @symbol_param<0>_type<0> = [Symbol,11,32,38]; ]
     function onMenuItem(item as Symbol) as Void {
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_11_48_start:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_11_48_18_4_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" 12 8 ]
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_if_stmt:
-        %tmp.2 = lgetv %item;
-        %tmp.4 = const :item_1;
-        %tmp.5 = eq %tmp.2 %tmp.4;
-        bf %tmp.5 @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_if_false;
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_29_start:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_17_8_if_stmt:
+        %tmp.1 = lgetv %item;
+        symbol [ item %tmp.1 12 12 16 ];
+        %tmp.3 = const :item_1;
+        symbol [ item_1 %tmp.3 12 21 27 const ];
+        %tmp.4 = eq %tmp.1 %tmp.3;
+        bf %tmp.4 @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_17_8_if_false;
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_17_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_29_15_8_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" 13 12 ]
-        %tmp.6 = getm $.Toybox.System;
-        %tmp.7 = getv function %tmp.6 :println;
-        %tmp.8 = "item 1";
-        invoke %tmp.6 %tmp.7(%tmp.8);
+        symbol [ System %tmp.5 13 12 18 ];
+        %tmp.5 = getm $.Toybox.System;
+        symbol [ println %tmp.6 13 19 26 ];
+        %tmp.6 = getv function %tmp.5 :println;
+        %tmp.7 = "item 1";
+        invoke %tmp.5 %tmp.6(%tmp.7);
 [ "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" 14 12 ]
-        %tmp.9 = getm $.Toybox.System;
-        %tmp.10 = getv function %tmp.9 :exit;
-        invoke %tmp.9 %tmp.10();
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_29_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_if_false:
+        symbol [ System %tmp.8 14 12 18 ];
+        %tmp.8 = getm $.Toybox.System;
+        symbol [ exit %tmp.9 14 19 23 ];
+        %tmp.9 = getv function %tmp.8 :exit;
+        invoke %tmp.8 %tmp.9();
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_29_15_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_17_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_17_8_if_false:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" 15 15 ]
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_if_stmt:
-        %tmp.12 = lgetv %item;
-        %tmp.14 = const :item_2;
-        %tmp.15 = eq %tmp.12 %tmp.14;
-        bf %tmp.15 @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_if_true:
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_36_start:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_17_8_if_stmt:
+        %tmp.10 = lgetv %item;
+        symbol [ item %tmp.10 15 19 23 ];
+        %tmp.12 = const :item_2;
+        symbol [ item_2 %tmp.12 15 28 34 const ];
+        %tmp.13 = eq %tmp.10 %tmp.12;
+        bf %tmp.13 @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_17_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_17_8_if_true:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_36_17_8_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" 16 12 ]
-        %tmp.16 = getm $.Toybox.System;
-        %tmp.17 = getv function %tmp.16 :println;
-        %tmp.18 = "item 2";
-        invoke %tmp.16 %tmp.17(%tmp.18);
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_36_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_if_end:
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_if_end:
-_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_11_48_stop:
+        symbol [ System %tmp.14 16 12 18 ];
+        %tmp.14 = getm $.Toybox.System;
+        symbol [ println %tmp.15 16 19 26 ];
+        %tmp.15 = getv function %tmp.14 :println;
+        %tmp.16 = "item 2";
+        invoke %tmp.14 %tmp.15(%tmp.16);
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_36_17_8_stop:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_17_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_15_15_17_8_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_12_8_17_8_if_end:
+_home_max_git_blackjack_connectiq_source_BlackjackMenuDelegate_mc_11_48_18_4_stop:
     }
 }
 [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc"; @line = 1; ]

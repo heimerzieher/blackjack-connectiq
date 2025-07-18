@@ -1,4 +1,4 @@
 <menu id="MainMenu">
     <menu-item id="item_1" label="Exit" />
-    <menu-item id="item_2" label="@Strings.menu_label_2" />
+    <!-- <menu-item id="item_2" label="@Strings.menu_label_2" /> -->
 </menu>
