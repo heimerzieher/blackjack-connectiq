@@ -9,29 +9,29 @@
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackApp.mc" id="4" lineNum="8" parent="globals/BlackjackApp" pc="268435513" symbol="&lt;init&gt;"/>
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" id="5" lineNum="5" parent="globals/BlackjackMenuDelegate" pc="268435525" symbol="&lt;init&gt;"/>
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="6" lineNum="6" parent="globals/BlackjackView" pc="268435537" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="541" parent="globals/Deck" pc="268435549" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="543" parent="globals/Deck" pc="268435551" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="545" parent="globals/Deck" pc="268435566" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="547" parent="globals/Deck" pc="268435576" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="548" parent="globals/Deck" pc="268435597" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="551" parent="globals/Deck" pc="268435607" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="554" parent="globals/Deck" pc="268435649" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="517" parent="globals/Deck" pc="268435661" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="519" parent="globals/Deck" pc="268435664" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="521" parent="globals/Deck" pc="268435677" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="524" parent="globals/Deck" pc="268435680" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="527" parent="globals/Deck" pc="268435691" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="529" parent="globals/Deck" pc="268435702" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="531" parent="globals/Deck" pc="268435714" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="532" parent="globals/Deck" pc="268435748" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="537" parent="globals/Deck" pc="268435785" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="558" parent="globals/Deck" pc="268435795" symbol="shuffle"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="560" parent="globals/Deck" pc="268435798" symbol="shuffle"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="562" parent="globals/Deck" pc="268435814" symbol="shuffle"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="564" parent="globals/Deck" pc="268435825" symbol="shuffle"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="567" parent="globals/Deck" pc="268435843" symbol="shuffle"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="569" parent="globals/Deck" pc="268435856" symbol="shuffle"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="570" parent="globals/Deck" pc="268435878" symbol="shuffle"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="617" parent="globals/Deck" pc="268435549" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="619" parent="globals/Deck" pc="268435551" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="621" parent="globals/Deck" pc="268435566" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="623" parent="globals/Deck" pc="268435576" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="624" parent="globals/Deck" pc="268435597" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="627" parent="globals/Deck" pc="268435607" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="7" lineNum="630" parent="globals/Deck" pc="268435649" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="593" parent="globals/Deck" pc="268435661" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="595" parent="globals/Deck" pc="268435664" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="597" parent="globals/Deck" pc="268435677" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="600" parent="globals/Deck" pc="268435680" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="603" parent="globals/Deck" pc="268435691" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="605" parent="globals/Deck" pc="268435702" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="607" parent="globals/Deck" pc="268435714" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="608" parent="globals/Deck" pc="268435748" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="8" lineNum="613" parent="globals/Deck" pc="268435785" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="634" parent="globals/Deck" pc="268435795" symbol="shuffle"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="636" parent="globals/Deck" pc="268435798" symbol="shuffle"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="638" parent="globals/Deck" pc="268435814" symbol="shuffle"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="640" parent="globals/Deck" pc="268435825" symbol="shuffle"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="643" parent="globals/Deck" pc="268435843" symbol="shuffle"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="645" parent="globals/Deck" pc="268435856" symbol="shuffle"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="9" lineNum="646" parent="globals/Deck" pc="268435878" symbol="shuffle"/>
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" id="10" lineNum="15" parent="globals/BlackjackDelegate" pc="268435902" symbol="onMenu"/>
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" id="10" lineNum="17" parent="globals/BlackjackDelegate" pc="268435904" symbol="onMenu"/>
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackDelegate.mc" id="10" lineNum="18" parent="globals/BlackjackDelegate" pc="268435973" symbol="onMenu"/>
@@ -132,328 +132,368 @@
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" id="18" lineNum="16" parent="globals/BlackjackMenuDelegate" pc="268438428" symbol="onMenuItem"/>
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" id="19" lineNum="7" parent="globals/BlackjackMenuDelegate" pc="268438450" symbol="initialize"/>
         <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackMenuDelegate.mc" id="19" lineNum="8" parent="globals/BlackjackMenuDelegate" pc="268438452" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="483" parent="globals/Card" pc="268438465" symbol="blackjackValue"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="485" parent="globals/Card" pc="268438467" symbol="blackjackValue"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="487" parent="globals/Card" pc="268438478" symbol="blackjackValue"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="489" parent="globals/Card" pc="268438484" symbol="blackjackValue"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="492" parent="globals/Card" pc="268438490" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="494" parent="globals/Card" pc="268438492" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="496" parent="globals/Card" pc="268438497" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="498" parent="globals/Card" pc="268438513" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="500" parent="globals/Card" pc="268438529" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="502" parent="globals/Card" pc="268438545" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="504" parent="globals/Card" pc="268438561" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="497" parent="globals/Card" pc="268438564" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="499" parent="globals/Card" pc="268438570" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="501" parent="globals/Card" pc="268438576" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="503" parent="globals/Card" pc="268438582" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="505" parent="globals/Card" pc="268438588" symbol="valueName"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="22" lineNum="477" parent="globals/Card" pc="268438596" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="22" lineNum="479" parent="globals/Card" pc="268438598" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="22" lineNum="480" parent="globals/Card" pc="268438607" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="23" lineNum="88" parent="globals/BlackjackEngine" pc="268438617" symbol="setBet"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="23" lineNum="90" parent="globals/BlackjackEngine" pc="268438619" symbol="setBet"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="23" lineNum="92" parent="globals/BlackjackEngine" pc="268438630" symbol="setBet"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="102" parent="globals/BlackjackEngine" pc="268438643" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="104" parent="globals/BlackjackEngine" pc="268438645" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="106" parent="globals/BlackjackEngine" pc="268438654" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="108" parent="globals/BlackjackEngine" pc="268438662" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="109" parent="globals/BlackjackEngine" pc="268438670" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="111" parent="globals/BlackjackEngine" pc="268438678" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="112" parent="globals/BlackjackEngine" pc="268438688" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="114" parent="globals/BlackjackEngine" pc="268438698" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="115" parent="globals/BlackjackEngine" pc="268438707" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="117" parent="globals/BlackjackEngine" pc="268438716" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="118" parent="globals/BlackjackEngine" pc="268438734" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="120" parent="globals/BlackjackEngine" pc="268438753" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="121" parent="globals/BlackjackEngine" pc="268438771" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="123" parent="globals/BlackjackEngine" pc="268438790" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="125" parent="globals/BlackjackEngine" pc="268438797" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="127" parent="globals/BlackjackEngine" pc="268438809" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="129" parent="globals/BlackjackEngine" pc="268438821" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="130" parent="globals/BlackjackEngine" pc="268438830" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="135" parent="globals/BlackjackEngine" pc="268438840" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="136" parent="globals/BlackjackEngine" pc="268438849" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="140" parent="globals/BlackjackEngine" pc="268438859" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="142" parent="globals/BlackjackEngine" pc="268438871" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="144" parent="globals/BlackjackEngine" pc="268438883" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="145" parent="globals/BlackjackEngine" pc="268438891" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="150" parent="globals/BlackjackEngine" pc="268438901" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="151" parent="globals/BlackjackEngine" pc="268438910" symbol="startRound"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="158" parent="globals/BlackjackEngine" pc="268438921" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="160" parent="globals/BlackjackEngine" pc="268438923" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="162" parent="globals/BlackjackEngine" pc="268438934" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="164" parent="globals/BlackjackEngine" pc="268438944" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="166" parent="globals/BlackjackEngine" pc="268438969" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="168" parent="globals/BlackjackEngine" pc="268438976" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="170" parent="globals/BlackjackEngine" pc="268438987" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="171" parent="globals/BlackjackEngine" pc="268438995" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="175" parent="globals/BlackjackEngine" pc="268439008" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="177" parent="globals/BlackjackEngine" pc="268439019" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="179" parent="globals/BlackjackEngine" pc="268439044" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="181" parent="globals/BlackjackEngine" pc="268439051" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="183" parent="globals/BlackjackEngine" pc="268439062" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="187" parent="globals/BlackjackEngine" pc="268439077" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="189" parent="globals/BlackjackEngine" pc="268439088" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="191" parent="globals/BlackjackEngine" pc="268439113" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="193" parent="globals/BlackjackEngine" pc="268439120" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="195" parent="globals/BlackjackEngine" pc="268439131" symbol="hit"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="26" lineNum="83" parent="globals/BlackjackEngine" pc="268439148" symbol="getBet"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="26" lineNum="85" parent="globals/BlackjackEngine" pc="268439150" symbol="getBet"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="303" parent="globals/BlackjackEngine" pc="268439156" symbol="split"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="305" parent="globals/BlackjackEngine" pc="268439158" symbol="split"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="306" parent="globals/BlackjackEngine" pc="268439168" symbol="split"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="308" parent="globals/BlackjackEngine" pc="268439178" symbol="split"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="309" parent="globals/BlackjackEngine" pc="268439192" symbol="split"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="311" parent="globals/BlackjackEngine" pc="268439207" symbol="split"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="313" parent="globals/BlackjackEngine" pc="268439216" symbol="split"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="28" lineNum="52" parent="globals/BlackjackEngine" pc="268439224" symbol="getPlayerCards_split2"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="28" lineNum="54" parent="globals/BlackjackEngine" pc="268439226" symbol="getPlayerCards_split2"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="29" lineNum="47" parent="globals/BlackjackEngine" pc="268439232" symbol="getPlayerCards_split1"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="29" lineNum="49" parent="globals/BlackjackEngine" pc="268439234" symbol="getPlayerCards_split1"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="30" lineNum="58" parent="globals/BlackjackEngine" pc="268439240" symbol="getDealerCards"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="30" lineNum="60" parent="globals/BlackjackEngine" pc="268439242" symbol="getDealerCards"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="31" lineNum="63" parent="globals/BlackjackEngine" pc="268439248" symbol="getPlayerPoints"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="31" lineNum="65" parent="globals/BlackjackEngine" pc="268439250" symbol="getPlayerPoints"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="32" lineNum="96" parent="globals/BlackjackEngine" pc="268439256" symbol="getMoney"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="32" lineNum="98" parent="globals/BlackjackEngine" pc="268439258" symbol="getMoney"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="208" parent="globals/BlackjackEngine" pc="268439264" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="210" parent="globals/BlackjackEngine" pc="268439266" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="212" parent="globals/BlackjackEngine" pc="268439277" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="214" parent="globals/BlackjackEngine" pc="268439287" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="216" parent="globals/BlackjackEngine" pc="268439298" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="217" parent="globals/BlackjackEngine" pc="268439323" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="220" parent="globals/BlackjackEngine" pc="268439333" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="222" parent="globals/BlackjackEngine" pc="268439358" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="225" parent="globals/BlackjackEngine" pc="268439370" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="227" parent="globals/BlackjackEngine" pc="268439381" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="230" parent="globals/BlackjackEngine" pc="268439393" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="232" parent="globals/BlackjackEngine" pc="268439418" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="235" parent="globals/BlackjackEngine" pc="268439429" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="237" parent="globals/BlackjackEngine" pc="268439443" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="241" parent="globals/BlackjackEngine" pc="268439455" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="243" parent="globals/BlackjackEngine" pc="268439466" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="246" parent="globals/BlackjackEngine" pc="268439477" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="248" parent="globals/BlackjackEngine" pc="268439484" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="251" parent="globals/BlackjackEngine" pc="268439511" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="255" parent="globals/BlackjackEngine" pc="268439522" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="257" parent="globals/BlackjackEngine" pc="268439533" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="258" parent="globals/BlackjackEngine" pc="268439558" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="261" parent="globals/BlackjackEngine" pc="268439568" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="263" parent="globals/BlackjackEngine" pc="268439593" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="266" parent="globals/BlackjackEngine" pc="268439605" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="268" parent="globals/BlackjackEngine" pc="268439630" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="271" parent="globals/BlackjackEngine" pc="268439642" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="273" parent="globals/BlackjackEngine" pc="268439653" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="276" parent="globals/BlackjackEngine" pc="268439665" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="278" parent="globals/BlackjackEngine" pc="268439704" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="281" parent="globals/BlackjackEngine" pc="268439715" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="283" parent="globals/BlackjackEngine" pc="268439743" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="287" parent="globals/BlackjackEngine" pc="268439755" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="289" parent="globals/BlackjackEngine" pc="268439777" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="291" parent="globals/BlackjackEngine" pc="268439788" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="293" parent="globals/BlackjackEngine" pc="268439795" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="296" parent="globals/BlackjackEngine" pc="268439822" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="298" parent="globals/BlackjackEngine" pc="268439833" symbol="stand"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="34" lineNum="78" parent="globals/BlackjackEngine" pc="268439849" symbol="getDealerPoints"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="34" lineNum="80" parent="globals/BlackjackEngine" pc="268439851" symbol="getDealerPoints"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="440" parent="globals/BlackjackEngine" pc="268439857" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="442" parent="globals/BlackjackEngine" pc="268439859" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="446" parent="globals/BlackjackEngine" pc="268439870" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="448" parent="globals/BlackjackEngine" pc="268439875" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="451" parent="globals/BlackjackEngine" pc="268439891" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="454" parent="globals/BlackjackEngine" pc="268439906" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="459" parent="globals/BlackjackEngine" pc="268439922" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="461" parent="globals/BlackjackEngine" pc="268439938" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="449" parent="globals/BlackjackEngine" pc="268439941" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="450" parent="globals/BlackjackEngine" pc="268439959" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="452" parent="globals/BlackjackEngine" pc="268439962" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="453" parent="globals/BlackjackEngine" pc="268439980" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="455" parent="globals/BlackjackEngine" pc="268439983" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="456" parent="globals/BlackjackEngine" pc="268440022" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="458" parent="globals/BlackjackEngine" pc="268440064" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="460" parent="globals/BlackjackEngine" pc="268440067" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="462" parent="globals/BlackjackEngine" pc="268440070" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="463" parent="globals/BlackjackEngine" pc="268440094" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="36" lineNum="68" parent="globals/BlackjackEngine" pc="268440102" symbol="getPlayerPoints_split1"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="36" lineNum="70" parent="globals/BlackjackEngine" pc="268440104" symbol="getPlayerPoints_split1"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="37" lineNum="73" parent="globals/BlackjackEngine" pc="268440110" symbol="getPlayerPoints_split2"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="37" lineNum="75" parent="globals/BlackjackEngine" pc="268440112" symbol="getPlayerPoints_split2"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="38" lineNum="42" parent="globals/BlackjackEngine" pc="268440118" symbol="getPlayerCards"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="38" lineNum="44" parent="globals/BlackjackEngine" pc="268440120" symbol="getPlayerCards"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="27" parent="globals/BlackjackEngine" pc="268440126" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="29" parent="globals/BlackjackEngine" pc="268440128" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="31" parent="globals/BlackjackEngine" pc="268440137" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="32" parent="globals/BlackjackEngine" pc="268440171" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="34" parent="globals/BlackjackEngine" pc="268440183" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="35" parent="globals/BlackjackEngine" pc="268440192" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="37" parent="globals/BlackjackEngine" pc="268440201" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="39" parent="globals/BlackjackEngine" pc="268440209" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="358" parent="globals/BlackjackEngine" pc="268440219" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="360" parent="globals/BlackjackEngine" pc="268440222" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="361" parent="globals/BlackjackEngine" pc="268440230" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="362" parent="globals/BlackjackEngine" pc="268440238" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="363" parent="globals/BlackjackEngine" pc="268440246" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="365" parent="globals/BlackjackEngine" pc="268440254" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="366" parent="globals/BlackjackEngine" pc="268440274" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="367" parent="globals/BlackjackEngine" pc="268440294" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="405" parent="globals/BlackjackEngine" pc="268440314" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="407" parent="globals/BlackjackEngine" pc="268440317" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="409" parent="globals/BlackjackEngine" pc="268440337" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="411" parent="globals/BlackjackEngine" pc="268440353" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="413" parent="globals/BlackjackEngine" pc="268440361" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="418" parent="globals/BlackjackEngine" pc="268440371" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="421" parent="globals/BlackjackEngine" pc="268440386" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="424" parent="globals/BlackjackEngine" pc="268440448" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="426" parent="globals/BlackjackEngine" pc="268440459" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="428" parent="globals/BlackjackEngine" pc="268440473" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="433" parent="globals/BlackjackEngine" pc="268440491" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="437" parent="globals/BlackjackEngine" pc="268440516" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="317" parent="globals/BlackjackEngine" pc="268440541" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="319" parent="globals/BlackjackEngine" pc="268440544" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="321" parent="globals/BlackjackEngine" pc="268440547" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="323" parent="globals/BlackjackEngine" pc="268440550" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="325" parent="globals/BlackjackEngine" pc="268440566" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="327" parent="globals/BlackjackEngine" pc="268440579" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="329" parent="globals/BlackjackEngine" pc="268440587" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="334" parent="globals/BlackjackEngine" pc="268440597" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="337" parent="globals/BlackjackEngine" pc="268440604" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="340" parent="globals/BlackjackEngine" pc="268440660" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="342" parent="globals/BlackjackEngine" pc="268440671" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="344" parent="globals/BlackjackEngine" pc="268440682" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="349" parent="globals/BlackjackEngine" pc="268440692" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="353" parent="globals/BlackjackEngine" pc="268440709" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="355" parent="globals/BlackjackEngine" pc="268440712" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="31" parent="globals/BlackjackView" pc="268440737" symbol="onLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="32" parent="globals/BlackjackView" pc="268440739" symbol="onLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="36" parent="globals/BlackjackView" pc="268440772" symbol="onLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="40" parent="globals/BlackjackView" pc="268440831" symbol="onLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="44" parent="globals/BlackjackView" pc="268440890" symbol="onLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="48" parent="globals/BlackjackView" pc="268440949" symbol="onLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="243" parent="globals/BlackjackView" pc="268441009" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="246" parent="globals/BlackjackView" pc="268441012" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="248" parent="globals/BlackjackView" pc="268441017" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="249" parent="globals/BlackjackView" pc="268441037" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="254" parent="globals/BlackjackView" pc="268441058" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="255" parent="globals/BlackjackView" pc="268441078" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="257" parent="globals/BlackjackView" pc="268441096" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="258" parent="globals/BlackjackView" pc="268441126" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="259" parent="globals/BlackjackView" pc="268441142" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="263" parent="globals/BlackjackView" pc="268441160" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="265" parent="globals/BlackjackView" pc="268441162" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="269" parent="globals/BlackjackView" pc="268441178" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="273" parent="globals/BlackjackView" pc="268441194" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="277" parent="globals/BlackjackView" pc="268441209" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="281" parent="globals/BlackjackView" pc="268441225" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="266" parent="globals/BlackjackView" pc="268441228" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="267" parent="globals/BlackjackView" pc="268441235" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="270" parent="globals/BlackjackView" pc="268441238" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="271" parent="globals/BlackjackView" pc="268441245" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="274" parent="globals/BlackjackView" pc="268441248" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="275" parent="globals/BlackjackView" pc="268441255" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="278" parent="globals/BlackjackView" pc="268441258" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="279" parent="globals/BlackjackView" pc="268441265" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="282" parent="globals/BlackjackView" pc="268441268" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="283" parent="globals/BlackjackView" pc="268441275" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="286" parent="globals/BlackjackView" pc="268441279" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="288" parent="globals/BlackjackView" pc="268441295" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="289" parent="globals/BlackjackView" pc="268441299" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="291" parent="globals/BlackjackView" pc="268441327" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="292" parent="globals/BlackjackView" pc="268441337" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="293" parent="globals/BlackjackView" pc="268441356" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="297" parent="globals/BlackjackView" pc="268441368" symbol="drawCard"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="45" lineNum="8" parent="globals/BlackjackView" pc="268441389" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="45" lineNum="10" parent="globals/BlackjackView" pc="268441391" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="60" parent="globals/BlackjackView" pc="268441404" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="62" parent="globals/BlackjackView" pc="268441407" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="64" parent="globals/BlackjackView" pc="268441423" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="66" parent="globals/BlackjackView" pc="268441441" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="67" parent="globals/BlackjackView" pc="268441450" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="68" parent="globals/BlackjackView" pc="268441459" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="69" parent="globals/BlackjackView" pc="268441466" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="71" parent="globals/BlackjackView" pc="268441473" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="74" parent="globals/BlackjackView" pc="268441488" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="76" parent="globals/BlackjackView" pc="268441508" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="81" parent="globals/BlackjackView" pc="268441516" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="84" parent="globals/BlackjackView" pc="268441556" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="86" parent="globals/BlackjackView" pc="268441564" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="87" parent="globals/BlackjackView" pc="268441583" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="88" parent="globals/BlackjackView" pc="268441602" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="90" parent="globals/BlackjackView" pc="268441621" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="92" parent="globals/BlackjackView" pc="268441640" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="94" parent="globals/BlackjackView" pc="268441648" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="97" parent="globals/BlackjackView" pc="268441668" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="99" parent="globals/BlackjackView" pc="268441769" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="103" parent="globals/BlackjackView" pc="268441818" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="105" parent="globals/BlackjackView" pc="268441919" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="109" parent="globals/BlackjackView" pc="268441968" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="111" parent="globals/BlackjackView" pc="268442069" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="113" parent="globals/BlackjackView" pc="268442118" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="119" parent="globals/BlackjackView" pc="268442141" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="123" parent="globals/BlackjackView" pc="268442181" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="126" parent="globals/BlackjackView" pc="268442197" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="128" parent="globals/BlackjackView" pc="268442212" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="133" parent="globals/BlackjackView" pc="268442295" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="140" parent="globals/BlackjackView" pc="268442385" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="142" parent="globals/BlackjackView" pc="268442406" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="144" parent="globals/BlackjackView" pc="268442449" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="146" parent="globals/BlackjackView" pc="268442465" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="152" parent="globals/BlackjackView" pc="268442561" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="154" parent="globals/BlackjackView" pc="268442604" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="156" parent="globals/BlackjackView" pc="268442620" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="159" parent="globals/BlackjackView" pc="268442713" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="161" parent="globals/BlackjackView" pc="268442768" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="163" parent="globals/BlackjackView" pc="268442784" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="169" parent="globals/BlackjackView" pc="268442877" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="171" parent="globals/BlackjackView" pc="268442884" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="173" parent="globals/BlackjackView" pc="268442886" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="177" parent="globals/BlackjackView" pc="268442902" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="181" parent="globals/BlackjackView" pc="268442917" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="185" parent="globals/BlackjackView" pc="268442933" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="189" parent="globals/BlackjackView" pc="268442949" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="193" parent="globals/BlackjackView" pc="268442965" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="174" parent="globals/BlackjackView" pc="268442968" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="176" parent="globals/BlackjackView" pc="268442975" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="178" parent="globals/BlackjackView" pc="268442978" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="179" parent="globals/BlackjackView" pc="268442985" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="180" parent="globals/BlackjackView" pc="268442992" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="182" parent="globals/BlackjackView" pc="268442995" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="183" parent="globals/BlackjackView" pc="268443002" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="184" parent="globals/BlackjackView" pc="268443008" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="186" parent="globals/BlackjackView" pc="268443011" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="187" parent="globals/BlackjackView" pc="268443018" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="188" parent="globals/BlackjackView" pc="268443025" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="190" parent="globals/BlackjackView" pc="268443028" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="191" parent="globals/BlackjackView" pc="268443035" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="192" parent="globals/BlackjackView" pc="268443041" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="194" parent="globals/BlackjackView" pc="268443044" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="195" parent="globals/BlackjackView" pc="268443048" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="198" parent="globals/BlackjackView" pc="268443052" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="199" parent="globals/BlackjackView" pc="268443069" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="200" parent="globals/BlackjackView" pc="268443095" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="210" parent="globals/BlackjackView" pc="268443118" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="215" parent="globals/BlackjackView" pc="268443126" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="218" parent="globals/BlackjackView" pc="268443146" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="220" parent="globals/BlackjackView" pc="268443247" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="224" parent="globals/BlackjackView" pc="268443296" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="226" parent="globals/BlackjackView" pc="268443397" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="230" parent="globals/BlackjackView" pc="268443446" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="232" parent="globals/BlackjackView" pc="268443547" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="234" parent="globals/BlackjackView" pc="268443596" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="239" parent="globals/BlackjackView" pc="268443619" symbol="onUpdate"/>
-        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="48" lineNum="17" parent="globals/Rez/Layouts" pc="268443669" symbol="MainLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="48" lineNum="18" parent="globals/Rez/Layouts" pc="268443679" symbol="MainLayout"/>
-        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="49" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268443682" symbol="&lt;init&gt;"/>
-        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="50" lineNum="24" parent="globals/Rez/Menus/MainMenu" pc="268443694" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="50" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268443696" symbol="initialize"/>
-        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="50" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268443708" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="559" parent="globals/Card" pc="268438465" symbol="blackjackValue"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="561" parent="globals/Card" pc="268438467" symbol="blackjackValue"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="563" parent="globals/Card" pc="268438478" symbol="blackjackValue"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="20" lineNum="565" parent="globals/Card" pc="268438484" symbol="blackjackValue"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="568" parent="globals/Card" pc="268438490" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="570" parent="globals/Card" pc="268438492" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="572" parent="globals/Card" pc="268438497" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="574" parent="globals/Card" pc="268438513" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="576" parent="globals/Card" pc="268438529" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="578" parent="globals/Card" pc="268438545" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="580" parent="globals/Card" pc="268438561" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="573" parent="globals/Card" pc="268438564" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="575" parent="globals/Card" pc="268438570" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="577" parent="globals/Card" pc="268438576" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="579" parent="globals/Card" pc="268438582" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="21" lineNum="581" parent="globals/Card" pc="268438588" symbol="valueName"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="22" lineNum="553" parent="globals/Card" pc="268438596" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="22" lineNum="555" parent="globals/Card" pc="268438598" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="22" lineNum="556" parent="globals/Card" pc="268438607" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="23" lineNum="91" parent="globals/BlackjackEngine" pc="268438617" symbol="setBet"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="23" lineNum="93" parent="globals/BlackjackEngine" pc="268438619" symbol="setBet"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="23" lineNum="95" parent="globals/BlackjackEngine" pc="268438630" symbol="setBet"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="105" parent="globals/BlackjackEngine" pc="268438643" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="107" parent="globals/BlackjackEngine" pc="268438645" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="109" parent="globals/BlackjackEngine" pc="268438654" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="111" parent="globals/BlackjackEngine" pc="268438662" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="112" parent="globals/BlackjackEngine" pc="268438670" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="114" parent="globals/BlackjackEngine" pc="268438678" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="115" parent="globals/BlackjackEngine" pc="268438688" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="117" parent="globals/BlackjackEngine" pc="268438698" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="118" parent="globals/BlackjackEngine" pc="268438707" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="120" parent="globals/BlackjackEngine" pc="268438716" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="121" parent="globals/BlackjackEngine" pc="268438734" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="123" parent="globals/BlackjackEngine" pc="268438753" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="124" parent="globals/BlackjackEngine" pc="268438771" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="126" parent="globals/BlackjackEngine" pc="268438790" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="128" parent="globals/BlackjackEngine" pc="268438797" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="130" parent="globals/BlackjackEngine" pc="268438809" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="132" parent="globals/BlackjackEngine" pc="268438821" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="133" parent="globals/BlackjackEngine" pc="268438830" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="138" parent="globals/BlackjackEngine" pc="268438840" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="139" parent="globals/BlackjackEngine" pc="268438849" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="143" parent="globals/BlackjackEngine" pc="268438859" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="145" parent="globals/BlackjackEngine" pc="268438871" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="147" parent="globals/BlackjackEngine" pc="268438883" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="148" parent="globals/BlackjackEngine" pc="268438891" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="153" parent="globals/BlackjackEngine" pc="268438901" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="24" lineNum="154" parent="globals/BlackjackEngine" pc="268438910" symbol="startRound"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="161" parent="globals/BlackjackEngine" pc="268438921" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="163" parent="globals/BlackjackEngine" pc="268438923" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="165" parent="globals/BlackjackEngine" pc="268438934" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="167" parent="globals/BlackjackEngine" pc="268438944" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="169" parent="globals/BlackjackEngine" pc="268438969" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="171" parent="globals/BlackjackEngine" pc="268438976" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="173" parent="globals/BlackjackEngine" pc="268438987" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="174" parent="globals/BlackjackEngine" pc="268438995" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="178" parent="globals/BlackjackEngine" pc="268439008" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="180" parent="globals/BlackjackEngine" pc="268439019" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="182" parent="globals/BlackjackEngine" pc="268439044" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="184" parent="globals/BlackjackEngine" pc="268439051" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="186" parent="globals/BlackjackEngine" pc="268439062" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="190" parent="globals/BlackjackEngine" pc="268439077" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="192" parent="globals/BlackjackEngine" pc="268439088" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="194" parent="globals/BlackjackEngine" pc="268439113" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="196" parent="globals/BlackjackEngine" pc="268439120" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="25" lineNum="198" parent="globals/BlackjackEngine" pc="268439131" symbol="hit"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="26" lineNum="86" parent="globals/BlackjackEngine" pc="268439148" symbol="getBet"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="26" lineNum="88" parent="globals/BlackjackEngine" pc="268439150" symbol="getBet"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="331" parent="globals/BlackjackEngine" pc="268439156" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="333" parent="globals/BlackjackEngine" pc="268439158" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="334" parent="globals/BlackjackEngine" pc="268439168" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="336" parent="globals/BlackjackEngine" pc="268439178" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="337" parent="globals/BlackjackEngine" pc="268439192" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="339" parent="globals/BlackjackEngine" pc="268439207" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="341" parent="globals/BlackjackEngine" pc="268439216" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="342" parent="globals/BlackjackEngine" pc="268439225" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="27" lineNum="344" parent="globals/BlackjackEngine" pc="268439234" symbol="split"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="28" lineNum="55" parent="globals/BlackjackEngine" pc="268439242" symbol="getPlayerCards_split2"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="28" lineNum="57" parent="globals/BlackjackEngine" pc="268439244" symbol="getPlayerCards_split2"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="29" lineNum="50" parent="globals/BlackjackEngine" pc="268439250" symbol="getPlayerCards_split1"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="29" lineNum="52" parent="globals/BlackjackEngine" pc="268439252" symbol="getPlayerCards_split1"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="30" lineNum="61" parent="globals/BlackjackEngine" pc="268439258" symbol="getDealerCards"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="30" lineNum="63" parent="globals/BlackjackEngine" pc="268439260" symbol="getDealerCards"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="31" lineNum="66" parent="globals/BlackjackEngine" pc="268439266" symbol="getPlayerPoints"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="31" lineNum="68" parent="globals/BlackjackEngine" pc="268439268" symbol="getPlayerPoints"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="32" lineNum="99" parent="globals/BlackjackEngine" pc="268439274" symbol="getMoney"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="32" lineNum="101" parent="globals/BlackjackEngine" pc="268439276" symbol="getMoney"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="211" parent="globals/BlackjackEngine" pc="268439282" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="213" parent="globals/BlackjackEngine" pc="268439284" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="215" parent="globals/BlackjackEngine" pc="268439295" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="217" parent="globals/BlackjackEngine" pc="268439305" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="219" parent="globals/BlackjackEngine" pc="268439316" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="220" parent="globals/BlackjackEngine" pc="268439341" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="223" parent="globals/BlackjackEngine" pc="268439351" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="225" parent="globals/BlackjackEngine" pc="268439376" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="228" parent="globals/BlackjackEngine" pc="268439388" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="230" parent="globals/BlackjackEngine" pc="268439399" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="233" parent="globals/BlackjackEngine" pc="268439411" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="235" parent="globals/BlackjackEngine" pc="268439436" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="238" parent="globals/BlackjackEngine" pc="268439447" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="240" parent="globals/BlackjackEngine" pc="268439461" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="244" parent="globals/BlackjackEngine" pc="268439473" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="246" parent="globals/BlackjackEngine" pc="268439484" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="249" parent="globals/BlackjackEngine" pc="268439495" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="251" parent="globals/BlackjackEngine" pc="268439502" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="254" parent="globals/BlackjackEngine" pc="268439529" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="258" parent="globals/BlackjackEngine" pc="268439540" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="260" parent="globals/BlackjackEngine" pc="268439551" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="261" parent="globals/BlackjackEngine" pc="268439576" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="264" parent="globals/BlackjackEngine" pc="268439586" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="266" parent="globals/BlackjackEngine" pc="268439611" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="271" parent="globals/BlackjackEngine" pc="268439623" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="274" parent="globals/BlackjackEngine" pc="268439631" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="276" parent="globals/BlackjackEngine" pc="268439656" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="281" parent="globals/BlackjackEngine" pc="268439668" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="284" parent="globals/BlackjackEngine" pc="268439676" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="286" parent="globals/BlackjackEngine" pc="268439698" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="289" parent="globals/BlackjackEngine" pc="268439710" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="291" parent="globals/BlackjackEngine" pc="268439732" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="299" parent="globals/BlackjackEngine" pc="268439744" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="301" parent="globals/BlackjackEngine" pc="268439769" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="304" parent="globals/BlackjackEngine" pc="268439781" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="306" parent="globals/BlackjackEngine" pc="268439806" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="315" parent="globals/BlackjackEngine" pc="268439818" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="317" parent="globals/BlackjackEngine" pc="268439827" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="319" parent="globals/BlackjackEngine" pc="268439834" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="320" parent="globals/BlackjackEngine" pc="268439858" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="321" parent="globals/BlackjackEngine" pc="268439882" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="324" parent="globals/BlackjackEngine" pc="268439909" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="33" lineNum="326" parent="globals/BlackjackEngine" pc="268439920" symbol="stand"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="34" lineNum="81" parent="globals/BlackjackEngine" pc="268439936" symbol="getDealerPoints"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="34" lineNum="83" parent="globals/BlackjackEngine" pc="268439938" symbol="getDealerPoints"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="471" parent="globals/BlackjackEngine" pc="268439944" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="473" parent="globals/BlackjackEngine" pc="268439946" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="476" parent="globals/BlackjackEngine" pc="268439957" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="478" parent="globals/BlackjackEngine" pc="268439967" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="480" parent="globals/BlackjackEngine" pc="268439972" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="483" parent="globals/BlackjackEngine" pc="268439988" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="486" parent="globals/BlackjackEngine" pc="268440003" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="491" parent="globals/BlackjackEngine" pc="268440019" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="493" parent="globals/BlackjackEngine" pc="268440035" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="481" parent="globals/BlackjackEngine" pc="268440038" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="482" parent="globals/BlackjackEngine" pc="268440056" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="484" parent="globals/BlackjackEngine" pc="268440059" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="485" parent="globals/BlackjackEngine" pc="268440077" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="487" parent="globals/BlackjackEngine" pc="268440080" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="488" parent="globals/BlackjackEngine" pc="268440119" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="490" parent="globals/BlackjackEngine" pc="268440161" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="492" parent="globals/BlackjackEngine" pc="268440164" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="494" parent="globals/BlackjackEngine" pc="268440167" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="495" parent="globals/BlackjackEngine" pc="268440191" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="501" parent="globals/BlackjackEngine" pc="268440198" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="503" parent="globals/BlackjackEngine" pc="268440203" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="506" parent="globals/BlackjackEngine" pc="268440219" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="509" parent="globals/BlackjackEngine" pc="268440234" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="514" parent="globals/BlackjackEngine" pc="268440250" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="516" parent="globals/BlackjackEngine" pc="268440266" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="504" parent="globals/BlackjackEngine" pc="268440269" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="505" parent="globals/BlackjackEngine" pc="268440287" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="507" parent="globals/BlackjackEngine" pc="268440290" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="508" parent="globals/BlackjackEngine" pc="268440308" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="510" parent="globals/BlackjackEngine" pc="268440311" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="511" parent="globals/BlackjackEngine" pc="268440350" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="513" parent="globals/BlackjackEngine" pc="268440392" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="515" parent="globals/BlackjackEngine" pc="268440395" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="517" parent="globals/BlackjackEngine" pc="268440398" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="518" parent="globals/BlackjackEngine" pc="268440422" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="521" parent="globals/BlackjackEngine" pc="268440426" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="523" parent="globals/BlackjackEngine" pc="268440431" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="526" parent="globals/BlackjackEngine" pc="268440447" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="529" parent="globals/BlackjackEngine" pc="268440462" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="534" parent="globals/BlackjackEngine" pc="268440478" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="536" parent="globals/BlackjackEngine" pc="268440494" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="524" parent="globals/BlackjackEngine" pc="268440497" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="525" parent="globals/BlackjackEngine" pc="268440515" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="527" parent="globals/BlackjackEngine" pc="268440518" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="528" parent="globals/BlackjackEngine" pc="268440536" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="530" parent="globals/BlackjackEngine" pc="268440539" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="531" parent="globals/BlackjackEngine" pc="268440578" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="533" parent="globals/BlackjackEngine" pc="268440620" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="535" parent="globals/BlackjackEngine" pc="268440623" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="537" parent="globals/BlackjackEngine" pc="268440626" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="35" lineNum="538" parent="globals/BlackjackEngine" pc="268440650" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="36" lineNum="71" parent="globals/BlackjackEngine" pc="268440658" symbol="getPlayerPoints_split1"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="36" lineNum="73" parent="globals/BlackjackEngine" pc="268440660" symbol="getPlayerPoints_split1"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="37" lineNum="76" parent="globals/BlackjackEngine" pc="268440666" symbol="getPlayerPoints_split2"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="37" lineNum="78" parent="globals/BlackjackEngine" pc="268440668" symbol="getPlayerPoints_split2"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="38" lineNum="45" parent="globals/BlackjackEngine" pc="268440674" symbol="getPlayerCards"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="38" lineNum="47" parent="globals/BlackjackEngine" pc="268440676" symbol="getPlayerCards"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="30" parent="globals/BlackjackEngine" pc="268440682" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="32" parent="globals/BlackjackEngine" pc="268440684" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="34" parent="globals/BlackjackEngine" pc="268440693" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="35" parent="globals/BlackjackEngine" pc="268440727" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="37" parent="globals/BlackjackEngine" pc="268440739" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="38" parent="globals/BlackjackEngine" pc="268440748" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="40" parent="globals/BlackjackEngine" pc="268440757" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="39" lineNum="42" parent="globals/BlackjackEngine" pc="268440765" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="389" parent="globals/BlackjackEngine" pc="268440775" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="391" parent="globals/BlackjackEngine" pc="268440778" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="392" parent="globals/BlackjackEngine" pc="268440786" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="393" parent="globals/BlackjackEngine" pc="268440794" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="394" parent="globals/BlackjackEngine" pc="268440802" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="396" parent="globals/BlackjackEngine" pc="268440810" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="397" parent="globals/BlackjackEngine" pc="268440830" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="398" parent="globals/BlackjackEngine" pc="268440850" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="436" parent="globals/BlackjackEngine" pc="268440870" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="438" parent="globals/BlackjackEngine" pc="268440873" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="440" parent="globals/BlackjackEngine" pc="268440893" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="442" parent="globals/BlackjackEngine" pc="268440909" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="444" parent="globals/BlackjackEngine" pc="268440917" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="449" parent="globals/BlackjackEngine" pc="268440927" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="452" parent="globals/BlackjackEngine" pc="268440942" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="455" parent="globals/BlackjackEngine" pc="268441004" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="457" parent="globals/BlackjackEngine" pc="268441015" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="459" parent="globals/BlackjackEngine" pc="268441029" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="464" parent="globals/BlackjackEngine" pc="268441047" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="40" lineNum="468" parent="globals/BlackjackEngine" pc="268441072" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="348" parent="globals/BlackjackEngine" pc="268441097" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="350" parent="globals/BlackjackEngine" pc="268441100" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="352" parent="globals/BlackjackEngine" pc="268441103" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="354" parent="globals/BlackjackEngine" pc="268441106" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="356" parent="globals/BlackjackEngine" pc="268441122" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="358" parent="globals/BlackjackEngine" pc="268441135" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="360" parent="globals/BlackjackEngine" pc="268441143" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="365" parent="globals/BlackjackEngine" pc="268441153" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="368" parent="globals/BlackjackEngine" pc="268441160" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="371" parent="globals/BlackjackEngine" pc="268441216" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="373" parent="globals/BlackjackEngine" pc="268441227" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="375" parent="globals/BlackjackEngine" pc="268441238" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="380" parent="globals/BlackjackEngine" pc="268441248" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="384" parent="globals/BlackjackEngine" pc="268441265" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackEngine.mc" id="41" lineNum="386" parent="globals/BlackjackEngine" pc="268441268" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="31" parent="globals/BlackjackView" pc="268441293" symbol="onLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="32" parent="globals/BlackjackView" pc="268441295" symbol="onLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="36" parent="globals/BlackjackView" pc="268441328" symbol="onLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="40" parent="globals/BlackjackView" pc="268441387" symbol="onLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="44" parent="globals/BlackjackView" pc="268441446" symbol="onLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="43" lineNum="48" parent="globals/BlackjackView" pc="268441505" symbol="onLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="243" parent="globals/BlackjackView" pc="268441565" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="246" parent="globals/BlackjackView" pc="268441568" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="248" parent="globals/BlackjackView" pc="268441573" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="249" parent="globals/BlackjackView" pc="268441593" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="254" parent="globals/BlackjackView" pc="268441614" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="255" parent="globals/BlackjackView" pc="268441634" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="257" parent="globals/BlackjackView" pc="268441652" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="258" parent="globals/BlackjackView" pc="268441682" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="259" parent="globals/BlackjackView" pc="268441698" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="263" parent="globals/BlackjackView" pc="268441716" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="265" parent="globals/BlackjackView" pc="268441718" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="269" parent="globals/BlackjackView" pc="268441734" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="273" parent="globals/BlackjackView" pc="268441750" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="277" parent="globals/BlackjackView" pc="268441765" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="281" parent="globals/BlackjackView" pc="268441781" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="266" parent="globals/BlackjackView" pc="268441784" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="267" parent="globals/BlackjackView" pc="268441791" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="270" parent="globals/BlackjackView" pc="268441794" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="271" parent="globals/BlackjackView" pc="268441801" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="274" parent="globals/BlackjackView" pc="268441804" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="275" parent="globals/BlackjackView" pc="268441811" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="278" parent="globals/BlackjackView" pc="268441814" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="279" parent="globals/BlackjackView" pc="268441821" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="282" parent="globals/BlackjackView" pc="268441824" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="283" parent="globals/BlackjackView" pc="268441831" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="286" parent="globals/BlackjackView" pc="268441835" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="288" parent="globals/BlackjackView" pc="268441851" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="289" parent="globals/BlackjackView" pc="268441855" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="291" parent="globals/BlackjackView" pc="268441883" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="292" parent="globals/BlackjackView" pc="268441893" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="293" parent="globals/BlackjackView" pc="268441912" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="44" lineNum="296" parent="globals/BlackjackView" pc="268441924" symbol="drawCard"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="45" lineNum="8" parent="globals/BlackjackView" pc="268441945" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="45" lineNum="10" parent="globals/BlackjackView" pc="268441947" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="60" parent="globals/BlackjackView" pc="268441960" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="62" parent="globals/BlackjackView" pc="268441963" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="64" parent="globals/BlackjackView" pc="268441979" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="66" parent="globals/BlackjackView" pc="268441997" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="67" parent="globals/BlackjackView" pc="268442006" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="68" parent="globals/BlackjackView" pc="268442015" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="69" parent="globals/BlackjackView" pc="268442022" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="71" parent="globals/BlackjackView" pc="268442029" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="74" parent="globals/BlackjackView" pc="268442044" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="76" parent="globals/BlackjackView" pc="268442064" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="81" parent="globals/BlackjackView" pc="268442072" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="84" parent="globals/BlackjackView" pc="268442112" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="86" parent="globals/BlackjackView" pc="268442120" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="87" parent="globals/BlackjackView" pc="268442139" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="88" parent="globals/BlackjackView" pc="268442158" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="90" parent="globals/BlackjackView" pc="268442177" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="92" parent="globals/BlackjackView" pc="268442196" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="94" parent="globals/BlackjackView" pc="268442204" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="97" parent="globals/BlackjackView" pc="268442224" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="99" parent="globals/BlackjackView" pc="268442325" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="103" parent="globals/BlackjackView" pc="268442374" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="105" parent="globals/BlackjackView" pc="268442475" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="109" parent="globals/BlackjackView" pc="268442524" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="111" parent="globals/BlackjackView" pc="268442625" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="113" parent="globals/BlackjackView" pc="268442674" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="119" parent="globals/BlackjackView" pc="268442697" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="123" parent="globals/BlackjackView" pc="268442737" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="126" parent="globals/BlackjackView" pc="268442753" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="128" parent="globals/BlackjackView" pc="268442768" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="133" parent="globals/BlackjackView" pc="268442851" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="140" parent="globals/BlackjackView" pc="268442941" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="142" parent="globals/BlackjackView" pc="268442962" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="144" parent="globals/BlackjackView" pc="268443005" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="146" parent="globals/BlackjackView" pc="268443021" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="152" parent="globals/BlackjackView" pc="268443117" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="154" parent="globals/BlackjackView" pc="268443160" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="156" parent="globals/BlackjackView" pc="268443176" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="159" parent="globals/BlackjackView" pc="268443269" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="161" parent="globals/BlackjackView" pc="268443324" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="163" parent="globals/BlackjackView" pc="268443340" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="169" parent="globals/BlackjackView" pc="268443433" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="171" parent="globals/BlackjackView" pc="268443440" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="173" parent="globals/BlackjackView" pc="268443442" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="177" parent="globals/BlackjackView" pc="268443458" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="181" parent="globals/BlackjackView" pc="268443473" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="185" parent="globals/BlackjackView" pc="268443489" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="189" parent="globals/BlackjackView" pc="268443505" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="193" parent="globals/BlackjackView" pc="268443521" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="174" parent="globals/BlackjackView" pc="268443524" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="176" parent="globals/BlackjackView" pc="268443531" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="178" parent="globals/BlackjackView" pc="268443534" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="179" parent="globals/BlackjackView" pc="268443541" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="180" parent="globals/BlackjackView" pc="268443548" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="182" parent="globals/BlackjackView" pc="268443551" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="183" parent="globals/BlackjackView" pc="268443558" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="184" parent="globals/BlackjackView" pc="268443564" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="186" parent="globals/BlackjackView" pc="268443567" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="187" parent="globals/BlackjackView" pc="268443574" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="188" parent="globals/BlackjackView" pc="268443581" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="190" parent="globals/BlackjackView" pc="268443584" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="191" parent="globals/BlackjackView" pc="268443591" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="192" parent="globals/BlackjackView" pc="268443597" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="194" parent="globals/BlackjackView" pc="268443600" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="195" parent="globals/BlackjackView" pc="268443604" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="198" parent="globals/BlackjackView" pc="268443608" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="199" parent="globals/BlackjackView" pc="268443625" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="200" parent="globals/BlackjackView" pc="268443651" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="210" parent="globals/BlackjackView" pc="268443674" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="215" parent="globals/BlackjackView" pc="268443682" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="218" parent="globals/BlackjackView" pc="268443702" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="220" parent="globals/BlackjackView" pc="268443803" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="224" parent="globals/BlackjackView" pc="268443852" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="226" parent="globals/BlackjackView" pc="268443953" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="230" parent="globals/BlackjackView" pc="268444002" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="232" parent="globals/BlackjackView" pc="268444103" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="234" parent="globals/BlackjackView" pc="268444152" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/source/BlackjackView.mc" id="47" lineNum="239" parent="globals/BlackjackView" pc="268444175" symbol="onUpdate"/>
+        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="48" lineNum="17" parent="globals/Rez/Layouts" pc="268444225" symbol="MainLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="48" lineNum="18" parent="globals/Rez/Layouts" pc="268444235" symbol="MainLayout"/>
+        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="49" lineNum="23" parent="globals/Rez/Menus/MainMenu" pc="268444238" symbol="&lt;init&gt;"/>
+        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="50" lineNum="24" parent="globals/Rez/Menus/MainMenu" pc="268444250" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="50" lineNum="25" parent="globals/Rez/Menus/MainMenu" pc="268444252" symbol="initialize"/>
+        <entry filename="/home/max/git/blackjack-connectiq/bin/gen/006-B4376-00/source/Rez.mcgen" id="50" lineNum="26" parent="globals/Rez/Menus/MainMenu" pc="268444264" symbol="initialize"/>
     </pcToLineNum>
     <symbolTable>
         <entry id="8388639" module="true" symbol="Graphics"/>
         <entry id="54" method="true" symbol="startRound"/>
         <entry field="true" id="47" symbol="&lt;globals/BlackjackEngine/&lt;&gt;player_cards_split2&gt;"/>
         <entry field="true" id="46" symbol="&lt;globals/BlackjackEngine/&lt;&gt;player_cards_split1&gt;"/>
-        <entry field="true" id="67" symbol="stand_button_pos"/>
+        <entry field="true" id="69" symbol="stand_button_pos"/>
         <entry field="true" id="44" symbol="&lt;globals/BlackjackEngine/&lt;&gt;player_bet&gt;"/>
         <entry id="10" object="true" symbol="BlackjackMenuDelegate"/>
         <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
@@ -461,7 +501,7 @@
         <entry field="true" id="41" symbol="&lt;globals/BlackjackEngine/&lt;&gt;playerHandPoints&gt;"/>
         <entry field="true" id="19" symbol="engine"/>
         <entry field="true" id="55" symbol="status"/>
-        <entry id="73" method="true" symbol="MainLayout"/>
+        <entry id="75" method="true" symbol="MainLayout"/>
         <entry id="30" method="true" symbol="getDealerCards"/>
         <entry id="32" method="true" symbol="getMoney"/>
         <entry id="31" method="true" symbol="getDealerPoints"/>
@@ -470,13 +510,13 @@
         <entry id="7" object="true" symbol="BlackjackApp"/>
         <entry field="true" id="8388611" module="true" symbol="Toybox"/>
         <entry id="49" method="true" symbol="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;"/>
-        <entry field="true" id="75" symbol="AppName"/>
-        <entry field="true" id="66" symbol="split_button_pos"/>
+        <entry field="true" id="77" symbol="AppName"/>
+        <entry field="true" id="68" symbol="split_button_pos"/>
         <entry id="6" module="true" symbol="globals/Rez/Strings"/>
         <entry id="8389080" method="true" symbol="onMenu"/>
         <entry id="8389345" symbol="rezId"/>
-        <entry field="true" id="58" symbol="&lt;globals/BlackjackView/&lt;&gt;button_text_size&gt;"/>
-        <entry field="true" id="60" symbol="deal_button_pos"/>
+        <entry field="true" id="60" symbol="&lt;globals/BlackjackView/&lt;&gt;button_text_size&gt;"/>
+        <entry field="true" id="62" symbol="deal_button_pos"/>
         <entry id="24" method="true" symbol="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;"/>
         <entry field="true" id="8388947" method="true" symbol="value"/>
         <entry id="8388648" module="true" symbol="WatchUi"/>
@@ -484,35 +524,35 @@
         <entry id="29" method="true" symbol="getBet"/>
         <entry id="2" module="true" symbol="globals/Rez"/>
         <entry field="true" id="26" symbol="&lt;globals/BlackjackEngine/&lt;&gt;dealer_cards&gt;"/>
-        <entry field="true" id="78" symbol="prompt"/>
+        <entry field="true" id="80" symbol="prompt"/>
         <entry id="35" method="true" symbol="getPlayerCards_split2"/>
         <entry id="34" method="true" symbol="getPlayerCards_split1"/>
         <entry id="33" method="true" symbol="getPlayerCards"/>
-        <entry field="true" id="71" symbol="heart"/>
+        <entry field="true" id="73" symbol="heart"/>
         <entry id="8389124" method="true" symbol="onUpdate"/>
-        <entry field="true" id="72" symbol="spade"/>
-        <entry field="true" id="69" symbol="club"/>
-        <entry field="true" id="57" symbol="&lt;globals/BlackjackView/&lt;&gt;button_text_color&gt;"/>
+        <entry field="true" id="74" symbol="spade"/>
+        <entry field="true" id="71" symbol="club"/>
+        <entry field="true" id="59" symbol="&lt;globals/BlackjackView/&lt;&gt;button_text_color&gt;"/>
         <entry id="8388771" module="true" object="true" symbol="Drawables"/>
         <entry id="23" method="true" symbol="valueName"/>
-        <entry id="80" symbol="item_2"/>
-        <entry id="79" symbol="item_1"/>
+        <entry id="82" symbol="item_2"/>
+        <entry id="81" symbol="item_1"/>
         <entry id="15" module="true" symbol="Menus"/>
         <entry id="8389275" method="true" symbol="getApp"/>
         <entry id="4" module="true" symbol="globals/Rez/Layouts"/>
         <entry field="true" id="25" symbol="&lt;globals/BlackjackEngine/&lt;&gt;dealerHandPoints&gt;"/>
         <entry id="8389122" method="true" symbol="onLayout"/>
-        <entry field="true" id="64" symbol="&lt;globals/BlackjackView/&lt;&gt;scale_factor&gt;"/>
+        <entry field="true" id="66" symbol="&lt;globals/BlackjackView/&lt;&gt;scale_factor&gt;"/>
         <entry field="true" id="22" symbol="suit"/>
         <entry id="8390442" method="true" symbol="shuffle"/>
         <entry id="8389098" method="true" symbol="onTap"/>
-        <entry field="true" id="63" symbol="hit_button_pos"/>
-        <entry field="true" id="65" symbol="spade_bitmap"/>
+        <entry field="true" id="65" symbol="hit_button_pos"/>
+        <entry field="true" id="67" symbol="spade_bitmap"/>
         <entry id="8" object="true" symbol="BlackjackDelegate"/>
         <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
-        <entry id="74" object="true" symbol="MainMenu"/>
+        <entry id="76" object="true" symbol="MainMenu"/>
         <entry id="21" method="true" symbol="blackjackValue"/>
-        <entry field="true" id="59" symbol="club_bitmap"/>
+        <entry field="true" id="61" symbol="club_bitmap"/>
         <entry id="8388644" module="true" symbol="System"/>
         <entry id="51" method="true" symbol="split"/>
         <entry id="39" method="true" symbol="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;"/>
@@ -521,12 +561,12 @@
         <entry id="8388640" module="true" symbol="Lang"/>
         <entry id="38" method="true" symbol="getPlayerPoints_split2"/>
         <entry id="37" method="true" symbol="getPlayerPoints_split1"/>
-        <entry field="true" id="68" symbol="LauncherIcon"/>
+        <entry field="true" id="70" symbol="LauncherIcon"/>
         <entry id="8388610" symbol="statics"/>
         <entry id="8389123" method="true" symbol="onShow"/>
         <entry id="8389350" module="true" symbol="globals"/>
         <entry id="8388770" module="true" object="true" symbol="Strings"/>
-        <entry field="true" id="70" symbol="diamond"/>
+        <entry field="true" id="72" symbol="diamond"/>
         <entry field="true" id="27" symbol="&lt;globals/BlackjackEngine/&lt;&gt;deck&gt;"/>
         <entry field="true" id="52" symbol="split_status"/>
         <entry id="8388702" method="true" symbol="initialize"/>
@@ -534,17 +574,19 @@
         <entry field="true" id="48" symbol="&lt;globals/BlackjackEngine/&lt;&gt;player_money&gt;"/>
         <entry field="true" id="20" symbol="view"/>
         <entry field="true" id="45" symbol="&lt;globals/BlackjackEngine/&lt;&gt;player_cards&gt;"/>
-        <entry field="true" id="56" symbol="background_color"/>
+        <entry field="true" id="58" symbol="background_color"/>
         <entry field="true" id="28" symbol="&lt;globals/BlackjackEngine/&lt;&gt;decks_number&gt;"/>
+        <entry field="true" id="57" symbol="status_split2"/>
+        <entry field="true" id="56" symbol="status_split1"/>
         <entry id="8389280" method="true" symbol="getInitialView"/>
         <entry id="8389281" method="true" symbol="onStop"/>
         <entry id="8389109" method="true" symbol="onMenuItem"/>
         <entry field="true" id="16" symbol="cards"/>
         <entry id="8389097" method="true" symbol="onKey"/>
-        <entry field="true" id="61" symbol="diamond_bitmap"/>
+        <entry field="true" id="63" symbol="diamond_bitmap"/>
         <entry id="14" module="true" symbol="Layouts"/>
         <entry id="50" method="true" symbol="setBet"/>
-        <entry field="true" id="62" symbol="heart_bitmap"/>
+        <entry field="true" id="64" symbol="heart_bitmap"/>
         <entry id="13" object="true" symbol="Deck"/>
         <entry id="17" method="true" symbol="drawCard"/>
         <entry id="36" method="true" symbol="getPlayerPoints"/>
@@ -554,8 +596,8 @@
         <entry id="8389125" method="true" symbol="onHide"/>
         <entry id="8388635" module="true" symbol="Application"/>
         <entry field="true" id="18" symbol="top_card_index"/>
-        <entry field="true" id="77" symbol="menu_label_2"/>
-        <entry field="true" id="76" symbol="menu_label_1"/>
+        <entry field="true" id="79" symbol="menu_label_2"/>
+        <entry field="true" id="78" symbol="menu_label_1"/>
     </symbolTable>
     <localVars>
         <entry arg="true" endPc="268435794" name="nDecks" stackId="1" startPc="268435661"/>
@@ -579,47 +621,47 @@
         <entry arg="true" endPc="268438616" name="v" stackId="1" startPc="268438596"/>
         <entry arg="true" endPc="268438616" name="s" stackId="2" startPc="268438596"/>
         <entry arg="true" endPc="268438642" name="bet" stackId="1" startPc="268438617"/>
-        <entry arg="true" endPc="268440218" name="nDecks" stackId="1" startPc="268440126"/>
-        <entry arg="true" endPc="268440218" name="money" stackId="2" startPc="268440126"/>
-        <entry arg="true" endPc="268440218" name="bet" stackId="3" startPc="268440126"/>
-        <entry endPc="268440539" name="num_aces_dealer" stackId="1" startPc="268440222"/>
-        <entry endPc="268440447" name="i" stackId="2" startPc="268440337"/>
-        <entry endPc="268440437" name="value" stackId="3" startPc="268440337"/>
-        <entry endPc="268440515" name="i" stackId="4" startPc="268440459"/>
-        <entry arg="true" endPc="268440736" name="player_hand" stackId="1" startPc="268440541"/>
-        <entry endPc="268440735" name="num_aces_player" stackId="2" startPc="268440544"/>
-        <entry endPc="268440735" name="points" stackId="3" startPc="268440544"/>
-        <entry endPc="268440659" name="i" stackId="4" startPc="268440566"/>
-        <entry endPc="268440649" name="value" stackId="5" startPc="268440566"/>
-        <entry endPc="268440708" name="i" stackId="6" startPc="268440671"/>
-        <entry arg="true" endPc="268441008" name="dc" stackId="1" startPc="268440737"/>
-        <entry arg="true" endPc="268441388" name="dc" stackId="1" startPc="268441009"/>
-        <entry arg="true" endPc="268441388" name="x" stackId="2" startPc="268441009"/>
-        <entry arg="true" endPc="268441388" name="y" stackId="3" startPc="268441009"/>
-        <entry arg="true" endPc="268441388" name="width" stackId="4" startPc="268441009"/>
-        <entry arg="true" endPc="268441388" name="height" stackId="5" startPc="268441009"/>
-        <entry arg="true" endPc="268441388" name="value" stackId="6" startPc="268441009"/>
-        <entry arg="true" endPc="268441388" name="suit" stackId="7" startPc="268441009"/>
-        <entry arg="true" endPc="268441388" name="flip" stackId="8" startPc="268441009"/>
-        <entry endPc="268441367" name="suit_bitmap" stackId="9" startPc="268441058"/>
-        <entry endPc="268441367" name="text" stackId="10" startPc="268441058"/>
-        <entry arg="true" endPc="268443668" name="dc" stackId="1" startPc="268441404"/>
-        <entry endPc="268443667" name="status" stackId="2" startPc="268441407"/>
-        <entry endPc="268443667" name="screen_width" stackId="3" startPc="268441407"/>
-        <entry endPc="268443667" name="screen_height" stackId="4" startPc="268441407"/>
-        <entry endPc="268443667" name="center_x" stackId="5" startPc="268441407"/>
-        <entry endPc="268443667" name="center_y" stackId="6" startPc="268441407"/>
-        <entry endPc="268443114" name="player_cards" stackId="7" startPc="268441564"/>
-        <entry endPc="268443114" name="player_cards_split1" stackId="8" startPc="268441564"/>
-        <entry endPc="268443114" name="player_cards_split2" stackId="9" startPc="268441564"/>
-        <entry endPc="268443114" name="dealer_cards" stackId="10" startPc="268441564"/>
-        <entry endPc="268442384" name="i" stackId="11" startPc="268442197"/>
-        <entry endPc="268442557" name="i" stackId="12" startPc="268442465"/>
-        <entry endPc="268442712" name="i" stackId="13" startPc="268442620"/>
-        <entry endPc="268442876" name="i" stackId="14" startPc="268442784"/>
-        <entry endPc="268443114" name="status_label" stackId="15" startPc="268441564"/>
-        <entry endPc="268443114" name="status_color" stackId="16" startPc="268441564"/>
-        <entry arg="true" endPc="268443681" name="dc" stackId="1" startPc="268443669"/>
+        <entry arg="true" endPc="268440774" name="nDecks" stackId="1" startPc="268440682"/>
+        <entry arg="true" endPc="268440774" name="money" stackId="2" startPc="268440682"/>
+        <entry arg="true" endPc="268440774" name="bet" stackId="3" startPc="268440682"/>
+        <entry endPc="268441095" name="num_aces_dealer" stackId="1" startPc="268440778"/>
+        <entry endPc="268441003" name="i" stackId="2" startPc="268440893"/>
+        <entry endPc="268440993" name="value" stackId="3" startPc="268440893"/>
+        <entry endPc="268441071" name="i" stackId="4" startPc="268441015"/>
+        <entry arg="true" endPc="268441292" name="player_hand" stackId="1" startPc="268441097"/>
+        <entry endPc="268441291" name="num_aces_player" stackId="2" startPc="268441100"/>
+        <entry endPc="268441291" name="points" stackId="3" startPc="268441100"/>
+        <entry endPc="268441215" name="i" stackId="4" startPc="268441122"/>
+        <entry endPc="268441205" name="value" stackId="5" startPc="268441122"/>
+        <entry endPc="268441264" name="i" stackId="6" startPc="268441227"/>
+        <entry arg="true" endPc="268441564" name="dc" stackId="1" startPc="268441293"/>
+        <entry arg="true" endPc="268441944" name="dc" stackId="1" startPc="268441565"/>
+        <entry arg="true" endPc="268441944" name="x" stackId="2" startPc="268441565"/>
+        <entry arg="true" endPc="268441944" name="y" stackId="3" startPc="268441565"/>
+        <entry arg="true" endPc="268441944" name="width" stackId="4" startPc="268441565"/>
+        <entry arg="true" endPc="268441944" name="height" stackId="5" startPc="268441565"/>
+        <entry arg="true" endPc="268441944" name="value" stackId="6" startPc="268441565"/>
+        <entry arg="true" endPc="268441944" name="suit" stackId="7" startPc="268441565"/>
+        <entry arg="true" endPc="268441944" name="flip" stackId="8" startPc="268441565"/>
+        <entry endPc="268441923" name="suit_bitmap" stackId="9" startPc="268441614"/>
+        <entry endPc="268441923" name="text" stackId="10" startPc="268441614"/>
+        <entry arg="true" endPc="268444224" name="dc" stackId="1" startPc="268441960"/>
+        <entry endPc="268444223" name="status" stackId="2" startPc="268441963"/>
+        <entry endPc="268444223" name="screen_width" stackId="3" startPc="268441963"/>
+        <entry endPc="268444223" name="screen_height" stackId="4" startPc="268441963"/>
+        <entry endPc="268444223" name="center_x" stackId="5" startPc="268441963"/>
+        <entry endPc="268444223" name="center_y" stackId="6" startPc="268441963"/>
+        <entry endPc="268443670" name="player_cards" stackId="7" startPc="268442120"/>
+        <entry endPc="268443670" name="player_cards_split1" stackId="8" startPc="268442120"/>
+        <entry endPc="268443670" name="player_cards_split2" stackId="9" startPc="268442120"/>
+        <entry endPc="268443670" name="dealer_cards" stackId="10" startPc="268442120"/>
+        <entry endPc="268442940" name="i" stackId="11" startPc="268442753"/>
+        <entry endPc="268443113" name="i" stackId="12" startPc="268443021"/>
+        <entry endPc="268443268" name="i" stackId="13" startPc="268443176"/>
+        <entry endPc="268443432" name="i" stackId="14" startPc="268443340"/>
+        <entry endPc="268443670" name="status_label" stackId="15" startPc="268442120"/>
+        <entry endPc="268443670" name="status_color" stackId="16" startPc="268442120"/>
+        <entry arg="true" endPc="268444237" name="dc" stackId="1" startPc="268444225"/>
     </localVars>
     <deviceInfo deviceVersion="90325a5ba4f163ec5ad32845d0e0beee034c6cee" partNumber="006-B4376-00"/>
     <annotations>
@@ -642,12 +684,12 @@
         <dataEntry label="globals/BlackjackMenuDelegate" offset="481" parentId="globals" symbolId="BlackjackMenuDelegate" type="class"/>
         <dataEntry label="globals/Card" offset="534" parentId="globals" symbolId="Card" type="class"/>
         <dataEntry label="globals/BlackjackEngine" offset="614" parentId="globals" symbolId="BlackjackEngine" type="class"/>
-        <dataEntry label="globals/BlackjackView" offset="946" parentId="globals" symbolId="BlackjackView" type="class"/>
-        <dataEntry label="globals/Rez/Drawables" offset="1143" parentId="Rez" symbolId="Drawables" type="module"/>
-        <dataEntry label="globals/Rez/Layouts" offset="1214" parentId="Rez" symbolId="Layouts" type="module"/>
-        <dataEntry label="globals/Rez/Menus" offset="1249" parentId="Rez" symbolId="Menus" type="module"/>
-        <dataEntry label="globals/Rez/Strings" offset="1284" parentId="Rez" symbolId="Strings" type="module"/>
-        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1346" parentId="Menus" symbolId="MainMenu" type="class"/>
+        <dataEntry label="globals/BlackjackView" offset="964" parentId="globals" symbolId="BlackjackView" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="1161" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="1232" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="1267" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="1302" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/Menus/MainMenu" offset="1364" parentId="Menus" symbolId="MainMenu" type="class"/>
     </dataEntryOffsetMappings>
     <functions>
         <functionEntry accessMode="public" endPc="268435480" name="getApp" startPc="268435460">
@@ -758,63 +800,63 @@
         <functionEntry accessMode="public" endPc="268439155" name="getBet" parent="BlackjackEngine" startPc="268439148">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439223" name="split" parent="BlackjackEngine" startPc="268439156">
+        <functionEntry accessMode="public" endPc="268439241" name="split" parent="BlackjackEngine" startPc="268439156">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439231" name="getPlayerCards_split2" parent="BlackjackEngine" startPc="268439224">
+        <functionEntry accessMode="public" endPc="268439249" name="getPlayerCards_split2" parent="BlackjackEngine" startPc="268439242">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439239" name="getPlayerCards_split1" parent="BlackjackEngine" startPc="268439232">
+        <functionEntry accessMode="public" endPc="268439257" name="getPlayerCards_split1" parent="BlackjackEngine" startPc="268439250">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439247" name="getDealerCards" parent="BlackjackEngine" startPc="268439240">
+        <functionEntry accessMode="public" endPc="268439265" name="getDealerCards" parent="BlackjackEngine" startPc="268439258">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439255" name="getPlayerPoints" parent="BlackjackEngine" startPc="268439248">
+        <functionEntry accessMode="public" endPc="268439273" name="getPlayerPoints" parent="BlackjackEngine" startPc="268439266">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439263" name="getMoney" parent="BlackjackEngine" startPc="268439256">
+        <functionEntry accessMode="public" endPc="268439281" name="getMoney" parent="BlackjackEngine" startPc="268439274">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439848" name="stand" parent="BlackjackEngine" startPc="268439264">
+        <functionEntry accessMode="public" endPc="268439935" name="stand" parent="BlackjackEngine" startPc="268439282">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268439856" name="getDealerPoints" parent="BlackjackEngine" startPc="268439849">
+        <functionEntry accessMode="public" endPc="268439943" name="getDealerPoints" parent="BlackjackEngine" startPc="268439936">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440101" name="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;" parent="BlackjackEngine" startPc="268439857">
+        <functionEntry accessMode="private" endPc="268440657" name="&lt;globals/BlackjackEngine/&lt;&gt;handleEndOfRound&gt;" parent="BlackjackEngine" startPc="268439944">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440109" name="getPlayerPoints_split1" parent="BlackjackEngine" startPc="268440102">
+        <functionEntry accessMode="public" endPc="268440665" name="getPlayerPoints_split1" parent="BlackjackEngine" startPc="268440658">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440117" name="getPlayerPoints_split2" parent="BlackjackEngine" startPc="268440110">
+        <functionEntry accessMode="public" endPc="268440673" name="getPlayerPoints_split2" parent="BlackjackEngine" startPc="268440666">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440125" name="getPlayerCards" parent="BlackjackEngine" startPc="268440118">
+        <functionEntry accessMode="public" endPc="268440681" name="getPlayerCards" parent="BlackjackEngine" startPc="268440674">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268440218" name="initialize" parent="BlackjackEngine" startPc="268440126">
+        <functionEntry accessMode="public" endPc="268440774" name="initialize" parent="BlackjackEngine" startPc="268440682">
             <param id="nDecks"/>
             <param id="money"/>
             <param id="bet"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440540" name="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;" parent="BlackjackEngine" startPc="268440219">
+        <functionEntry accessMode="private" endPc="268441096" name="&lt;globals/BlackjackEngine/&lt;&gt;recalculatePoints&gt;" parent="BlackjackEngine" startPc="268440775">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="private" endPc="268440736" name="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;" parent="BlackjackEngine" startPc="268440541">
+        <functionEntry accessMode="private" endPc="268441292" name="&lt;globals/BlackjackEngine/&lt;&gt;calculatePointsHand&gt;" parent="BlackjackEngine" startPc="268441097">
             <param id="player_hand"/>
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onShow" parent="BlackjackView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441008" name="onLayout" parent="BlackjackView" startPc="268440737">
+        <functionEntry accessMode="public" endPc="268441564" name="onLayout" parent="BlackjackView" startPc="268441293">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441388" name="drawCard" parent="BlackjackView" startPc="268441009">
+        <functionEntry accessMode="public" endPc="268441944" name="drawCard" parent="BlackjackView" startPc="268441565">
             <param id="dc"/>
             <param id="x"/>
             <param id="y"/>
@@ -825,24 +867,24 @@
             <param id="flip"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268441403" name="initialize" parent="BlackjackView" startPc="268441389">
+        <functionEntry accessMode="public" endPc="268441959" name="initialize" parent="BlackjackView" startPc="268441945">
             <documentation/>
         </functionEntry>
         <functionEntry accessMode="public" name="onHide" parent="BlackjackView">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443668" name="onUpdate" parent="BlackjackView" startPc="268441404">
+        <functionEntry accessMode="public" endPc="268444224" name="onUpdate" parent="BlackjackView" startPc="268441960">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443681" name="MainLayout" parent="Layouts" startPc="268443669">
+        <functionEntry accessMode="public" endPc="268444237" name="MainLayout" parent="Layouts" startPc="268444225">
             <param id="dc"/>
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443693" name="&lt;init&gt;" parent="MainMenu" startPc="268443682">
+        <functionEntry accessMode="public" endPc="268444249" name="&lt;init&gt;" parent="MainMenu" startPc="268444238">
             <documentation/>
         </functionEntry>
-        <functionEntry accessMode="public" endPc="268443727" name="initialize" parent="MainMenu" startPc="268443694">
+        <functionEntry accessMode="public" endPc="268444283" name="initialize" parent="MainMenu" startPc="268444250">
             <documentation/>
         </functionEntry>
     </functions>

@@ -1762,13 +1762,13 @@ _home_max_git_blackjack_connectiq_source_BlackjackView_mc_61_4_241_4_stop:
     }
     [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 243; @symbol_functiondef = [drawCard,243,13,21]; @symbol_param<0> = [dc,243,22,24]; @symbol_param<1> = [x,243,26,27]; @symbol_param<2> = [y,243,29,30]; @symbol_param<3> = [width,243,32,37]; @symbol_param<4> = [height,243,39,45]; @symbol_param<5> = [value,243,47,52]; @symbol_param<6> = [suit,243,54,58]; @symbol_param<7> = [flip,243,60,64]; ]
     function drawCard(dc, x, y, width, height, value, suit, flip) {
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_244_4_299_4_start:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_244_4_298_4_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 246 8 ]
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_stmt:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_294_8_if_stmt:
         %tmp.1 = lgetv %flip;
         symbol [ flip %tmp.1 246 11 15 ];
-        bf %tmp.1 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_else_false;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_true:
+        bf %tmp.1 @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_294_8_if_else_false;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_294_8_if_true:
 _home_max_git_blackjack_connectiq_source_BlackjackView_mc_247_8_250_8_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 248 12 ]
         %tmp.2 = lgetv %dc;
@@ -1797,9 +1797,9 @@ _home_max_git_blackjack_connectiq_source_BlackjackView_mc_247_8_250_8_start:
         symbol [ height %tmp.13 249 42 48 ];
         invoke %tmp.8 %tmp.9(%tmp.10, %tmp.11, %tmp.12, %tmp.13);
 _home_max_git_blackjack_connectiq_source_BlackjackView_mc_247_8_250_8_stop:
-        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_end;
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_else_false:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_start:
+        goto @_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_294_8_if_end;
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_294_8_if_else_false:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_294_8_start:
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 254 12 ]
         %tmp.14 = lgetv %dc;
         symbol [ dc %tmp.14 254 12 14 ];
@@ -1868,7 +1868,7 @@ _home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_start:
         symbol [ height %tmp.47 259 42 48 ];
         invoke %tmp.42 %tmp.43(%tmp.44, %tmp.45, %tmp.46, %tmp.47);
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 261 12 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_stop" ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_294_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_294_8_stop" ]
         %suit_bitmap.1 = local;
         symbol [ suit_bitmap %suit_bitmap.1 261 16 27 ];
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 263 12 ]
@@ -1966,7 +1966,7 @@ _home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchSt
         %tmp.84 = getv %tmp.83 :COLOR_WHITE;
         invoke %tmp.79 %tmp.80(%tmp.82, %tmp.84);
 [ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 288 12 ]
-        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_stop" ]
+        [ "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_294_8_start" "_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_294_8_stop" ]
         %text.2 = local;
         symbol [ text %text.2 288 16 20 ];
         %tmp.85 = lgetv %value;
@@ -2025,23 +2025,23 @@ _home_max_git_blackjack_connectiq_source_BlackjackView_mc_263_12_284_12_switchSt
         %tmp.111 = lgetv %dc;
         symbol [ dc %tmp.111 293 29 31 ];
         invoke %tmp.109 %tmp.110(%tmp.111);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_295_8_stop:
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_295_8_if_end:
-[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 297 8 ]
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_253_8_294_8_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_246_8_294_8_if_end:
+[ "/home/max/git/blackjack-connectiq/source/BlackjackView.mc" 296 8 ]
         %tmp.112 = lgetv %dc;
-        symbol [ dc %tmp.112 297 8 10 ];
-        symbol [ setColor %tmp.113 297 11 19 ];
+        symbol [ dc %tmp.112 296 8 10 ];
+        symbol [ setColor %tmp.113 296 11 19 ];
         %tmp.113 = getv function %tmp.112 :setColor;
-        symbol [ Graphics %tmp.114 297 20 28 ];
+        symbol [ Graphics %tmp.114 296 20 28 ];
         %tmp.114 = getm $.Toybox.Graphics;
-        symbol [ COLOR_WHITE %tmp.115 297 29 40 ];
+        symbol [ COLOR_WHITE %tmp.115 296 29 40 ];
         %tmp.115 = getv %tmp.114 :COLOR_WHITE;
-        symbol [ background_color %tmp.117 297 42 58 ];
+        symbol [ background_color %tmp.117 296 42 58 ];
         %tmp.117 = getv ? :background_color;
         invoke %tmp.112 %tmp.113(%tmp.115, %tmp.117);
-_home_max_git_blackjack_connectiq_source_BlackjackView_mc_244_4_299_4_stop:
+_home_max_git_blackjack_connectiq_source_BlackjackView_mc_244_4_298_4_stop:
     }
-    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 304; @symbol_functiondef = [onHide,304,13,19]; ]
+    [ @file = "/home/max/git/blackjack-connectiq/source/BlackjackView.mc"; @line = 303; @symbol_functiondef = [onHide,303,13,19]; ]
     function onHide() as Void {
     }
 }

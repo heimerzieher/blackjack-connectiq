@@ -41,11 +41,11 @@ _home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_start:
         [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_stop" ]
         %money.1 = local;
         symbol [ money %money.1 24 12 17 ];
-        symbol [ Application %tmp.1 24 19 30 ];
+        symbol [ Application %tmp.1 24 20 31 ];
         %tmp.1 = getm $.Toybox.Application;
-        symbol [ Storage %tmp.2 24 31 38 ];
+        symbol [ Storage %tmp.2 24 32 39 ];
         %tmp.2 = getv %tmp.1 :Storage;
-        symbol [ getValue %tmp.3 24 39 47 ];
+        symbol [ getValue %tmp.3 24 40 48 ];
         %tmp.3 = getv function %tmp.2 :getValue;
         %tmp.4 = "money";
         %tmp.5 = invoke %tmp.2 %tmp.3(%tmp.4);
@@ -55,11 +55,11 @@ _home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_start:
         [ "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_start" "_home_max_git_blackjack_connectiq_source_BlackjackApp_mc_21_4_41_4_stop" ]
         %bet.2 = local;
         symbol [ bet %bet.2 25 12 15 ];
-        symbol [ Application %tmp.6 25 17 28 ];
+        symbol [ Application %tmp.6 25 18 29 ];
         %tmp.6 = getm $.Toybox.Application;
-        symbol [ Storage %tmp.7 25 29 36 ];
+        symbol [ Storage %tmp.7 25 30 37 ];
         %tmp.7 = getv %tmp.6 :Storage;
-        symbol [ getValue %tmp.8 25 37 45 ];
+        symbol [ getValue %tmp.8 25 38 46 ];
         %tmp.8 = getv function %tmp.7 :getValue;
         %tmp.9 = "bet";
         %tmp.10 = invoke %tmp.7 %tmp.8(%tmp.9);

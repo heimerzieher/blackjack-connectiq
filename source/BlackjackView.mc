@@ -291,7 +291,6 @@ class BlackjackView extends WatchUi.View {
             suit_bitmap.locX = x;
             suit_bitmap.locY = y + 20*scale_factor;
             suit_bitmap.draw(dc);
-
         }
     
         dc.setColor(Graphics.COLOR_WHITE, background_color);

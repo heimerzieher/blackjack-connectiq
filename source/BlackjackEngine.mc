@@ -20,6 +20,9 @@ class BlackjackEngine
     private var player_money;
 
     public var status;
+    public var status_split1;
+    public var status_split2;
+
 
     public var split_status;
 
@@ -190,9 +193,9 @@ class BlackjackEngine
 
             recalculatePoints();
 
-            if(playerHandPoints_split1 > 21)
+            if(playerHandPoints_split2 > 21)
             {
-              handleEndOfRound();
+              stand();
             }
 
             // if(playerHandPoints > 21)
@@ -260,37 +263,62 @@ class BlackjackEngine
 
             if(dealerHandPoints < playerHandPoints_split1 && playerHandPoints_split1 <= 21)
             {
-              status = STATUS_WON;
+              status_split1 = STATUS_WON;
+            }
+
+            else
+            {
+              status_split1 = STATUS_LOST;
             }
 
             if(dealerHandPoints < playerHandPoints_split2 && playerHandPoints_split2 <= 21)
             {
-              status = STATUS_WON;
+              status_split2 = STATUS_WON;
             }
 
-            if(dealerHandPoints > 21)
+            else
             {
-              status = STATUS_WON;
+              status_split2 = STATUS_LOST;
             }
 
-            if(dealerHandPoints > playerHandPoints_split1 && dealerHandPoints > playerHandPoints_split2 && dealerHandPoints <= 21)
+            if(dealerHandPoints > 21 && playerHandPoints_split1 <= 21)
             {
-              status = STATUS_LOST;
+              status_split1 = STATUS_WON;
             }
 
-            if(dealerHandPoints == playerHandPoints_split1 && dealerHandPoints == playerHandPoints_split2)
+            if(dealerHandPoints > 21 && playerHandPoints_split2 <= 21)
             {
-              status = STATUS_TIE;
+              status_split2 = STATUS_WON;
+            }
+
+            // if(dealerHandPoints > playerHandPoints_split1 && dealerHandPoints > playerHandPoints_split2 && dealerHandPoints <= 21)
+            // {
+            //   status = STATUS_LOST;
+            // }
+
+            if(dealerHandPoints == playerHandPoints_split1 && dealerHandPoints <= 21)
+            {
+              status_split1 = STATUS_TIE;
+            }
+
+            if(dealerHandPoints == playerHandPoints_split2 &&  dealerHandPoints <= 21)
+            {
+              status_split2 = STATUS_TIE;
             }
 
             //just for error handling
-            if(playerHandPoints_split1 > 21 && playerHandPoints_split2 > 21)
-            {
-              status = STATUS_LOST;
-            } 
+            // if(playerHandPoints_split1 > 21 && playerHandPoints_split2 > 21)
+            // {
+            //   status = STATUS_LOST;
+            // } 
+            
+            status = STATUS_SPLIT_ROUND;
+
             handleEndOfRound();
 
-            System.println("Game ended: "+status);
+            System.println("Split 1 : "+status_split1);
+            System.println("Split 2 : "+status_split2);
+            System.println("Game ended split : "+status);
           }
 
           else if (split_status == 1)
@@ -309,6 +337,9 @@ class BlackjackEngine
         player_cards_split2[0] = player_cards[1];
 
         split_status = 1;
+
+        status_split1 = STATUS_ACTIVE_ROUND;
+        status_split2 = STATUS_ACTIVE_ROUND;
 
         recalculatePoints();
     }
@@ -442,25 +473,70 @@ class BlackjackEngine
       if(status != STATUS_ACTIVE_ROUND)
       {
         //we handle the money stuff at the end of a round
-
-        switch(status)
+        if(split_status == 0)
         {
-          case STATUS_WON:
-            player_money += player_bet;
-            break;
-          case STATUS_LOST:
-            player_money -= player_bet;
-            break;
-          case STATUS_BLACKJACK:
-            player_money += Math.round((3/2)*player_bet).toNumber();
-            System.println("Blackjack Payout:" + Math.round((3.0/2.0)*player_bet));
+          switch(status)
+          {
+            case STATUS_WON:
+              player_money += player_bet;
+              break;        
+            case STATUS_LOST:
+              player_money -= player_bet;
+              break;
+            case STATUS_BLACKJACK:
+              player_money += Math.round((3/2)*player_bet).toNumber();
+              System.println("Blackjack Payout:" + Math.round((3.0/2.0)*player_bet));
 
-            break;
-          case STATUS_TIE:
-            break;
-          default:
-            System.println("Unknown status at end of round:" + status);
-            break;
+              break;
+            case STATUS_TIE:
+              break;
+            default:
+              System.println("Unknown status at end of round:" + status);
+              break;
+          }
+        }
+
+        else 
+        {
+          switch(status_split1)
+          {
+            case STATUS_WON:
+              player_money += player_bet;
+              break;        
+            case STATUS_LOST:
+              player_money -= player_bet;
+              break;
+            case STATUS_BLACKJACK:
+              player_money += Math.round((3/2)*player_bet).toNumber();
+              System.println("Blackjack Payout:" + Math.round((3.0/2.0)*player_bet));
+
+              break;
+            case STATUS_TIE:
+              break;
+            default:
+              System.println("Unknown status at end of round:" + status);
+              break;
+          }
+
+          switch(status_split2)
+          {
+            case STATUS_WON:
+              player_money += player_bet;
+              break;        
+            case STATUS_LOST:
+              player_money -= player_bet;
+              break;
+            case STATUS_BLACKJACK:
+              player_money += Math.round((3/2)*player_bet).toNumber();
+              System.println("Blackjack Payout:" + Math.round((3.0/2.0)*player_bet));
+
+              break;
+            case STATUS_TIE:
+              break;
+            default:
+              System.println("Unknown status at end of round:" + status);
+              break;
+          }
         }
       }
     }
@@ -591,10 +667,11 @@ enum
 {
   STATUS_LOST = 0,
   STATUS_WON = 1,
-  STATUS_BLACKJACK = 2,
-  STATUS_TIE = 3,
-  STATUS_ACTIVE_ROUND = 4,
-  STATUS_IDLE = 5
+  STATUS_SPLIT_ROUND = 2,
+  STATUS_BLACKJACK = 3,
+  STATUS_TIE = 4,
+  STATUS_ACTIVE_ROUND = 5,
+  STATUS_IDLE = 6
   
 
 }

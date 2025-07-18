@@ -21,8 +21,8 @@ class BlackjackApp extends Application.AppBase {
     {
 
 
-        var money =Application.Storage.getValue("money");
-        var bet =Application.Storage.getValue("bet");
+        var money = Application.Storage.getValue("money");
+        var bet = Application.Storage.getValue("bet");
 
 
         if(money==null) 
